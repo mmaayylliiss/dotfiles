@@ -7,3 +7,4 @@ cask install virtualbox
 cask install yorufukurou
 cask install dropbox
 cask install filezilla
+cask install qlmarkdown
