@@ -5,4 +5,4 @@
 * Make
 
 ## Make recipes
-`make`: Lists all available Make recipes.
+`make`: List all available Make recipes
