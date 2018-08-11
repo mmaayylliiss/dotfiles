@@ -1,20 +1,17 @@
-#
-# Executes commands at the start of an interactive session.
-#
-# Authors:
-#   Sorin Ionescu <sorin.ionescu@gmail.com>
-#
+source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 
-# Source Prezto.
-if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
-fi
+# Dev
 
-# Customize to your needs...
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-export PATH="$HOME/.rbenv/bin:$PATH"
+## asdf - https://github.com/asdf-vm/asdf
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
 
-export PATH="$HOME/.bin:$PATH"
+# Aliases
 
-export NVM_DIR="/Users/maylisagniel/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+## Git WebUI - https://github.com/alberthier/git-webui
+alias gui="ASDF_PYTHON_VERSION=2.7.12 git webui --no-browser"
+
+## Kill a process by its port
+function killp {
+  kill -9 $( lsof -i:$1 -t ) 
+}
