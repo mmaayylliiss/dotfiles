@@ -1,3 +1,2 @@
-### Installation
-
-* [prezto](https://github.com/sorin-ionescu/prezto)
+# README
+[Prezto — Instantly Awesome Zsh](https://github.com/sorin-ionescu/prezto)
