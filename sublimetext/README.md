@@ -1,20 +1,29 @@
-### Package control
+# README
 
-* [Package control](https://packagecontrol.io/)
+### Step 1
+First, install [Package Control](https://packagecontrol.io/installation), the Sublime Text package manager.
 
-#### Installation
+### Step 2
+Then install these packages using Package Control:
+* ayu
+* BracketHighlighter
+* Color Highlighter
+* HTML-CSS-JS Prettify
+  1. Set node path in `HTMLPrettify.sublime-settings` (E.g.: `"osx": "/Users/maylisagniel/.asdf/installs/nodejs/9.3.0/bin/node"` line 9)
+  2. Add `"indent_size": 2` in `.jsbeautifyrc`
+* Jade
+* MarkdownLight
+* PHP-Twig
+* Pug
+* Sass
+* SideBarEnhancements
+* Vue Syntax Highlight
 
-```py
-import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) 
+### Step 3
+Finally, add `subl` bin to `/usr/local/bin` (required to use `subl` shortcut in Terminal):
+```bash
+ln -s /Applications/Sublime Text.app/Contents/SharedSupport/bin/subl /usr/local/bin
 ```
 
-#### Packages
-
-* alignment
-* better coffescript
-* bracket highlighter
-* dockblokr
-* dracula color scheme
-* jade
-* preap
-* sidebarenhancement
+### Bonus
+[5 great visual tweaks for Sublime Text](https://wesbos.com/sublime-text-5-visual-tweaks/)
