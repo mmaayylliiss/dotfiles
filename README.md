@@ -2,7 +2,7 @@
 **This is my local configuration for working on web stuff.**
 
 ## Prerequisites
-Brew
+[Brew](https://brew.sh)
 
 ## Make recipes
 `make`: List all available Make recipes
