@@ -1,6 +1,6 @@
 # README
 
-### Installation
+### Install
 Install [Package Control](https://packagecontrol.io/installation), the Sublime Text package manager.
 
 ### Bonus
