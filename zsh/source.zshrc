@@ -3,11 +3,7 @@ source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 # Dev
 
 ## asdf - https://github.com/asdf-vm/asdf
-. $HOME/.asdf/asdf.sh
-. $HOME/.asdf/completions/asdf.bash
-
-## Append XAMP/bin to $PATH
-export PATH=$PATH:/Applications/XAMPP/bin/
+. /usr/local/opt/asdf/asdf.sh
 
 # Aliases
 
