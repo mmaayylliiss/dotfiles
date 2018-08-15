@@ -20,7 +20,7 @@ Install [Package Control](https://packagecontrol.io/installation)
 The mono typeface I use for both Sublime Text and iTerm is [**Roboto Mono**](https://fonts.google.com/specimen/Roboto+Mono)
 
 #### Browsing
-* Log in **Firefox** then disable cache while inspector is open
+* Log in **Firefox**, disable cache while inspector is open and set Firefox as default browser
 * Disable **Chrome** cache while DevTools are open
 
 ### iTerm
