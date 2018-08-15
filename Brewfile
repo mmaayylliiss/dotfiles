@@ -1,3 +1,24 @@
-install ruby-build
-install ssh-copy-id
-install brew-cask
+tap "homebrew/cask"
+cask "adobe-creative-cloud"
+cask "craftmanager"
+cask "dropbox"
+cask "firefox"
+cask "google-chrome"
+cask "grammarly"
+cask "iterm2"
+cask "java"
+cask "kap"
+cask "keka"
+cask "libreoffice"
+cask "sketch"
+cask "sublime-text"
+cask "steam"
+cask "teamspeak-client"
+cask "vlc"
+brew "ruby-build"
+brew "ssh-copy-id"
+# Not tested because it requires up-to-date macOS/Xcode
+# https://github.com/mas-cli/mas
+# brew "mas"
+# mas "Pocket"
+# mas "Numbers"
