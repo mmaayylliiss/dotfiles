@@ -44,7 +44,6 @@ Setting preferences:
     * [**Style Inventory**](https://github.com/getflourish/Sketch-Style-Inventory)
     * [**Symbol Organizer**](https://github.com/sonburn/symbol-organizer)
     * [**Unused Style Remover**](https://github.com/sonburn/unused-style-remover)
-* Finally, install **copier-creer-desktop** app!
 
 ### macOS apps
 * Log in **Mail** then set a [mail signature](https://github.com/wearemd/wearemd_mail_signatures) for each account
