@@ -17,9 +17,11 @@ cask "sublime-text"
 cask "teamspeak-client"
 cask "vlc"
 brew "asdf"
+brew "composer"
 brew "coreutils"
 brew "gpg"
 brew "mas"
 brew "ssh-copy-id"
+brew "yarn"
 mas "Numbers", id: 409203825
 mas "Pocket", id: 568494494
