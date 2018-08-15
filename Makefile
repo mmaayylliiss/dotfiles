@@ -4,6 +4,7 @@
 setup: ## Install softwares and stuff
 	@brew bundle
 	@open /usr/local/Caskroom/adobe-creative-cloud/latest/Creative\ Cloud\ Installer.app
+	@open /Applications/CraftManager.app
 
 prezto_install: ## Install Prezto configuration files
 	@cp prezto/source.zpreztorc ~/.zpreztorc
