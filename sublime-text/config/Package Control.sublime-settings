@@ -1,0 +1,25 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"ayu",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"HTML-CSS-JS Prettify",
+		"Jade",
+		"MarkdownLight",
+		"Package Control",
+		"PHP-Twig",
+		"Pug",
+		"Sass",
+		"SideBarEnhancements",
+		"Vue Syntax Highlight"
+	],
+	"repositories":
+	[
+	]
+}
