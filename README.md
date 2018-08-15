@@ -46,12 +46,8 @@ Setting preferences:
     * [**Unused Style Remover**](https://github.com/sonburn/unused-style-remover)
 * Finally, install **copier-creer-desktop** app!
 
-#### Bookmarks
-* Install [**Pocket**](https://itunes.apple.com/app/pocket/id568494494) (not yet available in Cask)
-
 ### macOS apps
 * Log in **Mail** then set a [mail signature](https://github.com/wearemd/wearemd_mail_signatures) for each account
 * Log in **Calendar**
-* Install [**Numbers**](https://itunes.apple.com/app/numbers/id409203825) (not yet available in Cask)
 
 Yay, you're done! 👏🏻 👏🏻
