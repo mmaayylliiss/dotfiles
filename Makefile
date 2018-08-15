@@ -1,5 +1,8 @@
-.PHONY: prezto_install prezto_save subl_install subl_save zsh_install zsh_save git_install git_save all_install all_save help
+.PHONY: setup prezto_install prezto_save subl_install subl_save zsh_install zsh_save git_install git_save all_install all_save help
 .DEFAULT_GOAL := help
+
+setup: ## Install softwares and stuff
+	@brew bundle
 
 prezto_install: ## Install Prezto configuration files
 	@cp prezto/source.zpreztorc ~/.zpreztorc
