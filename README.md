@@ -2,21 +2,31 @@
 **This is my local configuration for working on web stuff.**
 
 ## Prerequisites
-[Brew](https://brew.sh)
+- [Brew](https://brew.sh)
+- [Prezto](https://github.com/sorin-ionescu/prezto)
+- [Git WebUI](https://github.com/alberthier/git-webui)
 
 ## Make recipes
 `make`: List all available Make recipes
 
-## Apps configuration
+## Software configuration
 
 ### External apps (not macOS)
+
+### Sublime Text
+Install [Package Control](https://packagecontrol.io/installation)
+
+#### Fonts
+The mono typeface I use for both Sublime Text and iTerm is [**Roboto Mono**](https://fonts.google.com/specimen/Roboto+Mono)
 
 #### Browsing
 * Log in **Firefox** then disable cache while inspector is open
 * Disable **Chrome** cache while DevTools are open
 
-#### Fonts
-The mono typeface I use for both Sublime Text and iTerm is [**Roboto Mono**](https://fonts.google.com/specimen/Roboto+Mono)
+### iTerm
+Setting preferences:
+- Select “Reuse previous session’s directory” option in Profiles > General > Working Directory
+- Set “16pt Roboto Mono” in Profiles > Text > Font
 
 #### Design
 * Log in **Adobe Creative Cloud** then install these apps:
