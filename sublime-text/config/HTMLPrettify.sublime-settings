@@ -6,7 +6,7 @@
     {
         "windows": "C:/Program Files/nodejs/node.exe",
         "linux": "/usr/bin/nodejs",
-        "osx": "/Users/maylisagniel/.asdf/shims/node"
+        "osx": "/usr/local/opt/asdf/shims/node"
     },
 
     // Automatically format when a file is saved.
