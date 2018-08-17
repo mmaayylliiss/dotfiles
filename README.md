@@ -19,7 +19,7 @@ The mono typeface I use for both Sublime Text and iTerm is [**Roboto Mono**](htt
 - Set “16pt Roboto Mono” in Preferences > Profiles > Text > Font
 
 #### Sublime Text
-Install [Package Control](https://packagecontrol.io/installation)
+Install [**Package Control**](https://packagecontrol.io/installation)
 
 #### Browsing
 * Log in **Firefox**, disable cache while inspector is open and set Firefox as default browser
@@ -36,7 +36,7 @@ Install [Package Control](https://packagecontrol.io/installation)
   * [**Unused Style Remover**](https://github.com/sonburn/unused-style-remover)
 
 #### Adobe Creative Cloud
-* Log in **Adobe Creative Cloud** then install these apps:
+* Log in then install these apps:
   * **Photoshop**
     * Install [**GuideGuide**](https://guideguide.me/documentation/) extension
   * **Illustrator**
