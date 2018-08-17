@@ -9,11 +9,13 @@
 ## Make recipes
 `make`: List all available Make recipes
 
+- - -
+
 ## Software configuration
 
 ### External apps (not macOS)
 
-### Sublime Text
+#### Sublime Text
 Install [Package Control](https://packagecontrol.io/installation)
 
 #### Fonts
@@ -23,7 +25,7 @@ The mono typeface I use for both Sublime Text and iTerm is [**Roboto Mono**](htt
 * Log in **Firefox**, disable cache while inspector is open and set Firefox as default browser
 * Disable **Chrome** cache while DevTools are open
 
-### iTerm
+#### iTerm
 Setting preferences:
 - Select “Reuse previous session’s directory” option in Profiles > General > Working Directory
 - Set “16pt Roboto Mono” in Profiles > Text > Font
@@ -44,6 +46,8 @@ Setting preferences:
     * [**Style Inventory**](https://github.com/getflourish/Sketch-Style-Inventory)
     * [**Symbol Organizer**](https://github.com/sonburn/symbol-organizer)
     * [**Unused Style Remover**](https://github.com/sonburn/unused-style-remover)
+
+- - -
 
 ### macOS apps
 * Log in **Mail** then set a [mail signature](https://github.com/wearemd/wearemd_mail_signatures) for each account
