@@ -23,7 +23,7 @@ Install [**Package Control**](https://packagecontrol.io/installation)
 
 #### Browsing
 * Log in **Firefox**, disable cache while inspector is open and set Firefox as default browser
-* Disable **Chrome** cache while DevTools are open
+* Disable **Chrome** cache while DevTools is open
 
 #### Sketch
 * First, install [**Runner**](https://sketchrunner.com) plugin
