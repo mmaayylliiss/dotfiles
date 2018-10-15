@@ -1,4 +1,4 @@
-.PHONY: setup prezto_install prezto_save subl_install subl_save zsh_install zsh_save git_install git_save all_install all_save help
+.PHONY: setup prezto_install prezto_save subl_install subl_save smerge_install smerge_save zsh_install zsh_save git_install git_save all_install all_save help
 .DEFAULT_GOAL := help
 
 setup: ## Install softwares and stuff
@@ -34,6 +34,19 @@ subl_save: ## Save Sublime Text configuration files
 	@git push 
 	@echo "💾 Sublime Text saved"
 
+SMERGE_CONFIG_DIR := /Users/maylisagniel/Library/Application\ Support/Sublime\ Merge/Packages/User
+
+smerge_install: ## Install Sublime Merge configuration files
+	@cp sublime-merge/config/* $(SMERGE_CONFIG_DIR)/
+	@echo "👍 Sublime Merge installed"
+
+smerge_save: ## Save Sublime Merge configuration files
+	@cp $(SMERGE_CONFIG_DIR)/*.sublime-settings sublime-merge/config/
+	@git add sublime-merge/
+	@git commit -m "🔧 Update Sublime Merge"
+	@git push 
+	@echo "💾 Sublime Merge saved"
+
 zsh_install: ## Install Zsh configuration files
 	@cp zsh/source.zshrc ~/.zshrc
 	@echo "👍 Zsh installed"
@@ -56,9 +69,9 @@ git_save: ## Save Git configuration
 	@git push
 	@echo "💾 Git saved"
 
-all_install: prezto_install subl_install zsh_install git_install ## Install all configuration files
+all_install: prezto_install subl_install smerge_install zsh_install git_install ## Install all configuration files
 
-all_save: prezto_save subl_save zsh_save git_save ## Save all configuration files
+all_save: prezto_save subl_save smerge_save zsh_save git_save ## Save all configuration files
 
 help: ## Print this help
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
