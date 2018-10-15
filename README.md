@@ -4,7 +4,6 @@
 ## Prerequisites
 - [Brew](https://brew.sh)
 - [Prezto](https://github.com/sorin-ionescu/prezto)
-- [Git WebUI](https://github.com/alberthier/git-webui)
 
 ## Make recipes
 `make`: List all available Make recipes
