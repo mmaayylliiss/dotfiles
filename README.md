@@ -42,6 +42,7 @@ Install [**Package Control**](https://packagecontrol.io/installation)
   * **Illustrator**
   * **InDesign**
   * **Acrobat**
+* Then install Photoshop and InDesign additional scripts (find them in the related folders)
 
 #### Mail
 Log in **Mail** then set a [mail signature](https://github.com/wearemd/wearemd_mail_signatures) for each account
