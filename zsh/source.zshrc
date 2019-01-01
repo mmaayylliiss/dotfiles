@@ -5,6 +5,9 @@ source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 ## asdf - https://github.com/asdf-vm/asdf
 . /usr/local/opt/asdf/asdf.sh
 
+## Append XAMP/bin to $PATH
+export PATH=$PATH:/Applications/XAMPP/bin/
+
 # Aliases
 
 ## Git WebUI - https://github.com/alberthier/git-webui
