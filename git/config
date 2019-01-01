@@ -1,4 +1,9 @@
+[webui]
+	autoupdate = true
+
 [alias]
+	webui = !/Users/maylisagniel/.git-webui/release/libexec/git-core/git-webui
+
   s = status
   co = checkout
 
