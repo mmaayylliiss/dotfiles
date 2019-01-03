@@ -13,16 +13,16 @@
 #### Fonts
 The mono typeface I use for both Sublime Text and iTerm is [**Roboto Mono**](https://fonts.google.com/specimen/Roboto+Mono)
 
-#### iTerm
-- Select “Reuse previous session’s directory” option in Preferences > Profiles > General > Working Directory
-- Set “16pt Roboto Mono” in Preferences > Profiles > Text > Font
-
 #### Sublime Text
 Install [**Package Control**](https://packagecontrol.io/installation)
 
+#### iTerm
+- Select “Reuse previous session’s directory” option in *Preferences > Profiles > General > Working Directory*
+- Set same font than Sublime Text in *Preferences > Profiles > Text > Font*
+
 #### Browsing
-* Log in **Firefox**, disable cache while inspector is open and set Firefox as default browser
-* Disable **Chrome** cache while DevTools is open
+* Log in **Firefox**, disable HTTP Cache when toolbox is open, set Firefox as default browser then set Desktop as destination folder in *Downloads*
+* Disable **Chrome** cache while DevTools is open then set Desktop as destination folder in *Downloads*
 
 #### Sketch
 * First, install [**Runner**](https://sketchrunner.com) plugin
