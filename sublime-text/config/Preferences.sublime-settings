@@ -15,7 +15,6 @@
 	"tab_size": 2,
 	"theme": "ayu-mirage.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"ui_font_roboto_mono": true,
 	"ui_separator": true,
 	"ui_wide_scrollbars": true,
 	"word_wrap": true
