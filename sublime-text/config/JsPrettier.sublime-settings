@@ -1,4 +1,5 @@
 {
   "auto_format_on_save": true,
-  "auto_format_on_save_excludes": ["*.md"]
+  "auto_format_on_save_excludes": ["*.md"],
+  "prettier_cli_path": "/Users/maylisagniel/.asdf/shims/prettier"
 }
