@@ -28,7 +28,6 @@ subl_install: /usr/local/bin/subl ## Install Sublime Text configuration files
 
 subl_save: ## Save Sublime Text configuration files
 	@cp $(SUBL_CONFIG_DIR)/*.sublime-settings sublime-text/config/
-	@cp $(SUBL_CONFIG_DIR)/.jsbeautifyrc sublime-text/config/
 	@git add sublime-text/
 	@git commit -m "🔧 Update Sublime Text"
 	@git push 
