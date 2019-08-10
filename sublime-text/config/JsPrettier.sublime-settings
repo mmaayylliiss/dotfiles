@@ -1,5 +1,0 @@
-{
-  "auto_format_on_save": false,
-  "auto_format_on_save_excludes": ["*.md", "*.html", "*.json"],
-  "prettier_cli_path": "./node_modules/.bin/prettier"
-}
