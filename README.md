@@ -16,9 +16,36 @@ The mono typeface I use for both Sublime Text and iTerm is [**Roboto Mono**](htt
 #### Sublime Text
 Install [**Package Control**](https://packagecontrol.io/installation)
 
-#### iTerm
-- Select “Reuse previous session’s directory” option in *Preferences > Profiles > General > Working Directory*
-- Set same font than Sublime Text in *Preferences > Profiles > Text > Font*
+#### iTerm preferences
+##### Appearance > General
+- Theme: Dark (High Contrast)
+- Tab bar location: Top
+- Status bar location: Bottom
+
+##### Appearance > Windows
+- Uncheck all
+
+##### Appearance > Dimming
+- ☑️ Dim inactive split panes
+- ☑️ Dimming affects only text, not background.
+
+##### Profiles > Default > General
+- Working Directory: Reuse previous session’s directory
+
+##### Profiles > Default > Text
+- Font: Roboto Mono, Regular, 18
+
+##### Profiles > Default > Window
+- Settings for New Windows: Columns: 120, Rows: 36
+
+##### Profiles > Default > Session
+- ☑️ Status bar enabled
+
+##### Profiles > Default > Session > Status bar enabled > Configure Status Bar > Advanced
+- Set all Colors to `000000`
+- Font: Roboto Mono, Regular, 14
+- ☑️ Prefer tight packing to stable positioning
+- 🌈 Auto-Rainbow
 
 #### Browsing
 * Log in **Firefox**, disable HTTP Cache when toolbox is open, set Firefox as default browser then set Desktop as destination folder in *Downloads*
