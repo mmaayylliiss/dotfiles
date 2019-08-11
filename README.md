@@ -41,13 +41,14 @@ Install [**Package Control**](https://packagecontrol.io/installation)
 ##### Profiles > Default > Session
 - ☑️ Status bar enabled
 
-##### Profiles > Default > Session > Status bar enabled > Configure Status Bar > Advanced
+##### Profiles > Default > Session > Status bar enabled > Configure Status Bar > Advanced…
 - Set all Colors to `000000`
 - Font: Roboto Mono, Regular, 14
 - ☑️ Prefer tight packing to stable positioning
 
 ##### Profiles > Default > Session > Status bar enabled > Configure Status Bar
-- 🌈 Auto-Rainbow
+- Drag and drop desired Components in Active Components dropzone
+- Activate 🌈 Auto-Rainbow
 
 #### Browsing
 * Log in **Firefox**, disable HTTP Cache when toolbox is open, set Firefox as default browser then set Desktop as destination folder in *Downloads*
