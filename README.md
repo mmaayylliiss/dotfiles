@@ -45,6 +45,8 @@ Install [**Package Control**](https://packagecontrol.io/installation)
 - Set all Colors to `000000`
 - Font: Roboto Mono, Regular, 14
 - ☑️ Prefer tight packing to stable positioning
+
+##### Profiles > Default > Session > Status bar enabled > Configure Status Bar
 - 🌈 Auto-Rainbow
 
 #### Browsing
