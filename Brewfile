@@ -1,4 +1,5 @@
 tap "homebrew/cask"
+
 cask "adobe-creative-cloud"
 cask "craftmanager"
 cask "docker"
@@ -11,12 +12,14 @@ cask "kap"
 cask "keka"
 cask "libreoffice"
 cask "little-snitch"
+cask "quodlibet"
 cask "sketch"
 cask "steam"
 cask "sublime-merge"
 cask "sublime-text"
 cask "teamspeak-client"
 cask "vlc"
+
 brew "asdf"
 brew "composer"
 brew "coreutils"
@@ -27,5 +30,6 @@ brew "jq"
 brew "mas"
 brew "ssh-copy-id"
 brew "yarn"
+
 mas "Numbers", id: 409203825
 mas "Pocket", id: 568494494
