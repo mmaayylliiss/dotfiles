@@ -2,11 +2,14 @@
 **This is my local configuration for working on web stuff on a Mac.**
 
 ## Prerequisites
-- [Brew](https://brew.sh)
-- [Prezto](https://github.com/sorin-ionescu/prezto)
+- [**Brew**](https://brew.sh)
+- [**Prezto**](https://github.com/sorin-ionescu/prezto)
 
 ## Make recipes
-`make`: List all available Make recipes
+List all available Make recipes
+```
+make
+```
 
 ## Software configuration
 
@@ -76,4 +79,4 @@ Install [**Package Control**](https://packagecontrol.io/installation)
 #### Mail
 Log in **Mail** then set a [mail signature](https://github.com/wearemd/wearemd_mail_signatures) for each account
 
-Yay, you're done! 👏🏻 👏🏻
+Yay, you're done! 👏 👏
