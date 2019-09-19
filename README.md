@@ -13,7 +13,7 @@ make
 
 ## Software configuration
 
-![](app-icons/export/font-book.png)
+<img align="center" src="app-icons/export/font-book.png">
 
 The mono typeface I use for both Sublime Text and iTerm is [**Roboto Mono**](https://fonts.google.com/specimen/Roboto+Mono).
 
