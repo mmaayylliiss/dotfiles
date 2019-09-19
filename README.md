@@ -13,59 +13,57 @@ make
 
 ## Software configuration
 
-#### Fonts
+### Fonts
 The mono typeface I use for both Sublime Text and iTerm is [**Roboto Mono**](https://fonts.google.com/specimen/Roboto+Mono).
 
-#### Sublime Text
+### Sublime Text
 Install [**Package Control**](https://packagecontrol.io/installation)
 
-#### iTerm preferences
-##### Appearance > General
+### iTerm preferences
+#### Appearance > General
 - Theme: Dark (High Contrast)
 - Tab bar location: Top
 - Status bar location: Bottom
 
-##### Appearance > Windows
+#### Appearance > Windows
 Uncheck all
 
-##### Appearance > Dimming
+#### Appearance > Dimming
 - ☑️ Dim inactive split panes
 - ☑️ Dimming affects only text, not background.
 
-##### Profiles > Default > General
+#### Profiles > Default > General
 Working Directory: Reuse previous session’s directory
 
-##### Profiles > Default > Text
+#### Profiles > Default > Text
 Font: Roboto Mono, Regular, 18
 
-##### Profiles > Default > Window
+#### Profiles > Default > Window
 Settings for New Windows: Columns: 120, Rows: 36
 
-##### Profiles > Default > Session
+#### Profiles > Default > Session
 ☑️ Status bar enabled
 
-##### Profiles > Default > Session > Status bar enabled > Configure Status Bar > Advanced…
+#### Profiles > Default > Session > Status bar enabled > Configure Status Bar > Advanced…
 - Set all Colors to `000000`
 - Font: Roboto Mono, Regular, 14
 - ☑️ Prefer tight packing to stable positioning
 
-##### Profiles > Default > Session > Status bar enabled > Configure Status Bar
+#### Profiles > Default > Session > Status bar enabled > Configure Status Bar
 1. Drag and drop desired Components in Active Components dropzone
 2. Activate 🌈 Auto-Rainbow
 
-#### Browsing
-
-##### Firefox
+### Firefox
 1. Log in
 2. Disable HTTP Cache when toolbox is open
 3. Set Firefox as default browser
 4. Set Desktop as destination folder in *Downloads*
 
-##### Chrome
+### Chrome
 1. Disable Chrome cache while DevTools is open
 2. Set Desktop as destination folder in *Downloads*
 
-#### Sketch
+### Sketch
 1. Install [**Runner**](https://sketchrunner.com) plugin
 2. Install the following plugins using Runner:
   - [**Find and Replace**](https://github.com/thierryc/Sketch-Find-And-Replace)
@@ -75,7 +73,7 @@ Settings for New Windows: Columns: 120, Rows: 36
   - [**Symbol Organizer**](https://github.com/sonburn/symbol-organizer)
   - [**Unused Style Remover**](https://github.com/sonburn/unused-style-remover)
 
-#### Adobe Creative Cloud
+### Adobe Creative Cloud
 1. Log in
 2. Install these apps:
   - **Photoshop**
@@ -86,7 +84,7 @@ Settings for New Windows: Columns: 120, Rows: 36
 4. Install Photoshop additional scripts (find them in the related folder)
 5. Install InDesign additional scripts (find them in the related folder)
 
-#### Mail
+### Mail
 1. Log in
 2. Set a [mail signature](https://github.com/wearemd/wearemd_mail_signatures) for each account
 
