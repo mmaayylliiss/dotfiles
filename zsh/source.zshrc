@@ -14,9 +14,3 @@ alias gui="ASDF_PYTHON_VERSION=2.7.12 git webui --no-browser"
 function killp {
   kill -9 $( lsof -i:$1 -t ) 
 }
-
-## SteerFox
-SF_CORE_FOLDER=/Users/maylisagniel/Desktop/repositories/smb-core
-GIT_OAUTH_TOKEN=0242e0a9eda77617a988b39da4deb834fd759e1c
-# DEV_UID=1000
-# DEV_GID=1000
