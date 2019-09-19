@@ -1,4 +1,4 @@
-![](images/export/header.jpg)
+![](images/export/header.gif)
 
 <p align="center">This is <strong>my local configuration</strong><br>for working on web stuff on a Mac.</p>
 
