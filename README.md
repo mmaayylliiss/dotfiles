@@ -13,13 +13,16 @@ make
 
 ## Software configuration
 
-### Fonts
+![](app-icons/export/font-book.png)
+
 The mono typeface I use for both Sublime Text and iTerm is [**Roboto Mono**](https://fonts.google.com/specimen/Roboto+Mono).
 
-### Sublime Text
+![](app-icons/export/sublime-text.png)
+
 Install [**Package Control**](https://packagecontrol.io/installation)
 
-### iTerm preferences
+![](app-icons/export/iterm.png)
+
 #### Appearance > General
 - Theme: Dark (High Contrast)
 - Tab bar location: Top
@@ -53,16 +56,19 @@ Settings for New Windows: Columns: 120, Rows: 36
 1. Drag and drop desired Components in Active Components dropzone
 2. Activate 🌈 Auto-Rainbow
 
-### Firefox
+![](app-icons/export/firefox.png)
+
 1. Disable HTTP Cache when toolbox is open
 2. Set Firefox as default browser
 3. Set Desktop as destination folder in *Downloads*
 
-### Chrome
+![](app-icons/export/google-chrome.png)
+
 1. Disable Chrome cache while DevTools is open
 2. Set Desktop as destination folder in *Downloads*
 
-### Sketch
+![](app-icons/export/sketch.png)
+
 1. Install [**Runner**](https://sketchrunner.com) plugin
 2. Install the following plugins using Runner:
   - [**Find and Replace**](https://github.com/thierryc/Sketch-Find-And-Replace)
@@ -72,7 +78,8 @@ Settings for New Windows: Columns: 120, Rows: 36
   - [**Symbol Organizer**](https://github.com/sonburn/symbol-organizer)
   - [**Unused Style Remover**](https://github.com/sonburn/unused-style-remover)
 
-### Adobe Creative Cloud
+![](app-icons/export/adobe-creative-cloud.png)
+
 1. Install these apps:
   - **Photoshop**
   - **Illustrator**
@@ -82,7 +89,8 @@ Settings for New Windows: Columns: 120, Rows: 36
 3. Install [Photoshop additional scripts](adobe-creative-cloud/photoshop)
 4. Install [InDesign additional scripts](adobe-creative-cloud/indesign)
 
-### Mail
+![](app-icons/export/mail.png)
+
 Set a [mail signature](https://github.com/wearemd/wearemd_mail_signatures) for each account
 
 Yay, you're done! 👏 👏
