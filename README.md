@@ -16,19 +16,19 @@ make
 ## 🔧 Software manual configuration
 
 <p align="center">
-  <img src="app-icons/export/font-book.png">
+  <img src="images/export/font-book.png">
 </p>
 
 The mono typeface I use for both Sublime Text and iTerm is [**Roboto Mono**](https://fonts.google.com/specimen/Roboto+Mono).
 
 <p align="center">
-  <img src="app-icons/export/sublime-text.png">
+  <img src="images/export/sublime-text.png">
 </p>
 
 Install [**Package Control**](https://packagecontrol.io/installation)
 
 <p align="center">
-  <img src="app-icons/export/iterm.png">
+  <img src="images/export/iterm.png">
 </p>
 
 #### Appearance > General
@@ -65,7 +65,7 @@ Settings for New Windows: Columns: 120, Rows: 36
 2. Activate 🌈 Auto-Rainbow
 
 <p align="center">
-  <img src="app-icons/export/firefox.png">
+  <img src="images/export/firefox.png">
 </p>
 
 1. Disable HTTP Cache when toolbox is open
@@ -73,14 +73,14 @@ Settings for New Windows: Columns: 120, Rows: 36
 3. Set Desktop as destination folder in *Downloads*
 
 <p align="center">
-  <img src="app-icons/export/google-chrome.png">
+  <img src="images/export/google-chrome.png">
 </p>
 
 1. Disable Chrome cache while DevTools is open
 2. Set Desktop as destination folder in *Downloads*
 
 <p align="center">
-  <img src="app-icons/export/sketch.png">
+  <img src="images/export/sketch.png">
 </p>
 
 1. Install [**Runner**](https://sketchrunner.com) plugin
@@ -93,7 +93,7 @@ Settings for New Windows: Columns: 120, Rows: 36
   - [**Unused Style Remover**](https://github.com/sonburn/unused-style-remover)
 
 <p align="center">
-  <img src="app-icons/export/adobe-creative-cloud.png">
+  <img src="images/export/adobe-creative-cloud.png">
 </p>
 
 1. Install these apps:
@@ -106,7 +106,7 @@ Settings for New Windows: Columns: 120, Rows: 36
 4. Install [InDesign additional scripts](adobe-creative-cloud/indesign)
 
 <p align="center">
-  <img src="app-icons/export/mail.png">
+  <img src="images/export/mail.png">
 </p>
 
 Set a [mail signature](https://github.com/wearemd/wearemd_mail_signatures) for each account
