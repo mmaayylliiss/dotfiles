@@ -81,8 +81,8 @@ Settings for New Windows: Columns: 120, Rows: 36
   - **InDesign**
   - **Acrobat**
 3. Install Photoshop [**GuideGuide**](https://guideguide.me/documentation/) extension
-4. Install [Photoshop additional scripts](adobe-creative-cloud/indesign)
-5. Install [InDesign additional scripts](adobe-creative-cloud/photoshop)
+4. Install [Photoshop additional scripts](adobe-creative-cloud/photoshop)
+5. Install [InDesign additional scripts](adobe-creative-cloud/indesign)
 
 ### Mail
 1. Log in
