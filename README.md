@@ -54,10 +54,9 @@ Settings for New Windows: Columns: 120, Rows: 36
 2. Activate 🌈 Auto-Rainbow
 
 ### Firefox
-1. Log in
-2. Disable HTTP Cache when toolbox is open
-3. Set Firefox as default browser
-4. Set Desktop as destination folder in *Downloads*
+1. Disable HTTP Cache when toolbox is open
+2. Set Firefox as default browser
+3. Set Desktop as destination folder in *Downloads*
 
 ### Chrome
 1. Disable Chrome cache while DevTools is open
@@ -74,18 +73,16 @@ Settings for New Windows: Columns: 120, Rows: 36
   - [**Unused Style Remover**](https://github.com/sonburn/unused-style-remover)
 
 ### Adobe Creative Cloud
-1. Log in
-2. Install these apps:
+1. Install these apps:
   - **Photoshop**
   - **Illustrator**
   - **InDesign**
   - **Acrobat**
-3. Install Photoshop [**GuideGuide**](https://guideguide.me/documentation/) extension
-4. Install [Photoshop additional scripts](adobe-creative-cloud/photoshop)
-5. Install [InDesign additional scripts](adobe-creative-cloud/indesign)
+2. Install Photoshop [**GuideGuide**](https://guideguide.me/documentation/) extension
+3. Install [Photoshop additional scripts](adobe-creative-cloud/photoshop)
+4. Install [InDesign additional scripts](adobe-creative-cloud/indesign)
 
 ### Mail
-1. Log in
-2. Set a [mail signature](https://github.com/wearemd/wearemd_mail_signatures) for each account
+Set a [mail signature](https://github.com/wearemd/wearemd_mail_signatures) for each account
 
 Yay, you're done! 👏 👏
