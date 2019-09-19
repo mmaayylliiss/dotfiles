@@ -19,11 +19,15 @@ make
 
 The mono typeface I use for both Sublime Text and iTerm is [**Roboto Mono**](https://fonts.google.com/specimen/Roboto+Mono).
 
-![](app-icons/export/sublime-text.png)
+<p align="center">
+  <img src="app-icons/export/sublime-text.png">
+</p>
 
 Install [**Package Control**](https://packagecontrol.io/installation)
 
-![](app-icons/export/iterm.png)
+<p align="center">
+  <img src="app-icons/export/iterm.png">
+</p>
 
 #### Appearance > General
 - Theme: Dark (High Contrast)
@@ -58,18 +62,24 @@ Settings for New Windows: Columns: 120, Rows: 36
 1. Drag and drop desired Components in Active Components dropzone
 2. Activate 🌈 Auto-Rainbow
 
-![](app-icons/export/firefox.png)
+<p align="center">
+  <img src="app-icons/export/firefox.png">
+</p>
 
 1. Disable HTTP Cache when toolbox is open
 2. Set Firefox as default browser
 3. Set Desktop as destination folder in *Downloads*
 
-![](app-icons/export/google-chrome.png)
+<p align="center">
+  <img src="app-icons/export/google-chrome.png">
+</p>
 
 1. Disable Chrome cache while DevTools is open
 2. Set Desktop as destination folder in *Downloads*
 
-![](app-icons/export/sketch.png)
+<p align="center">
+  <img src="app-icons/export/sketch.png">
+</p>
 
 1. Install [**Runner**](https://sketchrunner.com) plugin
 2. Install the following plugins using Runner:
@@ -80,7 +90,9 @@ Settings for New Windows: Columns: 120, Rows: 36
   - [**Symbol Organizer**](https://github.com/sonburn/symbol-organizer)
   - [**Unused Style Remover**](https://github.com/sonburn/unused-style-remover)
 
-![](app-icons/export/adobe-creative-cloud.png)
+<p align="center">
+  <img src="app-icons/export/adobe-creative-cloud.png">
+</p>
 
 1. Install these apps:
   - **Photoshop**
@@ -91,7 +103,9 @@ Settings for New Windows: Columns: 120, Rows: 36
 3. Install [Photoshop additional scripts](adobe-creative-cloud/photoshop)
 4. Install [InDesign additional scripts](adobe-creative-cloud/indesign)
 
-![](app-icons/export/mail.png)
+<p align="center">
+  <img src="app-icons/export/mail.png">
+</p>
 
 Set a [mail signature](https://github.com/wearemd/wearemd_mail_signatures) for each account
 
