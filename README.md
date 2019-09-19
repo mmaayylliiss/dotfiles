@@ -1,5 +1,5 @@
-# Maylis Agniel’s dotfiles
-**This is my local configuration for working on web stuff on a Mac.**
+<h1 align="center">Maylis Agniel’s dotfiles</h1>
+<p align="center">This is <strong>my local configuration</strong><br>for working on web stuff on a Mac.</p>
 
 ## ⚙️ Prerequisites
 - [**Brew**](https://brew.sh)
@@ -7,6 +7,7 @@
 
 ## ⌨️ Commands
 List all available Make recipes
+
 ```
 make
 ```
