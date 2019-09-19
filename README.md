@@ -1,17 +1,17 @@
 # Maylis Agniel’s dotfiles
 **This is my local configuration for working on web stuff on a Mac.**
 
-## Prerequisites
+## ⚙️ Prerequisites
 - [**Brew**](https://brew.sh)
 - [**Prezto**](https://github.com/sorin-ionescu/prezto)
 
-## Commands
+## ⌨️ Commands
 List all available Make recipes
 ```
 make
 ```
 
-## Software configuration
+## 🔧 Software manual configuration
 
 <p align="center">
   <img src="app-icons/export/font-book.png">
@@ -108,5 +108,3 @@ Settings for New Windows: Columns: 120, Rows: 36
 </p>
 
 Set a [mail signature](https://github.com/wearemd/wearemd_mail_signatures) for each account
-
-Yay, you're done! 👏 👏
