@@ -1,4 +1,5 @@
-<h1 align="center">Maylis Agniel’s dotfiles</h1>
+![](images/export/header.jpg)
+
 <p align="center">This is <strong>my local configuration</strong><br>for working on web stuff on a Mac.</p>
 
 ## ⚙️ Prerequisites
