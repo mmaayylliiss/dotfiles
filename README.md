@@ -17,21 +17,15 @@ make
 
 ## 🔧 Software manual configuration
 
-<p align="center">
-  <img src="images/export/font-book.jpg">
-</p>
+![](app-icons/export/font-book.jpg)
 
 The mono typeface I use for both Sublime Text and iTerm is [**Roboto Mono**](https://fonts.google.com/specimen/Roboto+Mono).
 
-<p align="center">
-  <img src="images/export/sublime-text.jpg">
-</p>
+![](app-icons/export/sublime-text.jpg)
 
 Install [**Package Control**](https://packagecontrol.io/installation)
 
-<p align="center">
-  <img src="images/export/iterm.jpg">
-</p>
+![](app-icons/export/iterm.jpg)
 
 #### Appearance > General
 - Theme: Dark (High Contrast)
@@ -66,24 +60,18 @@ Settings for New Windows: Columns: 120, Rows: 36
 1. Drag and drop desired Components in Active Components dropzone
 2. Activate 🌈 Auto-Rainbow
 
-<p align="center">
-  <img src="images/export/firefox.jpg">
-</p>
+![](app-icons/export/firefox.jpg)
 
 1. Disable HTTP Cache when toolbox is open
 2. Set Firefox as default browser
 3. Set Desktop as destination folder in *Downloads*
 
-<p align="center">
-  <img src="images/export/google-chrome.jpg">
-</p>
+![](app-icons/export/google-chrome.jpg)
 
 1. Disable Chrome cache while DevTools is open
 2. Set Desktop as destination folder in *Downloads*
 
-<p align="center">
-  <img src="images/export/sketch.jpg">
-</p>
+![](app-icons/export/sketch.jpg)
 
 1. Install [**Runner**](https://sketchrunner.com) plugin
 2. Install the following plugins using Runner:
@@ -94,9 +82,7 @@ Settings for New Windows: Columns: 120, Rows: 36
   - [**Symbol Organizer**](https://github.com/sonburn/symbol-organizer)
   - [**Unused Style Remover**](https://github.com/sonburn/unused-style-remover)
 
-<p align="center">
-  <img src="images/export/adobe-creative-cloud.jpg">
-</p>
+![](app-icons/export/adobe-creative-cloud.jpg)
 
 1. Install these apps:
   - **Photoshop**
@@ -107,8 +93,6 @@ Settings for New Windows: Columns: 120, Rows: 36
 3. Install [Photoshop additional scripts](adobe-creative-cloud/photoshop)
 4. Install [InDesign additional scripts](adobe-creative-cloud/indesign)
 
-<p align="center">
-  <img src="images/export/mail.jpg">
-</p>
+![](app-icons/export/mail.jpg)
 
 Set a [mail signature](https://github.com/wearemd/wearemd_mail_signatures) for each account
