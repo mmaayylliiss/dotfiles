@@ -9,7 +9,7 @@
 - [**Prezto**](https://github.com/sorin-ionescu/prezto)
 
 ## ⌨️ Commands
-List all available Make recipes
+Display a list of available commands.
 
 ```
 make

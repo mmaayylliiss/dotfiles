@@ -72,5 +72,5 @@ all_install: prezto_install subl_install smerge_install zsh_install git_install 
 
 all_save: prezto_save subl_save smerge_save zsh_save git_save ## Save all configuration files
 
-help: ## Print this help
+help: ## Display a list of available commands
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
