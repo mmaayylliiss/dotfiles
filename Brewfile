@@ -31,6 +31,7 @@ brew "jesseduffield/lazydocker/lazydocker"
 brew "jq"
 brew "mas"
 brew "ssh-copy-id"
+brew "tree"
 brew "yarn"
 
 mas "Numbers", id: 409203825
