@@ -9,9 +9,9 @@
 - [**Prezto**](https://github.com/sorin-ionescu/prezto)
 
 ## ⌨️ Commands
-Display a list of available commands.
+```makefile
+# List available commands
 
-```
 make
 ```
 
