@@ -4,7 +4,7 @@
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/Color Highlighter/themes/ayu-mirage.tmTheme",
 	"fade_fold_buttons": false,
-	"font_face": "Roboto Mono",
+	"font_face": "JetBrains Mono",
 	"font_size": 18,
 	"ignored_packages":
 	[
@@ -15,6 +15,7 @@
 	"tab_size": 2,
 	"theme": "ayu-mirage.sublime-theme",
 	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
 	"ui_separator": true,
 	"ui_wide_scrollbars": true,
 	"word_wrap": true
