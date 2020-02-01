@@ -19,7 +19,7 @@ make
 
 ![](images/export/font-book.gif)
 
-The mono typeface I use for both Sublime Text and iTerm is [**JetBrains Mono**](https://www.jetbrains.com/lp/mono/).
+The monospace font I use for coding is [**JetBrains Mono**](https://www.jetbrains.com/lp/mono/).
 
 ![](images/export/sublime-text.gif)
 
@@ -46,7 +46,7 @@ Working Directory: Reuse previous session’s directory
 Font: JetBrains Mono, Regular, 18
 
 #### Profiles > Default > Window
-Settings for New Windows: Columns: 120, Rows: 36
+Settings for New Windows: Columns: 180, Rows: 42
 
 #### Profiles > Default > Session
 ☑️ Status bar enabled
