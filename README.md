@@ -19,7 +19,7 @@ make
 
 ![](images/export/font-book.gif)
 
-The mono typeface I use for both Sublime Text and iTerm is [**Roboto Mono**](https://fonts.google.com/specimen/Roboto+Mono).
+The mono typeface I use for both Sublime Text and iTerm is [**JetBrains Mono**](https://www.jetbrains.com/lp/mono/).
 
 ![](images/export/sublime-text.gif)
 
@@ -43,7 +43,7 @@ Uncheck all
 Working Directory: Reuse previous session’s directory
 
 #### Profiles > Default > Text
-Font: Roboto Mono, Regular, 18
+Font: JetBrains Mono, Regular, 18
 
 #### Profiles > Default > Window
 Settings for New Windows: Columns: 120, Rows: 36
@@ -53,7 +53,7 @@ Settings for New Windows: Columns: 120, Rows: 36
 
 #### Profiles > Default > Session > Status bar enabled > Configure Status Bar > Advanced…
 - Set all Colors to `000000`
-- Font: Roboto Mono, Regular, 14
+- Font: JetBrains Mono, Regular, 14
 - ☑️ Prefer tight packing to stable positioning
 
 #### Profiles > Default > Session > Status bar enabled > Configure Status Bar
