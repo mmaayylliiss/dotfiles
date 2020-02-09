@@ -32,6 +32,7 @@
 
 <a name="commands"></a>
 ## ⌨️ Commands
+### Help
 ```makefile
 ## List available commands
 
