@@ -2,5 +2,7 @@
 	"font_face": "JetBrains Mono",
 	"font_size": 18,
 	"tab_size": 2,
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"side_bar_layout": "tabs",
+	"expand_merge_commits_by_default": true,
 }
