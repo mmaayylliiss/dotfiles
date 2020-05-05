@@ -45,7 +45,7 @@ make
 <a name="font-book"></a>
 ![](documentation-images/font-book.gif)
 
-The monospace font I use for coding is [**JetBrains Mono**](https://www.jetbrains.com/lp/mono/).
+The monospace font I use for coding is [**JetBrains Mono**](https://www.jetbrains.com/lp/mono/). For emoji icons I use [**JoyPixels**](https://www.joypixels.com) (replacing Apple Color Emoji system font).
 
 <a name="sublime-text"></a>
 ![](documentation-images/sublime-text.gif)
