@@ -109,7 +109,6 @@ Settings for New Windows: Columns: 180, Rows: 42
   - [**Find and Replace**](https://github.com/thierryc/Sketch-Find-And-Replace)
   - [**Fontily**](https://github.com/partyka1/Fontily)
   - [**Replace Colour**](https://github.com/lewishowles/sketch-replace-colour)
-  - [**Style Inventory**](https://github.com/getflourish/Sketch-Style-Inventory)
   - [**Symbol Organizer**](https://github.com/sonburn/symbol-organizer)
   - [**Unused Style Remover**](https://github.com/sonburn/unused-style-remover)
 
