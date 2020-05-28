@@ -56,14 +56,15 @@ Install [**Package Control**](https://packagecontrol.io/installation)
 ![](documentation-images/iterm.gif)
 
 #### General > Preferences
-- ☑️ Load preferences from a custom folder or URL
-- Browse: `[path-to-my-dotfiles]/iterm/preferences`
-- ☑️ Save changes to folder when iTerm2 quits
+1. ☑️ Load preferences from a custom folder or URL
+2. Open `[path-to-my-dotfiles]/iterm/preferences`
+3. ☑️ Save changes to folder when iTerm2 quits
 
-#### Profiles > Other Actions… > Import JSON Profiles…
-- Open `[path-to-my-dotfiles]/iterm/profiles/Default.json`
-- Set new *Default* profile as default
-- Delete old *Default* profile
+#### Profiles
+1. Go to *Other Actions…* > *Import JSON Profiles…*
+2. Open `[path-to-my-dotfiles]/iterm/profiles/Default.json`
+3. Set new *Default* profile as default
+4. Delete old *Default* profile
 
 <a name="firefox"></a>
 ![](documentation-images/firefox.gif)
