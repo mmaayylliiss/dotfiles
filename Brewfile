@@ -17,7 +17,6 @@ cask "sketch"
 cask "steam"
 cask "sublime-merge"
 cask "sublime-text"
-cask "teamspeak-client"
 cask "vlc"
 
 brew "asdf"
