@@ -84,7 +84,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>931 154 918 423 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>284 488 1990 929 0 0 2560 1417 </string>
+	<string>419 488 1990 929 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>336 488 1990 929 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -1445,14 +1445,14 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{1170, 1088}</string>
+		<string>{1022, 989}</string>
 	</dict>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>7C684717-ADFD-4F7F-B988-84E6103D0DFF</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>267</integer>
+	<integer>270</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
