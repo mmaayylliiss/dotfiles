@@ -60,26 +60,10 @@ Install [**Package Control**](https://packagecontrol.io/installation)
 - Browse: `[path-to-my-dotfiles]/iterm/preferences`
 - ☑️ Save changes to folder when iTerm2 quits
 
-#### Profiles > Default > General
-Working Directory: Reuse previous session’s directory
-
-#### Profiles > Default > Text
-Font: JetBrains Mono, Regular, 18
-
-#### Profiles > Default > Window
-Settings for New Windows: Columns: 180, Rows: 42
-
-#### Profiles > Default > Session
-☑️ Status bar enabled
-
-#### Profiles > Default > Session > Status bar enabled > Configure Status Bar > Advanced…
-- Set all Colors to `000000`
-- Font: JetBrains Mono, Regular, 14
-- ☑️ Prefer tight packing to stable positioning
-
-#### Profiles > Default > Session > Status bar enabled > Configure Status Bar
-1. Drag and drop desired Components in Active Components dropzone
-2. Activate 🌈 Auto-Rainbow
+#### Profiles > Other Actions… > Import JSON Profiles…
+- Open `[path-to-my-dotfiles]/iterm/profiles/Default.json`
+- Set new *Default* profile as default
+- Delete old *Default* profile
 
 <a name="firefox"></a>
 ![](documentation-images/firefox.gif)
