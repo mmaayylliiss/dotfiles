@@ -31,7 +31,7 @@
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Desktop/repositories/md/dotfiles/maylis-dotfiles/iterm/preferences</string>
+	<string>~/Desktop/repositories/md/dotfiles/maylis-dotfiles/iterm/profiles</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{720, 448}</string>
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
@@ -1450,14 +1450,14 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{1340, 1269}</string>
+		<string>{1192, 1302}</string>
 	</dict>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>7C684717-ADFD-4F7F-B988-84E6103D0DFF</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>272</integer>
+	<integer>273</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
