@@ -13,7 +13,7 @@
 	<key>AppleWindowTabbingMode</key>
 	<string>manual</string>
 	<key>Default Bookmark Guid</key>
-	<string>BDC11D95-B641-48F3-9683-4427E272F596</string>
+	<string>F19749C6-77D9-4F70-B0AF-6E411FEBD4B6</string>
 	<key>DimBackgroundWindows</key>
 	<false/>
 	<key>DimOnlyText</key>
@@ -34,6 +34,10 @@
 	<string>~/Desktop/repositories/md/dotfiles/maylis-dotfiles/iterm/preferences</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{720, 448}</string>
+	<key>NSNavPanelExpandedSizeForSaveMode</key>
+	<string>{842, 461}</string>
+	<key>NSNavPanelExpandedStateForSaveMode</key>
+	<true/>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -84,7 +88,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>931 154 918 423 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>419 488 1990 929 0 0 2560 1417 </string>
+	<string>398 488 1990 929 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>336 488 1990 929 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -103,18 +107,18 @@
 			<key>Ansi 0 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 			</dict>
 			<key>Ansi 1 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 				<key>Red Component</key>
 				<real>0.73333334922790527</real>
 			</dict>
@@ -123,7 +127,7 @@
 				<key>Blue Component</key>
 				<real>0.3333333432674408</real>
 				<key>Green Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Red Component</key>
 				<real>0.3333333432674408</real>
 			</dict>
@@ -132,14 +136,14 @@
 				<key>Blue Component</key>
 				<real>0.3333333432674408</real>
 				<key>Green Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Red Component</key>
-				<real>1</real>
+				<integer>1</integer>
 			</dict>
 			<key>Ansi 12 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Green Component</key>
 				<real>0.3333333432674408</real>
 				<key>Red Component</key>
@@ -148,43 +152,43 @@
 			<key>Ansi 13 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Green Component</key>
 				<real>0.3333333432674408</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<integer>1</integer>
 			</dict>
 			<key>Ansi 14 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Green Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Red Component</key>
 				<real>0.3333333432674408</real>
 			</dict>
 			<key>Ansi 15 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Green Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Red Component</key>
-				<real>1</real>
+				<integer>1</integer>
 			</dict>
 			<key>Ansi 2 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 				<key>Green Component</key>
 				<real>0.73333334922790527</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 			</dict>
 			<key>Ansi 3 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 				<key>Green Component</key>
 				<real>0.73333334922790527</real>
 				<key>Red Component</key>
@@ -195,16 +199,16 @@
 				<key>Blue Component</key>
 				<real>0.73333334922790527</real>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 			</dict>
 			<key>Ansi 5 Color</key>
 			<dict>
 				<key>Blue Component</key>
 				<real>0.73333334922790527</real>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 				<key>Red Component</key>
 				<real>0.73333334922790527</real>
 			</dict>
@@ -215,7 +219,7 @@
 				<key>Green Component</key>
 				<real>0.73333334922790527</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 			</dict>
 			<key>Ansi 7 Color</key>
 			<dict>
@@ -242,18 +246,18 @@
 				<key>Green Component</key>
 				<real>0.3333333432674408</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<integer>1</integer>
 			</dict>
 			<key>BM Growl</key>
 			<true/>
 			<key>Background Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 			</dict>
 			<key>Background Image Location</key>
 			<string></string>
@@ -264,11 +268,11 @@
 			<key>Bold Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Green Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Red Component</key>
-				<real>1</real>
+				<integer>1</integer>
 			</dict>
 			<key>Character Encoding</key>
 			<integer>4</integer>
@@ -290,11 +294,11 @@
 			<key>Cursor Text Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Green Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Red Component</key>
-				<real>1</real>
+				<integer>1</integer>
 			</dict>
 			<key>Custom Command</key>
 			<string>No</string>
@@ -318,9 +322,9 @@
 				<real>0.73333334922790527</real>
 			</dict>
 			<key>Guid</key>
-			<string>BDC11D95-B641-48F3-9683-4427E272F596</string>
+			<string>F19749C6-77D9-4F70-B0AF-6E411FEBD4B6</string>
 			<key>Horizontal Spacing</key>
-			<real>1</real>
+			<integer>1</integer>
 			<key>Idle Code</key>
 			<integer>0</integer>
 			<key>Jobs to Ignore</key>
@@ -638,16 +642,16 @@
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 			</dict>
 			<key>Selection Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Green Component</key>
 				<real>0.8353000283241272</real>
 				<key>Red Component</key>
@@ -670,43 +674,43 @@
 					<key>background color</key>
 					<dict>
 						<key>Alpha Component</key>
-						<real>1</real>
+						<integer>1</integer>
 						<key>Blue Component</key>
-						<real>0.0</real>
+						<integer>0</integer>
 						<key>Color Space</key>
 						<string>sRGB</string>
 						<key>Green Component</key>
-						<real>0.0</real>
+						<integer>0</integer>
 						<key>Red Component</key>
-						<real>0.0</real>
+						<integer>0</integer>
 					</dict>
 					<key>default text color</key>
 					<dict>
 						<key>Alpha Component</key>
-						<real>1</real>
+						<integer>1</integer>
 						<key>Blue Component</key>
-						<real>0.0</real>
+						<integer>0</integer>
 						<key>Color Space</key>
 						<string>sRGB</string>
 						<key>Green Component</key>
-						<real>0.0</real>
+						<integer>0</integer>
 						<key>Red Component</key>
-						<real>0.0</real>
+						<integer>0</integer>
 					</dict>
 					<key>font</key>
 					<string>JetBrainsMono-Regular 14</string>
 					<key>separator color 2</key>
 					<dict>
 						<key>Alpha Component</key>
-						<real>1</real>
+						<integer>1</integer>
 						<key>Blue Component</key>
-						<real>0.0</real>
+						<integer>0</integer>
 						<key>Color Space</key>
 						<string>sRGB</string>
 						<key>Green Component</key>
-						<real>0.0</real>
+						<integer>0</integer>
 						<key>Red Component</key>
-						<real>0.0</real>
+						<integer>0</integer>
 					</dict>
 				</dict>
 				<key>components</key>
@@ -721,13 +725,13 @@
 								<key>base: compression resistance</key>
 								<integer>1</integer>
 								<key>base: priority</key>
-								<real>5</real>
+								<integer>5</integer>
 								<key>path</key>
 								<string>username</string>
 								<key>shared text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
 									<real>0.63</real>
 									<key>Color Space</key>
@@ -745,43 +749,43 @@
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 								<key>default text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 								<key>font</key>
 								<string>JetBrainsMono-Regular 14</string>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 							</dict>
 						</dict>
@@ -796,9 +800,9 @@
 								<key>base: compression resistance</key>
 								<integer>1</integer>
 								<key>base: priority</key>
-								<real>5</real>
+								<integer>5</integer>
 								<key>maxwidth</key>
-								<real>+infinity</real>
+								<real>1.7976931348623157e+308</real>
 								<key>minwidth</key>
 								<integer>0</integer>
 								<key>path</key>
@@ -806,7 +810,7 @@
 								<key>shared text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
 									<real>0.63</real>
 									<key>Color Space</key>
@@ -824,43 +828,43 @@
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 								<key>default text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 								<key>font</key>
 								<string>JetBrainsMono-Regular 14</string>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 							</dict>
 						</dict>
@@ -875,17 +879,17 @@
 								<key>base: compression resistance</key>
 								<integer>1</integer>
 								<key>base: priority</key>
-								<real>5</real>
+								<integer>5</integer>
 								<key>iTermStatusBarGitComponentPollingIntervalKey</key>
-								<real>2</real>
+								<integer>2</integer>
 								<key>maxwidth</key>
-								<real>+infinity</real>
+								<real>1.7976931348623157e+308</real>
 								<key>minwidth</key>
 								<integer>0</integer>
 								<key>shared text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
 									<real>0.63</real>
 									<key>Color Space</key>
@@ -903,43 +907,43 @@
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 								<key>default text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 								<key>font</key>
 								<string>JetBrainsMono-Regular 14</string>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 							</dict>
 						</dict>
@@ -954,15 +958,15 @@
 								<key>base: compression resistance</key>
 								<integer>1</integer>
 								<key>base: priority</key>
-								<real>5</real>
+								<integer>5</integer>
 								<key>maxwidth</key>
-								<real>+infinity</real>
+								<real>1.7976931348623157e+308</real>
 								<key>minwidth</key>
 								<integer>0</integer>
 								<key>shared text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
 									<real>0.63</real>
 									<key>Color Space</key>
@@ -980,43 +984,43 @@
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 								<key>default text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 								<key>font</key>
 								<string>JetBrainsMono-Regular 14</string>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 							</dict>
 						</dict>
@@ -1031,7 +1035,7 @@
 								<key>base: compression resistance</key>
 								<integer>1</integer>
 								<key>base: priority</key>
-								<real>5</real>
+								<integer>5</integer>
 								<key>iTermStatusBarSpringComponentSizeMultipleKey</key>
 								<integer>1</integer>
 								<key>iTermStatusBarSpringComponentSpringConstantKey</key>
@@ -1039,7 +1043,7 @@
 								<key>shared text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
 									<real>0.80999999999999994</real>
 									<key>Color Space</key>
@@ -1057,43 +1061,43 @@
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 								<key>default text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 								<key>font</key>
 								<string>JetBrainsMono-Regular 14</string>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 							</dict>
 						</dict>
@@ -1108,7 +1112,7 @@
 								<key>base: compression resistance</key>
 								<integer>1</integer>
 								<key>base: priority</key>
-								<real>5</real>
+								<integer>5</integer>
 								<key>iTermStatusBarSpringComponentSizeMultipleKey</key>
 								<integer>1</integer>
 								<key>iTermStatusBarSpringComponentSpringConstantKey</key>
@@ -1116,7 +1120,7 @@
 								<key>shared text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
 									<real>0.90000000000000002</real>
 									<key>Color Space</key>
@@ -1134,43 +1138,43 @@
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 								<key>default text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 								<key>font</key>
 								<string>JetBrainsMono-Regular 14</string>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 							</dict>
 						</dict>
@@ -1185,11 +1189,11 @@
 								<key>base: compression resistance</key>
 								<integer>1</integer>
 								<key>base: priority</key>
-								<real>5</real>
+								<integer>5</integer>
 								<key>shared text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
 									<real>0.90000000000000002</real>
 									<key>Color Space</key>
@@ -1207,43 +1211,43 @@
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 								<key>default text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 								<key>font</key>
 								<string>JetBrainsMono-Regular 14</string>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 							</dict>
 						</dict>
@@ -1258,11 +1262,11 @@
 								<key>base: compression resistance</key>
 								<integer>1</integer>
 								<key>base: priority</key>
-								<real>5</real>
+								<integer>5</integer>
 								<key>shared text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
 									<real>0.90000000000000002</real>
 									<key>Color Space</key>
@@ -1280,43 +1284,43 @@
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 								<key>default text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 								<key>font</key>
 								<string>JetBrainsMono-Regular 14</string>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 							</dict>
 						</dict>
@@ -1331,11 +1335,11 @@
 								<key>base: compression resistance</key>
 								<integer>1</integer>
 								<key>base: priority</key>
-								<real>5</real>
+								<integer>5</integer>
 								<key>shared text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
 									<real>0.80999999999999983</real>
 									<key>Color Space</key>
@@ -1353,43 +1357,43 @@
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 								<key>default text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 								<key>font</key>
 								<string>JetBrainsMono-Regular 14</string>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
-									<real>1</real>
+									<integer>1</integer>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 									<key>Red Component</key>
-									<real>0.0</real>
+									<integer>0</integer>
 								</dict>
 							</dict>
 						</dict>
@@ -1403,7 +1407,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
-			<real>0.0</real>
+			<integer>0</integer>
 			<key>Unlimited Scrollback</key>
 			<false/>
 			<key>Use Bold Font</key>
@@ -1415,7 +1419,7 @@
 			<key>Use Non-ASCII Font</key>
 			<false/>
 			<key>Vertical Spacing</key>
-			<real>1</real>
+			<integer>1</integer>
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
@@ -1426,6 +1430,7 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
+		<string>3.3.10</string>
 		<string>3.3.8</string>
 		<string>3.2.8</string>
 		<string>3.3.1</string>
@@ -1445,14 +1450,14 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{1022, 989}</string>
+		<string>{1340, 1269}</string>
 	</dict>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>7C684717-ADFD-4F7F-B988-84E6103D0DFF</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>270</integer>
+	<integer>272</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2169,6 +2174,11 @@
 			</dict>
 		</array>
 	</dict>
+	<key>NoSyncSavePanelSavedSettings_SaveProfile</key>
+	<dict>
+		<key>Initial Directory</key>
+		<string>/Users/maylisagniel/Desktop/repositories/md/dotfiles/maylis-dotfiles/iterm/profiles</string>
+	</dict>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>568137552.20137894</real>
 	<key>PointerActions</key>
@@ -2245,7 +2255,7 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.3.9</string>
+	<string>3.3.10</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
