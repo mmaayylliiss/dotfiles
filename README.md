@@ -55,17 +55,10 @@ Install [**Package Control**](https://packagecontrol.io/installation)
 <a name="iterm"></a>
 ![](documentation-images/iterm.gif)
 
-#### Appearance > General
-- Theme: Dark (High Contrast)
-- Tab bar location: Top
-- Status bar location: Bottom
-
-#### Appearance > Windows
-Uncheck all
-
-#### Appearance > Dimming
-- ☑️ Dim inactive split panes
-- ☑️ Dimming affects only text, not background.
+#### General > Preferences
+- ☑️ Load preferences from a custom folder or URL
+- Browse: `[path-to-my-dotfiles]/iterm/preferences`
+- ☑️ Save changes to folder when iTerm2 quits
 
 #### Profiles > Default > General
 Working Directory: Reuse previous session’s directory
