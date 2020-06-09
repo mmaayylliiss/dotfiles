@@ -2,5 +2,9 @@
 
 {
   "mix_format_on_save": true,
-  "reload_after_mix_format": true
+  "reload_after_mix_format": true,
+  "extensions":
+  [
+    "exs", "ex"
+  ]
 }
