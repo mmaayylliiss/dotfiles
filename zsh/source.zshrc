@@ -14,3 +14,4 @@ alias gui="ASDF_PYTHON_VERSION=2.7.12 git webui --no-browser"
 function killp {
   kill -9 $( lsof -i:$1 -t ) 
 }
+export PATH="/usr/local/opt/mysql-client/bin:$PATH"
