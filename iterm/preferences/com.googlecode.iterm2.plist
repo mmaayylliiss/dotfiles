@@ -88,7 +88,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>931 154 918 423 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>398 488 1990 929 0 0 2560 1417 </string>
+	<string>427 488 1990 929 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>336 488 1990 929 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -279,7 +279,7 @@
 			<key>Close Sessions On End</key>
 			<true/>
 			<key>Columns</key>
-			<integer>180</integer>
+			<integer>140</integer>
 			<key>Command</key>
 			<string></string>
 			<key>Cursor Color</key>
@@ -1432,6 +1432,7 @@
 	<array>
 		<string>3.3.10</string>
 		<string>3.3.8</string>
+		<string>3.3.12</string>
 		<string>3.2.8</string>
 		<string>3.3.1</string>
 		<string>3.3.3</string>
@@ -1450,14 +1451,14 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{1192, 1302}</string>
+		<string>{1106, 1261}</string>
 	</dict>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>7C684717-ADFD-4F7F-B988-84E6103D0DFF</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>273</integer>
+	<integer>306</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2225,11 +2226,11 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-05-28T08:47:20Z</date>
+	<date>2020-08-11T10:29:58Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
-	<integer>63712517</integer>
+	<integer>3477315357</integer>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
@@ -2255,7 +2256,7 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.3.10</string>
+	<string>3.3.12</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
