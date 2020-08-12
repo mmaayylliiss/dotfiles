@@ -5,4 +5,8 @@
 	"translate_tabs_to_spaces": true,
 	"side_bar_layout": "tabs",
 	"expand_merge_commits_by_default": true,
+	"theme": "Merge.sublime-theme",
+	"diff_style": "side-by-side",
+	"render_commit_dialog_message_at_top": true,
+	"trim_trailing_white_space_on_save": true,
 }
