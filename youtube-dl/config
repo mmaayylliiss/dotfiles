@@ -1,3 +1,6 @@
+# Write metadata to the video file
+--add-metadata
+
 # Specify audio format:
 # 'best', 'aac', 'flac', 'mp3', 'm4a', 'opus', 'vorbis', or 'wav';
 # 'best' by default
