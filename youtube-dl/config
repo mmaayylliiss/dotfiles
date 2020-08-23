@@ -12,7 +12,7 @@
 --mark-watched
 
 # Save all downloads under `Dropbox/music` directory
--o /Volumes/Storage/Dropbox/music/%(title)s.%(ext)s
+-o '/Volumes/Storage/Dropbox/music/%(title)s.%(ext)s'
 
 # Write thumbnail image to disk
 --write-thumbnail
