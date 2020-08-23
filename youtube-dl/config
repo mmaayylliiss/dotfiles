@@ -1,5 +1,7 @@
-# Write metadata to the video file
---add-metadata
+# Specify audio format:
+# 'best', 'aac', 'flac', 'mp3', 'm4a', 'opus', 'vorbis', or 'wav';
+# 'best' by default
+--audio-format 'm4a'
 
 # Specify ffmpeg audio quality,
 # insert a value between 0 (better) and 9 (worse)
@@ -16,6 +18,9 @@
 
 # Save all downloads under `Dropbox/music` directory
 -o '/Volumes/Storage/Dropbox/music/%(title)s.%(ext)s'
+
+# Do not overwrite files
+-w
 
 # Write thumbnail image to disk
 --write-thumbnail
