@@ -13,6 +13,9 @@
 # Bypass geographic restriction via faking X-Forwarded-For HTTP header
 --geo-bypass
 
+# Continue on download errors, for example to skip unavailable videos in a playlist
+-i
+
 # Mark videos watched (YouTube only)
 --mark-watched
 
@@ -20,7 +23,7 @@
 -o '/Volumes/Storage/Dropbox/music/%(title)s.%(ext)s'
 
 # Do not overwrite files
--w
+# -w
 
 # Write video description to a .description file
 #
