@@ -19,7 +19,7 @@
 # See related issue:
 # [--embed-thumbnail conversion failed, ffmpeg and .webp images](https://github.com/ytdl-org/youtube-dl/issues/25687)
 # —Maylis
---embed-thumbnail
+# --embed-thumbnail
 
 # Bypass geographic restriction via faking X-Forwarded-For HTTP header
 --geo-bypass
