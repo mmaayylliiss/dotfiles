@@ -1,0 +1,2 @@
+# Save all videos under `Dropbox/music` directory
+-o /Volumes/Storage/Dropbox/music/%(title)s.%(ext)s
