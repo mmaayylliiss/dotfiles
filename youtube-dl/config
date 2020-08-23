@@ -39,7 +39,7 @@
 # Write video description to a .description file
 #
 # 20200823
-# 🐛 Not working
+# 🐛 Not working (description is truncated)
 # See related issue:
 # [Youtube description info truncates at 160 chars](https://github.com/ytdl-org/youtube-dl/issues/25937)
 # —Maylis
