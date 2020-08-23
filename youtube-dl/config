@@ -1,2 +1,24 @@
-# Save all videos under `Dropbox/music` directory
+# Specify ffmpeg audio quality,
+# insert a value between 0 (better) and 9 (worse)
+--audio-quality 0
+
+# Display progress in console titlebar
+--console-title
+
+# Bypass geographic restriction via faking X-Forwarded-For HTTP header
+--geo-bypass
+
+# Mark videos watched (YouTube only)
+--mark-watched
+
+# Save all downloads under `Dropbox/music` directory
 -o /Volumes/Storage/Dropbox/music/%(title)s.%(ext)s
+
+# Write thumbnail image to disk
+--write-thumbnail
+
+# Convert video files to audio-only files (requires ffmpeg)
+-x
+
+# Download the playlist, if the URL refers to a video and a playlist
+--yes-playlist
