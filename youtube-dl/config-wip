@@ -12,5 +12,6 @@
 
 # 20200823
 # 🚧 Draft for output template
+# See https://github.com/ytdl-org/youtube-dl#output-template
 # —Maylis
 -o '/Volumes/Storage/Dropbox/music/%(artist)s/%(album)s/%(track_number)s %(track)s.%(ext)s'
