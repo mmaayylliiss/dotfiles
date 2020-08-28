@@ -1,5 +1,5 @@
 # Write metadata to the video file
---add-metadata
+# --add-metadata
 
 # Specify audio format:
 # 'best', 'aac', 'flac', 'mp3', 'm4a', 'opus', 'vorbis', or 'wav';
@@ -34,10 +34,7 @@
 --mark-watched
 
 # Save all downloads under `Dropbox/music` directory
--o '/Volumes/Storage/Dropbox/music/%(title)s.%(ext)s'
-
-# Do not overwrite files
-# -w
+-o '/Volumes/Storage/Dropbox/music/_youtube-dl/%(playlist_index)s %(title)s.%(ext)s'
 
 # Write video description to a .description file
 #
@@ -46,10 +43,10 @@
 # See related issue:
 # [Youtube description info truncates at 160 chars](https://github.com/ytdl-org/youtube-dl/issues/25937)
 # —Maylis
---write-description
+# --write-description
 
 # Write thumbnail image to disk
---write-thumbnail
+# --write-thumbnail
 
 # Convert video files to audio-only files (requires ffmpeg)
 -x
