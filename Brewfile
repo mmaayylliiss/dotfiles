@@ -35,7 +35,6 @@ brew "navi"
 brew "pastel"
 brew "ssh-copy-id"
 brew "tree"
-brew "yarn"
 brew "youtube-dl"
 
 mas "Numbers", id: 409203825
