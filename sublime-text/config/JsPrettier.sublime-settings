@@ -1,5 +1,5 @@
 {
-  "auto_format_on_save": true,
+  "auto_format_on_save": false,
   "auto_format_on_save_excludes": [
     "*.html",
     "*.json",
@@ -7,5 +7,8 @@
     "*.yml"
   ],
   "node_path": "$HOME/.asdf/installs/nodejs/10.16.3/bin/node",
-  "prettier_cli_path": "$HOME/.asdf/installs/nodejs/10.16.3/.npm/bin/prettier"
+  "prettier_cli_path": "$HOME/.asdf/installs/nodejs/14.11.0/.npm/bin/prettier",
+  "additional_cli_args": {
+    "--embedded-language-formatting": "off"
+  }
 }
