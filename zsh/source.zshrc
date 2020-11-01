@@ -1,7 +1,7 @@
 source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 
 ## asdf https://github.com/asdf-vm/asdf
-. /usr/local/opt/asdf/asdf.sh
+. $HOME/.asdf/asdf.sh
 
 ## youtube-dl https://github.com/ytdl-org/youtube-dl
 alias yt="youtube-dl"
