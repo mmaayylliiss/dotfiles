@@ -1,7 +1,6 @@
 {
 	"extensions":
 	[
-		"config",
-		"config-wip"
+		"config"
 	]
 }
