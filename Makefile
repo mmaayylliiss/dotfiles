@@ -1,21 +1,10 @@
-.PHONY: setup prezto_install prezto_save subl_install subl_save smerge_install smerge_save zsh_install zsh_save git_install git_save youtube_dl_install youtube_dl_save all_install all_save help
+.PHONY: setup subl_install subl_save smerge_install smerge_save zsh_install zsh_save git_install git_save youtube_dl_install youtube_dl_save all_install all_save help
 .DEFAULT_GOAL := help
 
 setup: ## Install softwares and stuff
 	@brew bundle
 	@open /usr/local/Caskroom/adobe-creative-cloud/latest/Creative\ Cloud\ Installer.app
 	@open /Applications/CraftManager.app
-
-prezto_install: ## Install Prezto configuration files
-	@cp prezto/source.zpreztorc ~/.zpreztorc
-	@echo "👍 Prezto installed"
-
-prezto_save: ## Save Prezto configuration files
-	@cp ~/.zpreztorc prezto/source.zpreztorc
-	@git add prezto/
-	@git commit -m "🔧 Update Prezto"
-	@git push
-	@echo "💾 Prezto saved"
 
 SUBL_CONFIG_DIR := /Users/maylisagniel/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
@@ -79,9 +68,9 @@ youtube_dl_save: ## Save youtube-dl configuration
 	@git push
 	@echo "💾 youtube-dl saved"
 
-all_install: prezto_install subl_install smerge_install zsh_install git_install youtube_dl_install ## Install all configuration files
+all_install: subl_install smerge_install zsh_install git_install youtube_dl_install ## Install all configuration files
 
-all_save: prezto_save subl_save smerge_save zsh_save git_save youtube_dl_save ## Save all configuration files
+all_save: subl_save smerge_save zsh_save git_save youtube_dl_save ## Save all configuration files
 
 help: ## List available commands
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
