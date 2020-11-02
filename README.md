@@ -78,6 +78,10 @@ Install [**Package Control**](https://packagecontrol.io/installation)
 
 1. Disable Chrome cache while DevTools is open
 2. Set Desktop as destination folder in *Downloads*
+3. Install the following extensions:
+  - [**Neat URL**](https://chrome.google.com/webstore/detail/neat-url/jchobbjgibcahbheicfocecmhocglkco)
+  - [**uBlock Origin**](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+  - [**Vue.js devtools**](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
 
 <a name="sketch"></a>
 ![](documentation-images/sketch.gif)
