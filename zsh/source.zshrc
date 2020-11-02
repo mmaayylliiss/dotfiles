@@ -1,9 +1,17 @@
 source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 
 ## asdf https://github.com/asdf-vm/asdf
-. $HOME/.asdf/asdf.sh
+. /usr/local/opt/asdf/asdf.sh
 
-## youtube-dl https://github.com/ytdl-org/youtube-dl
+## beets http://beets.io
+alias beetalbum="beet import ~/Desktop/music-wip"
+alias beetsingleton="beet import -s ~/Desktop/music-wip"
+
+## macOS
+alias showhiddenfiles="defaults write com.apple.finder AppleShowAllFiles YES"
+alias hidehiddenfiles="defaults write com.apple.finder AppleShowAllFiles NO"
+
+## youtube-dl https://youtube-dl.org
 alias yt="youtube-dl"
 
 ## Kill a process by its port
