@@ -3,9 +3,14 @@ source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 ## asdf https://github.com/asdf-vm/asdf
 . /usr/local/opt/asdf/asdf.sh
 
-## beets http://beets.io
-alias beetalbum="beet import ~/Desktop/music-wip"
-alias beetsingleton="beet import -s ~/Desktop/music-wip"
+## beets https://beets.readthedocs.io
+
+# Run beets in album mode (default)
+alias beetalbum="beet import /Volumes/Storage/Dropbox/music-wip"
+
+# Run beets in singleton mode, tagging individual tracks
+# instead of whole albums at a time
+alias beetsingleton="beet import -s /Volumes/Storage/Dropbox/music-wip"
 
 ## macOS
 alias showhiddenfiles="defaults write com.apple.finder AppleShowAllFiles YES"
