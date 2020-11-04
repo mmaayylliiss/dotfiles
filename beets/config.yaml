@@ -1,0 +1,27 @@
+directory: /Volumes/Storage/Dropbox/music
+
+import:
+    move: yes
+
+# Plugins
+#
+# EmbedArt https://beets.readthedocs.io/en/stable/plugins/embedart.html
+# FetchArt https://beets.readthedocs.io/en/stable/plugins/fetchart.html
+# FromFilename https://beets.readthedocs.io/en/stable/plugins/fromfilename.html
+plugins: embedart fetchart fromfilename
+
+# EmbedArt config
+embedart:
+  # Enable automatic album art embedding
+  auto: no
+  # Avoid embedding album art for files that already have art embedded
+  ifempty: yes
+  # Automatically remove the album art file for the album after it has been embedded
+  remove_art_file: yes
+
+# FetchArt config
+fetchart:
+    # Enable automatic album art fetching during import
+    auto: no
+    # Only images with a width:height ratio of 1:1 are considered as valid album art candidates if set to yes
+    enforce_ratio: yes

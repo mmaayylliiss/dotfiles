@@ -1,10 +1,23 @@
-.PHONY: setup git-install git-save quodlibet-install quodlibet-save sublime-merge-install sublime-merge-save sublime-text-install sublime-text-save youtube-dl-install youtube-dl-save zsh-install zsh-save all-install all-save help
+.PHONY: setup beets-install beets-save git-install git-save quodlibet-install quodlibet-save sublime-merge-install sublime-merge-save sublime-text-install sublime-text-save youtube-dl-install youtube-dl-save zsh-install zsh-save all-install all-save help
 .DEFAULT_GOAL := help
 
 setup: ## Install softwares and stuff
 	@brew bundle
 	@open /usr/local/Caskroom/adobe-creative-cloud/latest/Creative\ Cloud\ Installer.app
 	@open /Applications/CraftManager.app
+
+beets-install: ## Install beets config
+	@cp beets/config.yaml ~/.config/beets/config.yaml
+	@cp beets/library.db ~/.config/beets/library.db
+	@echo "👍 beets config is installed"
+
+beets-save: ## Save beets config
+	@cp ~/.config/beets/config.yaml beets/config.yaml
+	@cp ~/.config/beets/library.db beets/library.db
+	@git add beets/
+	@git commit -m "🔧 Update beets config"
+	@git push
+	@echo "💾 beets config is saved"
 
 git-install: ## Install Git config
 	@cp git/gitconfig ~/.gitconfig
@@ -81,9 +94,9 @@ zsh-save: ## Save Zsh config
 	@git push
 	@echo "💾 Zsh config is saved"
 
-all-install: git-install quodlibet-install sublime-merge-install sublime-text-install youtube-dl-install zsh-install ## Install all config
+all-install: beets-install git-install quodlibet-install sublime-merge-install sublime-text-install youtube-dl-install zsh-install ## Install all config
 
-all-save: git-save quodlibet-save sublime-merge-save sublime-text-save youtube-dl-save zsh-save ## Save all config
+all-save: beets-save git-save quodlibet-save sublime-merge-save sublime-text-save youtube-dl-save zsh-save ## Save all config
 
 help: ## List available commands
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
