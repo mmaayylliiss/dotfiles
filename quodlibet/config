@@ -15,7 +15,7 @@ open_browsers =
 plugin_prefs_maximized = 0
 plugin_prefs_position = 0 0
 plugin_prefs_size_ = 700 500
-plugin_selection = Theme Switcher
+plugin_selection = WaveformSeekBar
 prefs_page = library
 queue_disable = False
 queue_expanded = False
@@ -46,5 +46,6 @@ version = 0
 
 [plugins]
 active_plugins = Theme Switcher
+	WaveformSeekBar
 theme switcher_theme = HighContrastInverse
 
