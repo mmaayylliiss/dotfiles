@@ -7,12 +7,14 @@ setup: ## Install softwares and stuff
 	@open /Applications/CraftManager.app
 
 quodlibet_install: ## Install QuodLibet configuration
+	@cp quodlibet/album_pattern ~/.quodlibet/album_pattern
 	@cp quodlibet/config ~/.quodlibet/config
 	@echo "👍 QuodLibet installed"
 
 quodlibet_save: ## Save QuodLibet configuration
+	@cp ~/.quodlibet/album_pattern quodlibet/album_pattern
 	@cp ~/.quodlibet/config quodlibet/config
-	@git add quodlibet/config
+	@git add quodlibet/
 	@git commit -m "🔧 Update QuodLibet"
 	@git push
 	@echo "💾 QuodLibet saved"
