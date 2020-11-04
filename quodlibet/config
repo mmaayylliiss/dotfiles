@@ -12,6 +12,10 @@ column_expands = ~people,1,~title~version,1,~album~discsubtitle,1
 column_widths = ~people,-1,~title~version,-1,~album~discsubtitle,-1
 	
 open_browsers = 
+plugin_prefs_maximized = 0
+plugin_prefs_position = 0 0
+plugin_prefs_size_ = 700 500
+plugin_selection = Theme Switcher
 prefs_page = library
 queue_disable = False
 queue_expanded = False
@@ -34,7 +38,6 @@ albums =
 pane_selection = 0	.
 	0	.
 panedbrowser_pane_widths = 0.5
-	
 panedbrowser_pos = 0.40061162079510704
 query_text = 
 
@@ -42,5 +45,6 @@ query_text =
 version = 0
 
 [plugins]
-active_plugins = 
+active_plugins = Theme Switcher
+theme switcher_theme = HighContrastInverse
 
