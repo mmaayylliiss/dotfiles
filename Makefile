@@ -7,11 +7,11 @@ setup: ## Install softwares and stuff
 	@open /Applications/CraftManager.app
 
 git_install: ## Install Git config
-	@cp git/config ~/.gitconfig
+	@cp git/gitconfig ~/.gitconfig
 	@echo "👍 Git config is installed"
 
 git_save: ## Save Git config
-	@cp ~/.gitconfig git/config
+	@cp ~/.gitconfig git/gitconfig
 	@git add git/
 	@git commit -m "🔧 Update Git config"
 	@git push
