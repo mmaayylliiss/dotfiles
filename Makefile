@@ -1,4 +1,4 @@
-.PHONY: setup git_install git_save quodlibet_install quodlibet_save subl_install subl_save smerge_install smerge_save zsh_install zsh_save youtube_dl_install youtube_dl_save all_install all_save help
+.PHONY: setup git_install git_save quodlibet_install quodlibet_save smerge_install smerge_save subl_install subl_save zsh_install zsh_save youtube_dl_install youtube_dl_save all_install all_save help
 .DEFAULT_GOAL := help
 
 setup: ## Install softwares and stuff
@@ -30,6 +30,19 @@ quodlibet_save: ## Save QuodLibet configuration
 	@git push
 	@echo "💾 QuodLibet saved"
 
+SMERGE_CONFIG_DIR := /Users/maylisagniel/Library/Application\ Support/Sublime\ Merge/Packages/User
+
+smerge_install: ## Install Sublime Merge configuration files
+	@cp sublime-merge/config/* $(SMERGE_CONFIG_DIR)/
+	@echo "👍 Sublime Merge installed"
+
+smerge_save: ## Save Sublime Merge configuration files
+	@cp $(SMERGE_CONFIG_DIR)/*.sublime-settings sublime-merge/config/
+	@git add sublime-merge/
+	@git commit -m "🔧 Update Sublime Merge"
+	@git push
+	@echo "💾 Sublime Merge saved"
+
 SUBL_CONFIG_DIR := /Users/maylisagniel/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
 /usr/local/bin/subl:
@@ -45,19 +58,6 @@ subl_save: ## Save Sublime Text configuration files
 	@git commit -m "🔧 Update Sublime Text"
 	@git push
 	@echo "💾 Sublime Text saved"
-
-SMERGE_CONFIG_DIR := /Users/maylisagniel/Library/Application\ Support/Sublime\ Merge/Packages/User
-
-smerge_install: ## Install Sublime Merge configuration files
-	@cp sublime-merge/config/* $(SMERGE_CONFIG_DIR)/
-	@echo "👍 Sublime Merge installed"
-
-smerge_save: ## Save Sublime Merge configuration files
-	@cp $(SMERGE_CONFIG_DIR)/*.sublime-settings sublime-merge/config/
-	@git add sublime-merge/
-	@git commit -m "🔧 Update Sublime Merge"
-	@git push
-	@echo "💾 Sublime Merge saved"
 
 zsh_install: ## Install Zsh configuration files
 	@cp zsh/source.zshrc ~/.zshrc
@@ -81,9 +81,9 @@ youtube_dl_save: ## Save youtube-dl configuration
 	@git push
 	@echo "💾 youtube-dl saved"
 
-all_install: git_install quodlibet_install subl_install smerge_install zsh_install youtube_dl_install ## Install all configuration files
+all_install: git_install quodlibet_install smerge_install subl_install zsh_install youtube_dl_install ## Install all configuration files
 
-all_save: git_save quodlibet_save subl_save smerge_save zsh_save youtube_dl_save ## Save all configuration files
+all_save: git_save quodlibet_save smerge_save subl_save zsh_save youtube_dl_save ## Save all configuration files
 
 help: ## List available commands
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
