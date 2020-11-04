@@ -30,30 +30,30 @@ quodlibet_save: ## Save QuodLibet config
 	@git push
 	@echo "💾 QuodLibet config is saved"
 
-SMERGE_CONFIG_DIR := /Users/maylisagniel/Library/Application\ Support/Sublime\ Merge/Packages/User
+SUBLIME_MERGE_CONFIG_DIR := /Users/maylisagniel/Library/Application\ Support/Sublime\ Merge/Packages/User
 
 sublime_merge_install: ## Install Sublime Merge config
-	@cp sublime-merge/* $(SMERGE_CONFIG_DIR)/
+	@cp sublime-merge/* $(SUBLIME_MERGE_CONFIG_DIR)/
 	@echo "👍 Sublime Merge config is installed"
 
 sublime_merge_save: ## Save Sublime Merge config
-	@cp $(SMERGE_CONFIG_DIR)/*.sublime-settings sublime-merge/
+	@cp $(SUBLIME_MERGE_CONFIG_DIR)/*.sublime-settings sublime-merge/
 	@git add sublime-merge/
 	@git commit -m "🔧 Update Sublime Merge config"
 	@git push
 	@echo "💾 Sublime Merge config is saved"
 
-SUBL_CONFIG_DIR := /Users/maylisagniel/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+SUBLIME_TEXT_CONFIG_DIR := /Users/maylisagniel/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
 /usr/local/bin/subl:
 	@ln -s /Applications/Sublime Text.app/Contents/SharedSupport/bin/subl /usr/local/bin
 
 sublime_text_install: /usr/local/bin/subl ## Install Sublime Text config
-	@cp sublime-text/* $(SUBL_CONFIG_DIR)/
+	@cp sublime-text/* $(SUBLIME_TEXT_CONFIG_DIR)/
 	@echo "👍 Sublime Text config is installed"
 
 sublime_text_save: ## Save Sublime Text config
-	@cp $(SUBL_CONFIG_DIR)/*.sublime-settings sublime-text/
+	@cp $(SUBLIME_TEXT_CONFIG_DIR)/*.sublime-settings sublime-text/
 	@git add sublime-text/
 	@git commit -m "🔧 Update Sublime Text config"
 	@git push
