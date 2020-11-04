@@ -1,5 +1,5 @@
 #@name Maylis Agniel dotfiles
-#@description My local configuration for working on web stuff on a Mac.
+#@description 🖥 My local configuration for working on web stuff on a Mac.
 #@color-title #40e0d0
 #@color-subtitle #ff0000
 #@color-link #0000ff
