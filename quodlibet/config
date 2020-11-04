@@ -5,7 +5,7 @@ default_rating = 0.5
 scan = /Volumes/Storage/Dropbox/music
 
 [memory]
-browser = PanedBrowser
+browser = AlbumList
 chooser_dir = /Users/maylisagniel
 column_expands = ~people,1,~title~version,1,~album~discsubtitle,1
 	
@@ -29,6 +29,8 @@ replaygain = true
 replaygain_mode = auto
 
 [browsers]
+albumlist_pos = 0.4
+albums = 
 pane_selection = 0	.
 	0	.
 panedbrowser_pane_widths = 0.5
