@@ -1,2 +1,5 @@
 # macOS stuff
 .DS_Store
+
+# Misc.
+bin
