@@ -71,11 +71,11 @@ youtube_dl_save: ## Save youtube-dl config
 	@echo "💾 youtube-dl config is saved"
 
 zsh_install: ## Install Zsh config
-	@cp zsh/source.zshrc ~/.zshrc
+	@cp zsh/zshrc ~/.zshrc
 	@echo "👍 Zsh config is installed"
 
 zsh_save: ## Save Zsh config
-	@cp ~/.zshrc zsh/source.zshrc
+	@cp ~/.zshrc zsh/zshrc
 	@git add zsh/
 	@git commit -m "🔧 Update Zsh config"
 	@git push
