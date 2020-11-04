@@ -65,7 +65,7 @@ git_install: ## Install Git configuration
 
 git_save: ## Save Git configuration
 	@cp ~/.gitconfig git/config
-	@git add git/config
+	@git add git/
 	@git commit -m "🔧 Update Git"
 	@git push
 	@echo "💾 Git saved"
@@ -76,7 +76,7 @@ youtube_dl_install: ## Install youtube-dl configuration
 
 youtube_dl_save: ## Save youtube-dl configuration
 	@cp ~/.config/youtube-dl/config youtube-dl/config
-	@git add youtube-dl/config
+	@git add youtube-dl/
 	@git commit -m "🔧 Update youtube-dl"
 	@git push
 	@echo "💾 youtube-dl saved"
