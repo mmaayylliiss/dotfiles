@@ -1,4 +1,4 @@
-.PHONY: setup git_install git_save quodlibet_install quodlibet_save smerge_install smerge_save subl_install subl_save zsh_install zsh_save youtube_dl_install youtube_dl_save all_install all_save help
+.PHONY: setup git_install git_save quodlibet_install quodlibet_save smerge_install smerge_save subl_install subl_save youtube_dl_install youtube_dl_save zsh_install zsh_save all_install all_save help
 .DEFAULT_GOAL := help
 
 setup: ## Install softwares and stuff
@@ -59,17 +59,6 @@ subl_save: ## Save Sublime Text configuration files
 	@git push
 	@echo "💾 Sublime Text saved"
 
-zsh_install: ## Install Zsh configuration files
-	@cp zsh/source.zshrc ~/.zshrc
-	@echo "👍 Zsh installed"
-
-zsh_save: ## Save Zsh configuration files
-	@cp ~/.zshrc zsh/source.zshrc
-	@git add zsh/
-	@git commit -m "🔧 Update Zsh"
-	@git push
-	@echo "💾 Zsh saved"
-
 youtube_dl_install: ## Install youtube-dl configuration
 	@cp youtube-dl/config ~/.config/youtube-dl/config
 	@echo "👍 youtube-dl installed"
@@ -81,9 +70,20 @@ youtube_dl_save: ## Save youtube-dl configuration
 	@git push
 	@echo "💾 youtube-dl saved"
 
-all_install: git_install quodlibet_install smerge_install subl_install zsh_install youtube_dl_install ## Install all configuration files
+zsh_install: ## Install Zsh configuration files
+	@cp zsh/source.zshrc ~/.zshrc
+	@echo "👍 Zsh installed"
 
-all_save: git_save quodlibet_save smerge_save subl_save zsh_save youtube_dl_save ## Save all configuration files
+zsh_save: ## Save Zsh configuration files
+	@cp ~/.zshrc zsh/source.zshrc
+	@git add zsh/
+	@git commit -m "🔧 Update Zsh"
+	@git push
+	@echo "💾 Zsh saved"
+
+all_install: git_install quodlibet_install smerge_install subl_install youtube_dl_install zsh_install ## Install all configuration files
+
+all_save: git_save quodlibet_save smerge_save subl_save youtube_dl_save zsh_save ## Save all configuration files
 
 help: ## List available commands
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
