@@ -1,10 +1,21 @@
-.PHONY: setup quodlibet_install quodlibet_save subl_install subl_save smerge_install smerge_save zsh_install zsh_save git_install git_save youtube_dl_install youtube_dl_save all_install all_save help
+.PHONY: setup git_install git_save quodlibet_install quodlibet_save subl_install subl_save smerge_install smerge_save zsh_install zsh_save youtube_dl_install youtube_dl_save all_install all_save help
 .DEFAULT_GOAL := help
 
 setup: ## Install softwares and stuff
 	@brew bundle
 	@open /usr/local/Caskroom/adobe-creative-cloud/latest/Creative\ Cloud\ Installer.app
 	@open /Applications/CraftManager.app
+
+git_install: ## Install Git configuration
+	@cp git/config ~/.gitconfig
+	@echo "👍 Git installed"
+
+git_save: ## Save Git configuration
+	@cp ~/.gitconfig git/config
+	@git add git/
+	@git commit -m "🔧 Update Git"
+	@git push
+	@echo "💾 Git saved"
 
 quodlibet_install: ## Install QuodLibet configuration
 	@cp quodlibet/album_pattern ~/.quodlibet/album_pattern
@@ -59,17 +70,6 @@ zsh_save: ## Save Zsh configuration files
 	@git push
 	@echo "💾 Zsh saved"
 
-git_install: ## Install Git configuration
-	@cp git/config ~/.gitconfig
-	@echo "👍 Git installed"
-
-git_save: ## Save Git configuration
-	@cp ~/.gitconfig git/config
-	@git add git/
-	@git commit -m "🔧 Update Git"
-	@git push
-	@echo "💾 Git saved"
-
 youtube_dl_install: ## Install youtube-dl configuration
 	@cp youtube-dl/config ~/.config/youtube-dl/config
 	@echo "👍 youtube-dl installed"
@@ -81,9 +81,9 @@ youtube_dl_save: ## Save youtube-dl configuration
 	@git push
 	@echo "💾 youtube-dl saved"
 
-all_install: quodlibet_install subl_install smerge_install zsh_install git_install youtube_dl_install ## Install all configuration files
+all_install: git_install quodlibet_install subl_install smerge_install zsh_install youtube_dl_install ## Install all configuration files
 
-all_save: quodlibet_save subl_save smerge_save zsh_save git_save youtube_dl_save ## Save all configuration files
+all_save: git_save quodlibet_save subl_save smerge_save zsh_save youtube_dl_save ## Save all configuration files
 
 help: ## List available commands
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
