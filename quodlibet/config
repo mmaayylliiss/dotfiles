@@ -21,7 +21,7 @@ queue_disable = False
 queue_expanded = False
 quodlibet_last_active_version = 4.3.0
 quodlibet_maximized = 0
-quodlibet_position = 451 150
+quodlibet_position = 408 202
 quodlibet_size_ = 1624 944
 seek = 0
 sidebar_pos = 0.25
@@ -33,6 +33,8 @@ replaygain = true
 replaygain_mode = auto
 
 [browsers]
+album_covers = true
+album_substrings = true
 albumlist_pos = 0.22844827586206898
 albums = 
 pane_selection = 0	.
