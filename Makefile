@@ -1,10 +1,21 @@
-.PHONY: setup subl_install subl_save smerge_install smerge_save zsh_install zsh_save git_install git_save youtube_dl_install youtube_dl_save all_install all_save help
+.PHONY: setup quodlibet_install quodlibet_save subl_install subl_save smerge_install smerge_save zsh_install zsh_save git_install git_save youtube_dl_install youtube_dl_save all_install all_save help
 .DEFAULT_GOAL := help
 
 setup: ## Install softwares and stuff
 	@brew bundle
 	@open /usr/local/Caskroom/adobe-creative-cloud/latest/Creative\ Cloud\ Installer.app
 	@open /Applications/CraftManager.app
+
+quodlibet_install: ## Install QuodLibet configuration
+	@cp quodlibet/config ~/.quodlibet/config
+	@echo "👍 QuodLibet installed"
+
+quodlibet_save: ## Save QuodLibet configuration
+	@cp ~/.quodlibet/config quodlibet/config
+	@git add quodlibet/config
+	@git commit -m "🔧 Update QuodLibet"
+	@git push
+	@echo "💾 QuodLibet saved"
 
 SUBL_CONFIG_DIR := /Users/maylisagniel/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
@@ -68,9 +79,9 @@ youtube_dl_save: ## Save youtube-dl configuration
 	@git push
 	@echo "💾 youtube-dl saved"
 
-all_install: subl_install smerge_install zsh_install git_install youtube_dl_install ## Install all configuration files
+all_install: quodlibet_install subl_install smerge_install zsh_install git_install youtube_dl_install ## Install all configuration files
 
-all_save: subl_save smerge_save zsh_save git_save youtube_dl_save ## Save all configuration files
+all_save: quodlibet_save subl_save smerge_save zsh_save git_save youtube_dl_save ## Save all configuration files
 
 help: ## List available commands
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
