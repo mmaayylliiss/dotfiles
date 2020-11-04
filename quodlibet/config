@@ -21,17 +21,17 @@ queue_disable = False
 queue_expanded = False
 quodlibet_last_active_version = 4.3.0
 quodlibet_maximized = 0
-quodlibet_position = 407 92
+quodlibet_position = 407 23
 quodlibet_properties_maximized = 0
-quodlibet_properties_pos = 0.20666666666666667
-quodlibet_properties_position = 576 250
+quodlibet_properties_pos = 0.2059447983014862
+quodlibet_properties_position = 576 184
 quodlibet_properties_size_ = 600 400
 quodlibet_properties_size_single = 471 400
 quodlibet_size_ = 1624 944
 seek = 0
 sidebar_pos = 0.25
-song = /Volumes/Storage/Dropbox/music/Non-Album/Connan Mockasin/Boiler Room In Stereo.m4a
-sortby = 0~#track
+song = 
+sortby = 0album
 	
 volume = 1.0
 
@@ -56,8 +56,8 @@ query_text =
 version = 0
 
 [plugins]
-active_plugins = WaveformSeekBar
-	Theme Switcher
+active_plugins = Theme Switcher
+	WaveformSeekBar
 theme switcher_theme = HighContrastInverse
 
 [rename]
