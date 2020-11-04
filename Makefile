@@ -33,11 +33,11 @@ quodlibet_save: ## Save QuodLibet config
 SMERGE_CONFIG_DIR := /Users/maylisagniel/Library/Application\ Support/Sublime\ Merge/Packages/User
 
 smerge_install: ## Install Sublime Merge config
-	@cp sublime-merge/config/* $(SMERGE_CONFIG_DIR)/
+	@cp sublime-merge/* $(SMERGE_CONFIG_DIR)/
 	@echo "👍 Sublime Merge config is installed"
 
 smerge_save: ## Save Sublime Merge config
-	@cp $(SMERGE_CONFIG_DIR)/*.sublime-settings sublime-merge/config/
+	@cp $(SMERGE_CONFIG_DIR)/*.sublime-settings sublime-merge/
 	@git add sublime-merge/
 	@git commit -m "🔧 Update Sublime Merge config"
 	@git push
@@ -49,11 +49,11 @@ SUBL_CONFIG_DIR := /Users/maylisagniel/Library/Application\ Support/Sublime\ Tex
 	@ln -s /Applications/Sublime Text.app/Contents/SharedSupport/bin/subl /usr/local/bin
 
 subl_install: /usr/local/bin/subl ## Install Sublime Text config
-	@cp sublime-text/config/* $(SUBL_CONFIG_DIR)/
+	@cp sublime-text/* $(SUBL_CONFIG_DIR)/
 	@echo "👍 Sublime Text config is installed"
 
 subl_save: ## Save Sublime Text config
-	@cp $(SUBL_CONFIG_DIR)/*.sublime-settings sublime-text/config/
+	@cp $(SUBL_CONFIG_DIR)/*.sublime-settings sublime-text/
 	@git add sublime-text/
 	@git commit -m "🔧 Update Sublime Text config"
 	@git push
