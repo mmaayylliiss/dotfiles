@@ -1,7 +1,7 @@
 directory: /Volumes/Storage/Dropbox/music
 
 import:
-    move: yes
+  move: yes
 
 # Plugins
 #
@@ -21,7 +21,7 @@ embedart:
 
 # FetchArt config
 fetchart:
-    # Enable automatic album art fetching during import
-    auto: yes
-    # Only images with a width:height ratio of 1:1 are considered as valid album art candidates if set to yes
-    enforce_ratio: yes
+  # Enable automatic album art fetching during import
+  auto: yes
+  # Only images with a width:height ratio of 1:1 are considered as valid album art candidates if set to yes
+  enforce_ratio: yes
