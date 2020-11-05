@@ -20,7 +20,7 @@ setup:
 beets-install:
 	@cp beets/config.yaml ~/.config/beets/config.yaml
 	@cp beets/library.db ~/.config/beets/library.db
-	@echo "👍 beets config is installed"
+	@echo "🎉 beets config is installed"
 
 .PHONY: beets-save
 ## Save beets config
@@ -36,7 +36,7 @@ beets-save:
 ## Install Git config
 git-install:
 	@cp git/gitconfig ~/.gitconfig
-	@echo "👍 Git config is installed"
+	@echo "🎉 Git config is installed"
 
 .PHONY: git-save
 ## Save Git config
@@ -52,7 +52,7 @@ git-save:
 quodlibet-install:
 	@cp quodlibet/album_pattern ~/.quodlibet/album_pattern
 	@cp quodlibet/config ~/.quodlibet/config
-	@echo "👍 QuodLibet config is installed"
+	@echo "🎉 QuodLibet config is installed"
 
 .PHONY: quodlibet-save
 ## Save QuodLibet config
@@ -70,7 +70,7 @@ SUBLIME_MERGE_CONFIG_DIR := /Users/maylisagniel/Library/Application\ Support/Sub
 ## Install Sublime Merge config
 sublime-merge-install:
 	@cp sublime-merge/* $(SUBLIME_MERGE_CONFIG_DIR)/
-	@echo "👍 Sublime Merge config is installed"
+	@echo "🎉 Sublime Merge config is installed"
 
 .PHONY: sublime-merge-save
 ## Save Sublime Merge config
@@ -90,7 +90,7 @@ SUBLIME_TEXT_CONFIG_DIR := /Users/maylisagniel/Library/Application\ Support/Subl
 ## Install Sublime Text config
 sublime-text-install: /usr/local/bin/subl
 	@cp sublime-text/* $(SUBLIME_TEXT_CONFIG_DIR)/
-	@echo "👍 Sublime Text config is installed"
+	@echo "🎉 Sublime Text config is installed"
 
 .PHONY: sublime-text-save
 ## Save Sublime Text config
@@ -105,7 +105,7 @@ sublime-text-save:
 ## Install youtube-dl config
 youtube-dl-install:
 	@cp youtube-dl/config ~/.config/youtube-dl/config
-	@echo "👍 youtube-dl config is installed"
+	@echo "🎉 youtube-dl config is installed"
 
 .PHONY: youtube-dl-save
 ## Save youtube-dl config
@@ -120,7 +120,7 @@ youtube-dl-save:
 ## Install Zsh config
 zsh-install:
 	@cp zsh/zshrc ~/.zshrc
-	@echo "👍 Zsh config is installed"
+	@echo "🎉 Zsh config is installed"
 
 .PHONY: zsh-save
 ## Save Zsh config
