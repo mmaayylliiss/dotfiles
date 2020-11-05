@@ -64,24 +64,24 @@ quodlibet-save:
 	@git push
 	@echo "💾 QuodLibet config is saved"
 
-SUBLIME_MERGE_CONFIG_DIR := /Users/maylisagniel/Library/Application\ Support/Sublime\ Merge/Packages/User
+SUBLIME_MERGE := /Users/maylisagniel/Library/Application\ Support/Sublime\ Merge/Packages/User
 
 .PHONY: sublime-merge-install
 ## Install Sublime Merge config
 sublime-merge-install:
-	@cp sublime-merge/* $(SUBLIME_MERGE_CONFIG_DIR)/
+	@cp sublime-merge/* $(SUBLIME_MERGE)/
 	@echo "🎉 Sublime Merge config is installed"
 
 .PHONY: sublime-merge-save
 ## Save Sublime Merge config
 sublime-merge-save:
-	@cp $(SUBLIME_MERGE_CONFIG_DIR)/*.sublime-settings sublime-merge/
+	@cp $(SUBLIME_MERGE)/*.sublime-settings sublime-merge/
 	@git add sublime-merge/
 	@git commit -m "🔧 Update Sublime Merge config"
 	@git push
 	@echo "💾 Sublime Merge config is saved"
 
-SUBLIME_TEXT_CONFIG_DIR := /Users/maylisagniel/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+SUBLIME_TEXT := /Users/maylisagniel/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
 /usr/local/bin/subl:
 	@ln -s /Applications/Sublime Text.app/Contents/SharedSupport/bin/subl /usr/local/bin
@@ -89,13 +89,13 @@ SUBLIME_TEXT_CONFIG_DIR := /Users/maylisagniel/Library/Application\ Support/Subl
 .PHONY: sublime-text-install
 ## Install Sublime Text config
 sublime-text-install: /usr/local/bin/subl
-	@cp sublime-text/* $(SUBLIME_TEXT_CONFIG_DIR)/
+	@cp sublime-text/* $(SUBLIME_TEXT)/
 	@echo "🎉 Sublime Text config is installed"
 
 .PHONY: sublime-text-save
 ## Save Sublime Text config
 sublime-text-save:
-	@cp $(SUBLIME_TEXT_CONFIG_DIR)/*.sublime-settings sublime-text/
+	@cp $(SUBLIME_TEXT)/*.sublime-settings sublime-text/
 	@git add sublime-text/
 	@git commit -m "🔧 Update Sublime Text config"
 	@git push
