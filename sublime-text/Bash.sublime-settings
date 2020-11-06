@@ -2,7 +2,6 @@
 	"extensions":
 	[
 		".zshrc",
-		"config",
-		"zshrc"
+		"config"
 	]
 }
