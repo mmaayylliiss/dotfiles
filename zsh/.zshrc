@@ -2,7 +2,7 @@
 source <(antibody init)
 antibody bundle < ~/.zsh_plugins.txt
 
-## asdf https://github.com/asdf-vm/asdf
+## asdf https://asdf-vm.com
 . /usr/local/opt/asdf/asdf.sh
 
 ## beets https://beets.readthedocs.io
