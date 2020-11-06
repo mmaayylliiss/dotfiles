@@ -4,13 +4,12 @@
 <p align="center">
   This is <strong>my local configuration</strong>
   <br>
-  for working on web stuff on a Mac.
+  for working on web stuff on a <strong>Mac<strong>.
 </p>
 
 - - -
 
 ## 📝 Table of contents
-- [**Prerequisites**](#prerequisites)
 - [**Commands**](#commands)
 - [**Software manual configuration**](#software-manual-configuration)
   - [**Font Book**](#font-book)
@@ -24,10 +23,6 @@
 - [**License**](#license)
 
 - - -
-
-<a name="prerequisites"></a>
-## ⚙️ Prerequisites
-- [**Brew**](https://brew.sh)
 
 <a name="commands"></a>
 ## ⌨️ Commands
