@@ -2,9 +2,7 @@
   <img src="documentation-images/README-header.gif" alt="">
 </p>
 <p align="center">
-  This is <strong>my local configuration</strong>
-  <br>
-  for working on web stuff on a <strong>Mac<strong>.
+  🖥 My local configuration (macOS)
 </p>
 
 - - -

@@ -1,5 +1,5 @@
 #@name Maylis Agniel dotfiles
-#@description 🖥 My local configuration for working on web stuff on a Mac.
+#@description 🖥 My local configuration (macOS).
 #@color-title #40e0d0
 #@color-subtitle #ff0000
 #@color-link #0000ff
@@ -9,7 +9,7 @@
 SHELL := /usr/bin/env bash
 
 .PHONY: setup
-## Install softwares and stuff
+## Install software
 setup:
 	@brew bundle
 	@open /usr/local/Caskroom/adobe-creative-cloud/latest/Creative\ Cloud\ Installer.app
