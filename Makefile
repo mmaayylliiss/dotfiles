@@ -15,6 +15,21 @@ setup:
 	@open /usr/local/Caskroom/adobe-creative-cloud/latest/Creative\ Cloud\ Installer.app
 	@open /Applications/CraftManager.app
 
+.PHONY: antibody-install
+## Install Antibody config
+antibody-install:
+	@cp antibody/.zsh_plugins.txt ~/.zsh_plugins.txt
+	@echo "🎉 Antibody config is installed"
+
+.PHONY: antibody-save
+## Save Antibody config
+antibody-save:
+	@cp ~/.zsh_plugins.txt antibody/.zsh_plugins.txt
+	@git add antibody/
+	@git commit -m "🔧 Update Antibody config"
+	@git push
+	@echo "💾 Antibody config is saved"
+
 .PHONY: beets-install
 ## Install beets config
 beets-install:
@@ -133,11 +148,11 @@ zsh-save:
 
 .PHONY: all-install
 ## Install all config
-all-install: beets-install git-install quodlibet-install sublime-merge-install sublime-text-install youtube-dl-install zsh-install
+all-install: antibody-install beets-install git-install quodlibet-install sublime-merge-install sublime-text-install youtube-dl-install zsh-install
 
 .PHONY: all-save
 ## Save all config
-all-save: beets-save git-save quodlibet-save sublime-merge-save sublime-text-save youtube-dl-save zsh-save
+all-save: antibody-save beets-save git-save quodlibet-save sublime-merge-save sublime-text-save youtube-dl-save zsh-save
 
 bin/pretty-make:
 	@curl -Ls https://raw.githubusercontent.com/awea/pretty-make/master/scripts/install.sh | bash -s

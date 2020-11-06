@@ -28,7 +28,6 @@
 <a name="prerequisites"></a>
 ## ⚙️ Prerequisites
 - [**Brew**](https://brew.sh)
-- [**Prezto**](https://github.com/sorin-ionescu/prezto)
 
 <a name="commands"></a>
 ## ⌨️ Commands

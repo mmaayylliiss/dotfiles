@@ -20,6 +20,7 @@ cask "sublime-merge"
 cask "sublime-text"
 cask "vlc"
 
+brew "antibody"
 brew "asdf"
 brew "composer"
 brew "coreutils"
