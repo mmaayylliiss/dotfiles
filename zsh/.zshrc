@@ -22,6 +22,9 @@ function killp {
 alias showhiddenfiles="defaults write com.apple.finder AppleShowAllFiles YES"
 alias hidehiddenfiles="defaults write com.apple.finder AppleShowAllFiles NO"
 
+## System
+alias ll="ls -l"
+
 ## youtube-dl https://youtube-dl.org
 alias yt="youtube-dl"
 
