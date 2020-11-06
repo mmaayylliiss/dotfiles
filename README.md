@@ -105,4 +105,4 @@ Set a [mail signature](https://github.com/wearemd/mail-signatures) for each acco
 
 <a name="license"></a>
 ## 📄 License
-**My dotfiles** are licensed under the [GNU General Public License v3.0](LICENSE).
+**Maylis Agniel dotfiles** are licensed under the [GNU General Public License v3.0](LICENSE).
