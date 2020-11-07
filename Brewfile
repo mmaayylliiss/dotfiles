@@ -15,7 +15,7 @@ cask "firefox"
 cask "fontplop"
 # Google Chrome https://www.google.com/chrome/
 cask "google-chrome"
-# iTerm2 https://www.iterm2.com
+# iTerm https://www.iterm2.com
 cask "iterm2"
 # Kap https://getkap.co
 cask "kap"
@@ -60,7 +60,7 @@ brew "imagemagick"
 brew "jesseduffield/lazydocker/lazydocker"
 # jq https://stedolan.github.io/jq/
 brew "jq"
-# mas https://github.com/mas-cli/mas
+# Mac App Store command line interface https://github.com/mas-cli/mas
 brew "mas"
 # pastel https://github.com/sharkdp/pastel
 brew "pastel"
