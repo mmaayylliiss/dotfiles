@@ -71,6 +71,8 @@ brew "tree"
 # youtube-dl https://youtube-dl.org
 brew "youtube-dl"
 
+# HP Easy Scan https://apps.apple.com/us/app/hp-easy-scan/id967004861
+mas "HP Easy Scan", id: 967004861
 # Numbers https://apps.apple.com/us/app/numbers/id409203825
 mas "Numbers", id: 409203825
 # Pocket https://apps.apple.com/us/app/numbers/id568494494
