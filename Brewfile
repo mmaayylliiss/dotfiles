@@ -9,8 +9,12 @@ cask "craftmanager"
 cask "docker"
 # Dropbox https://www.dropbox.com
 cask "dropbox"
+# Figma https://www.figma.com
+cask "figma"
 # Firefox https://www.mozilla.org/firefox/
 cask "firefox"
+# FontForge https://fontforge.org
+cask "fontforge"
 # fontplop https://github.com/matthewgonzalez/fontplop
 cask "fontplop"
 # Google Chrome https://www.google.com/chrome/
@@ -23,18 +27,28 @@ cask "kap"
 cask "keka"
 # LibreOffice https://www.libreoffice.org
 cask "libreoffice"
+# Little Snitch https://www.obdev.at/products/littlesnitch/
+cask "little-snitch"
 # OpenOffice https://www.openoffice.org
 cask "openoffice"
+# Poedit https://poedit.net
+cask "poedit"
 # QuodLibet https://quodlibet.readthedocs.io
 cask "quodlibet"
+# Runway https://runwayml.com
+cask "runway"
 # Sketch https://www.sketch.com
 cask "sketch"
+# Skype https://www.skype.com
+cask "skype"
 # Steam https://store.steampowered.com
 cask "steam"
 # Sublime Merge https://www.sublimemerge.com
 cask "sublime-merge"
 # Sublime Text https://www.sublimetext.com
 cask "sublime-text"
+# Transmission https://transmissionbt.com
+cask "transmission"
 # VLC https://www.videolan.org/vlc/
 cask "vlc"
 
