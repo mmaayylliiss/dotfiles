@@ -98,12 +98,9 @@ sublime-merge-save:
 
 SUBLIME_TEXT := /Users/maylisagniel/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
-/usr/local/bin/subl:
-	@ln -s /Applications/Sublime Text.app/Contents/SharedSupport/bin/subl /usr/local/bin
-
 .PHONY: sublime-text-install
 ## Install Sublime Text config
-sublime-text-install: /usr/local/bin/subl
+sublime-text-install:
 	@cp sublime-text/* $(SUBLIME_TEXT)/
 	@echo "🎉 Sublime Text config is installed"
 
