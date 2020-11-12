@@ -43,6 +43,7 @@ replaygain_mode = auto
 
 [browsers]
 album_covers = true
+album_sort = 0
 album_substrings = true
 albumlist_pos = 0.22844827586206898
 albums = 
