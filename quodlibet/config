@@ -56,8 +56,8 @@ query_text =
 version = 0
 
 [plugins]
-active_plugins = SeekBar
-	Theme Switcher
+active_plugins = Theme Switcher
+	SeekBar
 theme switcher_theme = HighContrastInverse
 
 [rename]
