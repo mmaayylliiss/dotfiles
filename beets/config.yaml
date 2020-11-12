@@ -22,14 +22,16 @@ embedart:
   auto: yes
   # Avoid embedding album art for files that already have art embedded
   ifempty: no
-  # A maximum width to downscale images before embedding them (the original image file is not altered)
+  # A maximum width to downscale images before embedding them
+  # (the original image file is not altered)
   maxwidth: 600
 
 # FetchArt config
 fetchart:
   # Enable automatic album art fetching during import
   auto: yes
-  # Only images with a width:height ratio of 1:1 are considered as valid album art candidates if set to yes
+  # Only images with a width:height ratio of 1:1 are considered
+  # as valid album art candidates if set to yes
   enforce_ratio: yes
 
 # Inline config
