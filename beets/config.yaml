@@ -3,21 +3,27 @@ directory: /Volumes/Storage/Dropbox/music
 import:
   move: yes
 
+# Create “Disc N” directories for multi-disc albums
+# (requires Inline plugin)
+paths:
+  default: $albumartist/$album%aunique{}/%if{$multidisc,Disc $disc/}$track $title
+
 # Plugins
 #
 # EmbedArt https://beets.readthedocs.io/en/stable/plugins/embedart.html
 # FetchArt https://beets.readthedocs.io/en/stable/plugins/fetchart.html
 # FromFilename https://beets.readthedocs.io/en/stable/plugins/fromfilename.html
-plugins: embedart fetchart fromfilename
+# Inline https://beets.readthedocs.io/en/stable/plugins/inline.html
+plugins: embedart fetchart fromfilename inline
 
 # EmbedArt config
 embedart:
   # Enable automatic album art embedding
   auto: yes
   # Avoid embedding album art for files that already have art embedded
-  ifempty: yes
-  # Automatically remove the album art file for the album after it has been embedded
-  remove_art_file: yes
+  ifempty: no
+  # A maximum width to downscale images before embedding them (the original image file is not altered)
+  maxwidth: 600
 
 # FetchArt config
 fetchart:
@@ -25,3 +31,7 @@ fetchart:
   auto: yes
   # Only images with a width:height ratio of 1:1 are considered as valid album art candidates if set to yes
   enforce_ratio: yes
+
+# Inline config
+item_fields:
+  multidisc: 1 if disctotal > 1 else 0
