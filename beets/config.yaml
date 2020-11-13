@@ -3,6 +3,13 @@ directory: /Volumes/Storage/Dropbox/music
 import:
   move: yes
 
+# Autotagger Matching Options
+match:
+  # By default, video tracks within a release will be ignored.
+  # If you want them to be included (for example if you would like
+  # to track the audio-only versions of the video tracks), set it to `no`.
+  ignore_video_tracks: no
+
 # Create “Disc N” directories for multi-disc albums
 # (requires Inline plugin)
 paths:
