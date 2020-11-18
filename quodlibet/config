@@ -1,5 +1,5 @@
 [settings]
-columns = title,artist,album,~#length,~#track
+columns = ~#track,title,artist,album,~#length
 	
 default_rating = 0.5
 scan = /Volumes/Storage/Dropbox/music
