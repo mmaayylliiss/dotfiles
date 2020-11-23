@@ -37,3 +37,8 @@ alias yt="youtube-dl"
 #
 # Automatic `cd`
 setopt AUTO_CD
+
+# Automatically add quotes to URLs
+# (Copied from Prezto, see: https://github.com/sorin-ionescu/prezto/blob/master/modules/environment/init.zsh#L12)
+autoload -Uz bracketed-paste-url-magic
+zle -N bracketed-paste bracketed-paste-url-magic
