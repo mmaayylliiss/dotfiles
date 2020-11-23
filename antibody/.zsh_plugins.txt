@@ -1,3 +1,2 @@
-denysdovhan/spaceship-prompt
 zsh-users/zsh-autosuggestions
 zsh-users/zsh-completions
