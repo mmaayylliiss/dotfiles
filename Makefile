@@ -131,12 +131,14 @@ youtube-dl-save:
 .PHONY: zsh-install
 ## Install Zsh config
 zsh-install:
+	@cp zsh/.p10k.zsh ~/.p10k.zsh
 	@cp zsh/.zshrc ~/.zshrc
 	@echo "🎉 Zsh config is installed"
 
 .PHONY: zsh-save
 ## Save Zsh config
 zsh-save:
+	@cp ~/.p10k.zsh zsh/.p10k.zsh
 	@cp ~/.zshrc zsh/.zshrc
 	@git add zsh/
 	@git commit -m "🔧 Update Zsh config"

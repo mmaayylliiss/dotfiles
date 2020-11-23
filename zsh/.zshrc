@@ -22,6 +22,11 @@ function killp {
 alias showhiddenfiles="defaults write com.apple.finder AppleShowAllFiles YES"
 alias hidehiddenfiles="defaults write com.apple.finder AppleShowAllFiles NO"
 
+# Powerlevel10k https://github.com/romkatv/powerlevel10k
+#
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
 # System
 alias ll="ls -l"
 

@@ -31,7 +31,7 @@
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Desktop/repositories/md/dotfiles/maylis-dotfiles/iterm/profiles</string>
+	<string>~/Desktop/repositories/md/dotfiles/maylis-dotfiles/iterm</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{720, 448}</string>
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
@@ -626,7 +626,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>JetBrainsMono-Regular 18</string>
+			<string>MesloLGS-NF-Regular 18</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -671,46 +671,48 @@
 				<dict>
 					<key>algorithm</key>
 					<integer>1</integer>
+					<key>auto-rainbow style</key>
+					<integer>3</integer>
 					<key>background color</key>
 					<dict>
 						<key>Alpha Component</key>
-						<integer>1</integer>
+						<real>1</real>
 						<key>Blue Component</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Color Space</key>
 						<string>sRGB</string>
 						<key>Green Component</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Red Component</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>default text color</key>
 					<dict>
 						<key>Alpha Component</key>
-						<integer>1</integer>
+						<real>1</real>
 						<key>Blue Component</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Color Space</key>
 						<string>sRGB</string>
 						<key>Green Component</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Red Component</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>font</key>
-					<string>JetBrainsMono-Regular 14</string>
+					<string>MesloLGS-NF-Regular 14</string>
 					<key>separator color 2</key>
 					<dict>
 						<key>Alpha Component</key>
-						<integer>1</integer>
+						<real>1</real>
 						<key>Blue Component</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Color Space</key>
 						<string>sRGB</string>
 						<key>Green Component</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Red Component</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 				</dict>
 				<key>components</key>
@@ -731,7 +733,7 @@
 								<key>shared text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
 									<real>0.63</real>
 									<key>Color Space</key>
@@ -746,46 +748,48 @@
 							<dict>
 								<key>algorithm</key>
 								<integer>1</integer>
+								<key>auto-rainbow style</key>
+								<integer>3</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 								<key>default text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
-								<string>JetBrainsMono-Regular 14</string>
+								<string>MesloLGS-NF-Regular 14</string>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 							</dict>
 						</dict>
@@ -810,13 +814,13 @@
 								<key>shared text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
 									<real>0.63</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.81000000000000005</real>
+									<real>0.81427499999999997</real>
 									<key>Red Component</key>
 									<real>0.90000000000000002</real>
 								</dict>
@@ -825,46 +829,48 @@
 							<dict>
 								<key>algorithm</key>
 								<integer>1</integer>
+								<key>auto-rainbow style</key>
+								<integer>3</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 								<key>default text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
-								<string>JetBrainsMono-Regular 14</string>
+								<string>MesloLGS-NF-Regular 14</string>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 							</dict>
 						</dict>
@@ -889,7 +895,7 @@
 								<key>shared text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
 									<real>0.63</real>
 									<key>Color Space</key>
@@ -897,53 +903,55 @@
 									<key>Green Component</key>
 									<real>0.90000000000000002</real>
 									<key>Red Component</key>
-									<real>0.81000000000000005</real>
+									<real>0.80145</real>
 								</dict>
 							</dict>
 							<key>layout advanced configuration dictionary value</key>
 							<dict>
 								<key>algorithm</key>
 								<integer>1</integer>
+								<key>auto-rainbow style</key>
+								<integer>3</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 								<key>default text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
-								<string>JetBrainsMono-Regular 14</string>
+								<string>MesloLGS-NF-Regular 14</string>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 							</dict>
 						</dict>
@@ -966,9 +974,9 @@
 								<key>shared text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.63</real>
+									<real>0.64282500000000009</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
@@ -981,46 +989,48 @@
 							<dict>
 								<key>algorithm</key>
 								<integer>1</integer>
+								<key>auto-rainbow style</key>
+								<integer>3</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 								<key>default text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
-								<string>JetBrainsMono-Regular 14</string>
+								<string>MesloLGS-NF-Regular 14</string>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 							</dict>
 						</dict>
@@ -1043,9 +1053,9 @@
 								<key>shared text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.80999999999999994</real>
+									<real>0.82710000000000006</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
@@ -1058,46 +1068,48 @@
 							<dict>
 								<key>algorithm</key>
 								<integer>1</integer>
+								<key>auto-rainbow style</key>
+								<integer>3</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 								<key>default text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
-								<string>JetBrainsMono-Regular 14</string>
+								<string>MesloLGS-NF-Regular 14</string>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 							</dict>
 						</dict>
@@ -1120,13 +1132,13 @@
 								<key>shared text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
 									<real>0.90000000000000002</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.80999999999999994</real>
+									<real>0.78862500000000013</real>
 									<key>Red Component</key>
 									<real>0.63</real>
 								</dict>
@@ -1135,46 +1147,48 @@
 							<dict>
 								<key>algorithm</key>
 								<integer>1</integer>
+								<key>auto-rainbow style</key>
+								<integer>3</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 								<key>default text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
-								<string>JetBrainsMono-Regular 14</string>
+								<string>MesloLGS-NF-Regular 14</string>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 							</dict>
 						</dict>
@@ -1193,7 +1207,7 @@
 								<key>shared text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
 									<real>0.90000000000000002</real>
 									<key>Color Space</key>
@@ -1201,53 +1215,55 @@
 									<key>Green Component</key>
 									<real>0.63</real>
 									<key>Red Component</key>
-									<real>0.63</real>
+									<real>0.65564999999999996</real>
 								</dict>
 							</dict>
 							<key>layout advanced configuration dictionary value</key>
 							<dict>
 								<key>algorithm</key>
 								<integer>1</integer>
+								<key>auto-rainbow style</key>
+								<integer>3</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 								<key>default text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
-								<string>JetBrainsMono-Regular 14</string>
+								<string>MesloLGS-NF-Regular 14</string>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 							</dict>
 						</dict>
@@ -1266,7 +1282,7 @@
 								<key>shared text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
 									<real>0.90000000000000002</real>
 									<key>Color Space</key>
@@ -1274,53 +1290,55 @@
 									<key>Green Component</key>
 									<real>0.63</real>
 									<key>Red Component</key>
-									<real>0.81000000000000039</real>
+									<real>0.83992499999999992</real>
 								</dict>
 							</dict>
 							<key>layout advanced configuration dictionary value</key>
 							<dict>
 								<key>algorithm</key>
 								<integer>1</integer>
+								<key>auto-rainbow style</key>
+								<integer>3</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 								<key>default text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
-								<string>JetBrainsMono-Regular 14</string>
+								<string>MesloLGS-NF-Regular 14</string>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 							</dict>
 						</dict>
@@ -1339,9 +1357,9 @@
 								<key>shared text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.80999999999999983</real>
+									<real>0.77580000000000005</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
@@ -1354,46 +1372,48 @@
 							<dict>
 								<key>algorithm</key>
 								<integer>1</integer>
+								<key>auto-rainbow style</key>
+								<integer>3</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 								<key>default text color</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
-								<string>JetBrainsMono-Regular 14</string>
+								<string>MesloLGS-NF-Regular 14</string>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
-									<integer>1</integer>
+									<real>1</real>
 									<key>Blue Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 									<key>Red Component</key>
-									<integer>0</integer>
+									<real>0.0</real>
 								</dict>
 							</dict>
 						</dict>
@@ -1444,21 +1464,21 @@
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
-		<string>JetBrains Mono</string>
+		<string>MesloLGS NF</string>
 	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
 		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{1106, 1261}</string>
+		<string>{602, 1198}</string>
 	</dict>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>7C684717-ADFD-4F7F-B988-84E6103D0DFF</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>306</integer>
+	<integer>609</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1788,6 +1808,14 @@
 				<true/>
 				<key>name</key>
 				<string>style</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.jobPid</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -2226,7 +2254,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-08-11T10:29:58Z</date>
+	<date>2020-11-23T10:01:50Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
