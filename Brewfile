@@ -80,8 +80,12 @@ brew "jesseduffield/lazydocker/lazydocker"
 brew "jq"
 # Mac App Store command line interface https://github.com/mas-cli/mas
 brew "mas"
+# OpenSSL https://www.openssl.org
+brew "openssl"
 # pastel https://github.com/sharkdp/pastel
 brew "pastel"
+# Readline https://tiswww.case.edu/php/chet/readline/rltop.html
+brew "readline"
 # ssh-copy-id https://formulae.brew.sh/formula/ssh-copy-id
 brew "ssh-copy-id"
 # tree http://mama.indstate.edu/users/ice/tree/
