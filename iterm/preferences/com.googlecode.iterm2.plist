@@ -672,7 +672,7 @@
 					<key>algorithm</key>
 					<integer>1</integer>
 					<key>auto-rainbow style</key>
-					<integer>3</integer>
+					<integer>1</integer>
 					<key>background color</key>
 					<dict>
 						<key>Alpha Component</key>
@@ -751,7 +751,7 @@
 								<key>algorithm</key>
 								<integer>1</integer>
 								<key>auto-rainbow style</key>
-								<integer>3</integer>
+								<integer>1</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -830,7 +830,7 @@
 								<key>algorithm</key>
 								<integer>1</integer>
 								<key>auto-rainbow style</key>
-								<integer>3</integer>
+								<integer>1</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -905,7 +905,7 @@
 								<key>algorithm</key>
 								<integer>1</integer>
 								<key>auto-rainbow style</key>
-								<integer>3</integer>
+								<integer>1</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -980,7 +980,7 @@
 								<key>algorithm</key>
 								<integer>1</integer>
 								<key>auto-rainbow style</key>
-								<integer>3</integer>
+								<integer>1</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -1055,7 +1055,7 @@
 								<key>algorithm</key>
 								<integer>1</integer>
 								<key>auto-rainbow style</key>
-								<integer>3</integer>
+								<integer>1</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
