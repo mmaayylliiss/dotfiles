@@ -84,3 +84,14 @@ setopt AUTO_CD
 # see: https://github.com/sorin-ionescu/prezto/blob/master/modules/environment/init.zsh#L12
 autoload -Uz bracketed-paste-url-magic
 zle -N bracketed-paste bracketed-paste-url-magic
+
+# ---
+# zsh-completions https://github.com/zsh-users/zsh-completions
+#
+# Check cache once a day
+# Source: https://gist.github.com/ctechols/ca1035271ad134841284#gistcomment-2308206
+autoload -Uz compinit
+for dump in ~/.zcompdump(N.mh+24); do
+  compinit
+done
+compinit -C
