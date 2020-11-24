@@ -14,6 +14,8 @@ setup:
 	@brew bundle
 	@open /usr/local/Caskroom/adobe-creative-cloud/latest/Creative\ Cloud\ Installer.app
 	@open /Applications/CraftManager.app
+	# Run all setup scripts
+	@for f in scripts/*; do ./$f; done
 
 .PHONY: antibody-install
 ## Install Antibody config

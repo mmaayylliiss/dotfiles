@@ -1,0 +1,19 @@
+#!/bin/zsh
+
+# 📝 asdf plugin list: https://asdf-vm.com/#/plugins-all?id=plugin-list
+
+# Hugo https://bitbucket.org/mgladdish/asdf-gohugo
+asdf plugin-add gohugo https://bitbucket.org/mgladdish/asdf-gohugo.git
+
+# Node.js https://github.com/asdf-vm/asdf-nodejs
+asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+bash -c "${ASDF_DATA_DIR:=$HOME/.asdf}/plugins/nodejs/bin/import-release-team-keyring"
+
+# Python https://github.com/danhper/asdf-python
+asdf plugin-add python https://github.com/danhper/asdf-python.git
+
+# Ruby https://github.com/asdf-vm/asdf-ruby
+asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git
+
+# Yarn https://github.com/twuni/asdf-yarn
+asdf plugin-add yarn https://github.com/twuni/asdf-yarn.git
