@@ -32,6 +32,21 @@ antibody-save:
 	@git push
 	@echo "💾 Antibody config is saved"
 
+.PHONY: asdf-install
+## Install asdf config
+asdf-install:
+	@cp asdf/.tool-versions ~/.tool-versions
+	@echo "🎉 asdf config is installed"
+
+.PHONY: asdf-save
+## Save asdf config
+asdf-save:
+	@cp ~/.tool-versions asdf/.tool-versions
+	@git add asdf/
+	@git commit -m "🔧 Update asdf config"
+	@git push
+	@echo "💾 asdf config is saved"
+
 .PHONY: beets-install
 ## Install beets config
 beets-install:
@@ -149,11 +164,11 @@ zsh-save:
 
 .PHONY: all-install
 ## Install all config
-all-install: antibody-install beets-install git-install quodlibet-install sublime-merge-install sublime-text-install youtube-dl-install zsh-install
+all-install: antibody-install asdf-install beets-install git-install quodlibet-install sublime-merge-install sublime-text-install youtube-dl-install zsh-install
 
 .PHONY: all-save
 ## Save all config
-all-save: antibody-save beets-save git-save quodlibet-save sublime-merge-save sublime-text-save youtube-dl-save zsh-save
+all-save: antibody-save asdf-save beets-save git-save quodlibet-save sublime-merge-save sublime-text-save youtube-dl-save zsh-save
 
 bin/pretty-make:
 	@curl -Ls https://raw.githubusercontent.com/awea/pretty-make/master/scripts/install.sh | bash -s
