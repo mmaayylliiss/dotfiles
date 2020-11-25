@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+# Percollate https://github.com/danburzo/percollate
+yarn global add percollate
