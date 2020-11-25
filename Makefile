@@ -4,8 +4,8 @@
 #@color-subtitle #ff0000
 #@color-link #0000ff
 
-# Here we ensure that every command this Makefile run will run in a bash shell,
-# instead of the default 'sh'. This is actually just a variable assignment.
+# Here we ensure that every command this Makefile run will run in a bash shell
+# instead of the default sh
 SHELL := /usr/bin/env bash
 
 .PHONY: setup
