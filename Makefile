@@ -162,14 +162,6 @@ zsh-save:
 	@git push
 	@echo "💾 Zsh config is saved"
 
-.PHONY: all-install
-## Install all config
-all-install: antibody-install asdf-install beets-install git-install quodlibet-install sublime-merge-install sublime-text-install youtube-dl-install zsh-install
-
-.PHONY: all-save
-## Save all config
-all-save: antibody-save asdf-save beets-save git-save quodlibet-save sublime-merge-save sublime-text-save youtube-dl-save zsh-save
-
 bin/pretty-make:
 	@curl -Ls https://raw.githubusercontent.com/awea/pretty-make/master/scripts/install.sh | bash -s
 
