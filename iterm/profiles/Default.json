@@ -321,7 +321,7 @@
               "Green Component" : 0
             },
             "algorithm" : 1,
-            "font" : "JetBrainsMono-Regular 14"
+            "font" : "MesloLGS-NF-Regular 14"
           }
         }
       },
@@ -365,7 +365,7 @@
               "Green Component" : 0
             },
             "algorithm" : 1,
-            "font" : "JetBrainsMono-Regular 14"
+            "font" : "MesloLGS-NF-Regular 14"
           }
         }
       },
@@ -409,7 +409,7 @@
               "Green Component" : 0
             },
             "algorithm" : 1,
-            "font" : "JetBrainsMono-Regular 14"
+            "font" : "MesloLGS-NF-Regular 14"
           }
         }
       },
@@ -452,7 +452,7 @@
               "Green Component" : 0
             },
             "algorithm" : 1,
-            "font" : "JetBrainsMono-Regular 14"
+            "font" : "MesloLGS-NF-Regular 14"
           }
         }
       },
@@ -495,7 +495,7 @@
               "Green Component" : 0
             },
             "algorithm" : 1,
-            "font" : "JetBrainsMono-Regular 14"
+            "font" : "MesloLGS-NF-Regular 14"
           }
         }
       },
@@ -538,7 +538,7 @@
               "Green Component" : 0
             },
             "algorithm" : 1,
-            "font" : "JetBrainsMono-Regular 14"
+            "font" : "MesloLGS-NF-Regular 14"
           }
         }
       },
@@ -579,7 +579,7 @@
               "Green Component" : 0
             },
             "algorithm" : 1,
-            "font" : "JetBrainsMono-Regular 14"
+            "font" : "MesloLGS-NF-Regular 14"
           }
         }
       },
@@ -620,7 +620,7 @@
               "Green Component" : 0
             },
             "algorithm" : 1,
-            "font" : "JetBrainsMono-Regular 14"
+            "font" : "MesloLGS-NF-Regular 14"
           }
         }
       },
@@ -661,7 +661,7 @@
               "Green Component" : 0
             },
             "algorithm" : 1,
-            "font" : "JetBrainsMono-Regular 14"
+            "font" : "MesloLGS-NF-Regular 14"
           }
         }
       }
@@ -689,7 +689,7 @@
         "Green Component" : 0
       },
       "algorithm" : 1,
-      "font" : "JetBrainsMono-Regular 14"
+      "font" : "MesloLGS-NF-Regular 14"
     }
   },
   "Silence Bell" : false,
@@ -738,7 +738,7 @@
   },
   "Use Non-ASCII Font" : false,
   "Right Option Key Sends" : 0,
-  "Normal Font" : "JetBrainsMono-Regular 18",
+  "Normal Font" : "MesloLGS-NF-Regular 18",
   "Custom Directory" : "Recycle",
   "Guid" : "F19749C6-77D9-4F70-B0AF-6E411FEBD4B6",
   "Horizontal Spacing" : 1
