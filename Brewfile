@@ -1,8 +1,7 @@
-# Homebrew Cask https://github.com/Homebrew/homebrew-cask
+# 🍺 Homebrew Cask https://github.com/Homebrew/homebrew-cask
+# 📝 Browse all casks: https://formulae.brew.sh/cask/
 tap "homebrew/cask"
 
-# 📝 Browse all casks: https://formulae.brew.sh/cask/
-#
 # Adobe Creative Cloud https://www.adobe.com/creativecloud.html
 cask "adobe-creative-cloud"
 # CraftManager https://www.invisionapp.com/craft
@@ -60,7 +59,14 @@ cask "transmission"
 # VLC https://www.videolan.org/vlc/
 cask "vlc"
 
-# 📝 Browse all macOS formulae: https://formulae.brew.sh/formula/
+# 🍺 Homebrew Cask Fonts https://github.com/Homebrew/homebrew-cask-fonts
+tap "homebrew/cask-fonts"
+
+# JetBrains Mono https://www.jetbrains.com/lp/mono/
+cask "font-jetbrains-mono"
+
+# 🍺 Homebrew https://github.com/Homebrew/brew
+# 📝 Browse all formulae: https://formulae.brew.sh/formula/
 #
 # Antibody https://getantibody.github.io
 brew "antibody"
@@ -99,7 +105,7 @@ brew "tree"
 # youtube-dl https://youtube-dl.org
 brew "youtube-dl"
 
-# Apps installed through Mac App Store command line interface
+# 🍺 Mac App Store command line interface
 #
 # HP Easy Scan https://apps.apple.com/us/app/hp-easy-scan/id967004861
 mas "HP Easy Scan", id: 967004861
