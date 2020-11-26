@@ -19,21 +19,6 @@ setup:
 	# Run all setup scripts
 	@for f in scripts/*; do ./$f; done
 
-.PHONY: antibody-install
-## Install Antibody config
-antibody-install:
-	@cp antibody/.zsh_plugins.txt ~/.zsh_plugins.txt
-	@echo "🎉 Antibody config is installed"
-
-.PHONY: antibody-save
-## Save Antibody config
-antibody-save:
-	@cp ~/.zsh_plugins.txt antibody/.zsh_plugins.txt
-	@git add antibody/
-	@git commit -m "🔧 Update Antibody config"
-	@git push
-	@echo "💾 Antibody config is saved"
-
 .PHONY: asdf-install
 ## Install asdf config
 asdf-install:
@@ -151,6 +136,7 @@ youtube-dl-save:
 ## Install Zsh config
 zsh-install:
 	@cp zsh/.p10k.zsh ~/.p10k.zsh
+	@cp zsh/.zsh_plugins.txt ~/.zsh_plugins.txt
 	@cp zsh/.zshrc ~/.zshrc
 	@echo "🎉 Zsh config is installed"
 
@@ -158,6 +144,7 @@ zsh-install:
 ## Save Zsh config
 zsh-save:
 	@cp ~/.p10k.zsh zsh/.p10k.zsh
+	@cp ~/.zsh_plugins.txt zsh/.zsh_plugins.txt
 	@cp ~/.zshrc zsh/.zshrc
 	@git add zsh/
 	@git commit -m "🔧 Update Zsh config"
