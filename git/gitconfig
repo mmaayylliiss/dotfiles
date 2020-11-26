@@ -10,10 +10,7 @@
   smudge = git-lfs smudge -- %f
   process = git-lfs filter-process
   required = true
+
 [identity "default"]
 	name = mmaayylliiss
 	email = maylis.agniel@gmail.com
-[identity "awea"]
-	name = awea
-	email = aweaoftheworld@gmail.com
-	sshkey = /Users/maylisagniel/.ssh/david_rsa
