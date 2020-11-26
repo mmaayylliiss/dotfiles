@@ -40,6 +40,7 @@ Install [**Package Control**](https://packagecontrol.io/installation)
 
 <a name="iterm"></a>
 ![](documentation-images/iterm.gif)
+
 First type `p10k configure` and answer `Yes` when asked whether to install *Meslo Nerd Font*. No need to finish `p10k` config, just install the required font and quit. Then do a few manual config in *Preferences*:
 
 #### General > Preferences
