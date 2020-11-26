@@ -98,7 +98,7 @@ quodlibet-save:
 	@git push
 	@echo "💾 QuodLibet config is saved"
 
-SUBLIME_MERGE := /Users/maylisagniel/Library/Application\ Support/Sublime\ Merge/Packages/User
+SUBLIME_MERGE := $$HOME/Library/Application\ Support/Sublime\ Merge/Packages/User
 
 .PHONY: sublime-merge-install
 ## Install Sublime Merge config
@@ -115,7 +115,7 @@ sublime-merge-save:
 	@git push
 	@echo "💾 Sublime Merge config is saved"
 
-SUBLIME_TEXT := /Users/maylisagniel/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+SUBLIME_TEXT := $$HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
 .PHONY: sublime-text-install
 ## Install Sublime Text config
