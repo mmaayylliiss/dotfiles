@@ -30,7 +30,13 @@ cask "keka"
 # LibreOffice https://www.libreoffice.org
 cask "libreoffice"
 # Little Snitch https://www.obdev.at/products/littlesnitch/
-cask "little-snitch"
+#
+# 20201126
+# I install Little Snitch in version 4 because version 5 requires >= macOS Big Sur
+# See related cask:
+# https://github.com/Homebrew/homebrew-cask-versions/blob/master/Casks/little-snitch4.rb
+# —Maylis
+cask "little-snitch4"
 # OpenOffice https://www.openoffice.org
 cask "openoffice"
 # Poedit https://poedit.net
