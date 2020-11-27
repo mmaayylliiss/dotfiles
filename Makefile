@@ -1,5 +1,5 @@
 #@name Maylis Agniel dotfiles
-#@description 🖥 My local configuration (macOS).
+#@description 🖥 My local configuration (macOS)
 #@color-title #40e0d0
 #@color-subtitle #ff0000
 #@color-link #0000ff
