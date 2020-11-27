@@ -17,3 +17,6 @@ asdf plugin-add ruby
 
 # Yarn https://github.com/twuni/asdf-yarn
 asdf plugin-add yarn
+
+# Install global dependencies listed in ~/.tool-versions
+asdf install
