@@ -1,7 +1,7 @@
 #@name Maylis Agniel dotfiles
 #@description 🖥 My local configuration (macOS)
-#@color-title #40e0d0
-#@color-subtitle #ff0000
+#@color-title #4fb5f7
+#@color-subtitle #ff5d4e
 #@color-link #0000ff
 
 # Here we ensure that every command this Makefile run will run in a bash shell
