@@ -1,0 +1,9 @@
+# Requirements file for pip
+# See https://pip.pypa.io/en/stable/user_guide/#requirements-files
+
+# beets https://beets.readthedocs.io
+beets
+
+# Requests https://requests.readthedocs.io
+# FetchArt (beets plugin) uses Requests to fetch album art from the Web
+requests
