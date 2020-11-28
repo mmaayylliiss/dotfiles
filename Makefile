@@ -12,12 +12,12 @@ SHELL := /usr/bin/env bash
 ## Install software
 setup:
 	@brew bundle
+	# Run all setup scripts
+	@for f in scripts/*; do ./$f; done
 	# Open installers/managers
 	@open /usr/local/Caskroom/adobe-creative-cloud/latest/Creative\ Cloud\ Installer.app
 	@open /Applications/CraftManager.app
 	@open /usr/local/Caskroom/little-snitch4/4.6/LittleSnitch-4.6.dmg
-	# Run all setup scripts
-	@for f in scripts/*; do ./$f; done
 
 .PHONY: asdf-install
 ## Install asdf config
