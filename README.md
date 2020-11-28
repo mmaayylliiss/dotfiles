@@ -85,14 +85,11 @@ First type `p10k configure` and answer `Yes` when asked whether to install *Mesl
 <a name="adobe-creative-cloud"></a>
 ![](documentation-images/adobe-creative-cloud.gif)
 
-1. Install these apps:
-  - **Photoshop**
-  - **Illustrator**
-  - **InDesign**
-  - **Acrobat**
-2. Install Photoshop [**GuideGuide**](https://guideguide.me/documentation/) extension
-3. Install [Photoshop additional scripts](adobe-creative-cloud/photoshop)
-4. Install [InDesign additional scripts](adobe-creative-cloud/indesign)
+Install Photoshop [**GuideGuide**](https://guideguide.me/documentation/) extension
+
+Optional:
+- Install [Photoshop additional scripts](adobe-creative-cloud/photoshop)
+- Install [InDesign additional scripts](adobe-creative-cloud/indesign)
 
 <a name="mail"></a>
 ![](documentation-images/mail.gif)
