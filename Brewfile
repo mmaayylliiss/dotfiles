@@ -1,3 +1,43 @@
+# 🍺 Homebrew https://github.com/Homebrew/brew
+# 📝 Browse all formulae: https://formulae.brew.sh/formula/
+#
+# Antibody https://getantibody.github.io
+brew "antibody"
+# asdf https://asdf-vm.com
+brew "asdf"
+# Composer https://getcomposer.org
+brew "composer"
+# Coreutils https://www.gnu.org/software/coreutils/
+brew "coreutils"
+# Docker Compose https://docs.docker.com/compose/
+brew "docker-compose"
+# ffmpeg https://ffmpeg.org
+brew "ffmpeg"
+# Git LFS https://github.com/git-lfs/git-lfs
+brew "git-lfs"
+# GnuPG https://gnupg.org
+brew "gnupg"
+# ImageMagick https://imagemagick.org
+brew "imagemagick"
+# lazydocker https://github.com/jesseduffield/lazydocker
+brew "jesseduffield/lazydocker/lazydocker"
+# jq https://stedolan.github.io/jq/
+brew "jq"
+# Mac App Store command line interface https://github.com/mas-cli/mas
+brew "mas"
+# OpenSSL https://www.openssl.org
+brew "openssl"
+# pastel https://github.com/sharkdp/pastel
+brew "pastel"
+# Readline https://tiswww.case.edu/php/chet/readline/rltop.html
+brew "readline"
+# ssh-copy-id https://formulae.brew.sh/formula/ssh-copy-id
+brew "ssh-copy-id"
+# tree http://mama.indstate.edu/users/ice/tree/
+brew "tree"
+# youtube-dl https://youtube-dl.org
+brew "youtube-dl"
+
 # 🍺 Homebrew Cask https://github.com/Homebrew/homebrew-cask
 # 📝 Browse all casks: https://formulae.brew.sh/cask/
 tap "homebrew/cask"
@@ -64,46 +104,6 @@ tap "homebrew/cask-fonts"
 
 # JetBrains Mono https://www.jetbrains.com/lp/mono/
 cask "font-jetbrains-mono"
-
-# 🍺 Homebrew https://github.com/Homebrew/brew
-# 📝 Browse all formulae: https://formulae.brew.sh/formula/
-#
-# Antibody https://getantibody.github.io
-brew "antibody"
-# asdf https://asdf-vm.com
-brew "asdf"
-# Composer https://getcomposer.org
-brew "composer"
-# Coreutils https://www.gnu.org/software/coreutils/
-brew "coreutils"
-# Docker Compose https://docs.docker.com/compose/
-brew "docker-compose"
-# ffmpeg https://ffmpeg.org
-brew "ffmpeg"
-# Git LFS https://github.com/git-lfs/git-lfs
-brew "git-lfs"
-# GnuPG https://gnupg.org
-brew "gnupg"
-# ImageMagick https://imagemagick.org
-brew "imagemagick"
-# lazydocker https://github.com/jesseduffield/lazydocker
-brew "jesseduffield/lazydocker/lazydocker"
-# jq https://stedolan.github.io/jq/
-brew "jq"
-# Mac App Store command line interface https://github.com/mas-cli/mas
-brew "mas"
-# OpenSSL https://www.openssl.org
-brew "openssl"
-# pastel https://github.com/sharkdp/pastel
-brew "pastel"
-# Readline https://tiswww.case.edu/php/chet/readline/rltop.html
-brew "readline"
-# ssh-copy-id https://formulae.brew.sh/formula/ssh-copy-id
-brew "ssh-copy-id"
-# tree http://mama.indstate.edu/users/ice/tree/
-brew "tree"
-# youtube-dl https://youtube-dl.org
-brew "youtube-dl"
 
 # 🍺 Mac App Store command line interface
 #
