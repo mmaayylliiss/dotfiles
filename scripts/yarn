@@ -2,3 +2,6 @@
 
 # Percollate https://github.com/danburzo/percollate
 yarn global add percollate
+
+# SVGO https://github.com/svg/svgo
+yarn global add svgo

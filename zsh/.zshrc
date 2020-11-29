@@ -70,6 +70,13 @@ alias hidehiddenfiles="defaults write com.apple.finder AppleShowAllFiles NO"
 alias ll="ls -l"
 
 # ---
+# Yarn
+#
+# Fix Yarn issue with binaries
+# See https://github.com/yarnpkg/yarn/issues/1321#issuecomment-256488275
+PATH="$PATH:$(yarn global bin)"
+
+# ---
 # youtube-dl https://youtube-dl.org
 alias yt="youtube-dl"
 
