@@ -49,22 +49,9 @@ $(HOME)/.config/beets/library.db:
 $(HOME)/Library/Application\ Support/Sublime\ Merge/Packages/User:
 	ln -s $(PWD)/sublime-merge $@
 
-SUBLIME_TEXT := $$HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-
-.PHONY: sublime-text-install
-## Install Sublime Text config
-sublime-text-install:
-	@cp sublime-text/* $(SUBLIME_TEXT)/
-	@echo "🎉 Sublime Text config is installed"
-
-.PHONY: sublime-text-save
-## Save Sublime Text config
-sublime-text-save:
-	@cp $(SUBLIME_TEXT)/*.sublime-settings sublime-text/
-	@git add sublime-text/
-	@git commit -m "🔧 Update Sublime Text config"
-	@git push
-	@echo "💾 Sublime Text config is saved"
+# Sublime Text config
+$(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User:
+	ln -s $(PWD)/sublime-text $@
 
 .PHONY: youtube-dl-install
 ## Install youtube-dl config
