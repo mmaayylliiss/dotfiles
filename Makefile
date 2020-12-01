@@ -20,19 +20,19 @@ setup:
 	@open /usr/local/Caskroom/little-snitch4/4.6/LittleSnitch-4.6.dmg
 
 # Find all the files/folders ending with .symlink
-files_to_symlink := $(shell find . -name '*.symlink')
+files-to-symlink := $(shell find . -name '*.symlink')
 # Extract just the name.symlink from the previous list
-symlinks := $(patsubst %.symlink, %, $(shell basename -a $(files_to_symlink)))
+symlinks := $(patsubst %.symlink, %, $(shell basename -a $(files-to-symlink)))
 # Generate the complete list of symlink targets we need
-symlink_paths := $(addprefix $(HOME)/., $(symlinks))
+symlink-paths := $(addprefix $(HOME)/., $(symlinks))
 
 # VPATH tells Make to search this list of folders when using the % pattern
 # Documentation: https://www.gnu.org/software/make/manual/html_node/General-Search.html
-VPATH = $(shell dirname $(files_to_symlink))
+VPATH = $(shell dirname $(files-to-symlink))
 
 ## Create symbolic links for files/folders with a .symlink suffix
 .PHONY: links
-links: $(symlink_paths) .configs
+links: $(symlink-paths) .configs
 
 # Create all symlinks
 # Documentation: https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html#Automatic-Variables
@@ -40,34 +40,34 @@ $(HOME)/.%: %.symlink
 	ln -s $(abspath $<) $@
 
 .PHONY: .configs
-.configs: $(beets_config) $(beets_library) $(sublime_merge_user) $(sublime_text_user) $(youtube-dl_config)
+.configs: $(beets-config) $(beets-library) $(sublime-merge-user) $(sublime-text-user) $(youtube-dl-config)
 
 # beets config
-beets_config := $(HOME)/.config/beets/config.yaml
-beets_library := $(HOME)/.config/beets/library.db
+beets-config := $(HOME)/.config/beets/config.yaml
+beets-library := $(HOME)/.config/beets/library.db
 
-$(beets_config):
+$(beets-config):
 	ln -s $(PWD)/beets/config.yaml $@
 
-$(beets_library):
+$(beets-library):
 	ln -s $(PWD)/beets/library.db $@
 
 # Sublime Merge config
-sublime_merge_user := $(HOME)/Library/Application\ Support/Sublime\ Merge/Packages/User
+sublime-merge-user := $(HOME)/Library/Application\ Support/Sublime\ Merge/Packages/User
 
-$(sublime_merge_user):
+$(sublime-merge-user):
 	ln -s $(PWD)/sublime-merge $@
 
 # Sublime Text config
-sublime_text_user := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+sublime-text-user := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
-$(sublime_text_user):
+$(sublime-text-user):
 	ln -s $(PWD)/sublime-text $@
 
 # youtube-dl config
-youtube-dl_config := $(HOME)/.config/youtube-dl/config
+youtube-dl-config := $(HOME)/.config/youtube-dl/config
 
-$(youtube-dl_config):
+$(youtube-dl-config):
 	ln -s $(PWD)/youtube-dl/config $@
 
 bin/pretty-make:
