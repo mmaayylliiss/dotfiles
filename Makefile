@@ -37,7 +37,7 @@ links: $(symlink-paths) .configs
 # Create all symlinks
 # Documentation: https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html#Automatic-Variables
 $(HOME)/.%: %.symlink
-	ln -s $(abspath $<) $@
+	ln -fs $(abspath $<) $@
 
 .PHONY: .configs
 .configs: $(beets-config) $(beets-library) $(sublime-merge-user) $(sublime-text-user) $(youtube-dl-config)
@@ -47,28 +47,28 @@ beets-config := $(HOME)/.config/beets/config.yaml
 beets-library := $(HOME)/.config/beets/library.db
 
 $(beets-config):
-	ln -s $(PWD)/beets/config.yaml $@
+	ln -fs $(PWD)/beets/config.yaml $@
 
 $(beets-library):
-	ln -s $(PWD)/beets/library.db $@
+	ln -fs $(PWD)/beets/library.db $@
 
 # Sublime Merge config
 sublime-merge-user := $(HOME)/Library/Application\ Support/Sublime\ Merge/Packages/User
 
 $(sublime-merge-user):
-	ln -s $(PWD)/sublime-merge $@
+	ln -fs $(PWD)/sublime-merge $@
 
 # Sublime Text config
 sublime-text-user := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
 $(sublime-text-user):
-	ln -s $(PWD)/sublime-text $@
+	ln -fs $(PWD)/sublime-text $@
 
 # youtube-dl config
 youtube-dl-config := $(HOME)/.config/youtube-dl/config
 
 $(youtube-dl-config):
-	ln -s $(PWD)/youtube-dl/config $@
+	ln -fs $(PWD)/youtube-dl/config $@
 
 bin/pretty-make:
 	@curl -Ls https://raw.githubusercontent.com/awea/pretty-make/master/scripts/install.sh | bash -s
