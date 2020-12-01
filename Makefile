@@ -53,20 +53,9 @@ $(HOME)/Library/Application\ Support/Sublime\ Merge/Packages/User:
 $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User:
 	ln -s $(PWD)/sublime-text $@
 
-.PHONY: youtube-dl-install
-## Install youtube-dl config
-youtube-dl-install:
-	@cp youtube-dl/config ~/.config/youtube-dl/config
-	@echo "🎉 youtube-dl config is installed"
-
-.PHONY: youtube-dl-save
-## Save youtube-dl config
-youtube-dl-save:
-	@cp ~/.config/youtube-dl/config youtube-dl/config
-	@git add youtube-dl/
-	@git commit -m "🔧 Update youtube-dl config"
-	@git push
-	@echo "💾 youtube-dl config is saved"
+# youtube-dl config
+$(HOME)/.config/youtube-dl/config:
+	ln -s $(PWD)/youtube-dl/config $@
 
 bin/pretty-make:
 	@curl -Ls https://raw.githubusercontent.com/awea/pretty-make/master/scripts/install.sh | bash -s
