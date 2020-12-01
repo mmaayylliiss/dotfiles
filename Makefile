@@ -23,7 +23,7 @@ setup:
 files_to_symlink := $(shell find . -name '*.symlink')
 # Extract just the name.symlink from the previous list
 symlinks := $(patsubst %.symlink, %, $(shell basename -a $(files_to_symlink)))
-# Generate the complete list of symlink target we need
+# Generate the complete list of symlink targets we need
 symlink_paths := $(addprefix $(HOME)/., $(symlinks))
 
 # VPATH tells Make to search this list of folders when using the % pattern
@@ -34,7 +34,7 @@ VPATH = $(shell dirname $(files_to_symlink))
 .PHONY: links
 links: $(symlink_paths) .configs
 
-# Create all symlink
+# Create all symlinks
 # Documentation: https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html#Automatic-Variables
 $(HOME)/.%: %.symlink
 	ln -s $(abspath $<) $@
@@ -42,7 +42,7 @@ $(HOME)/.%: %.symlink
 .PHONY: .configs
 .configs: $(HOME)/.config/beets/config.yaml $(HOME)/.config/beets/library.db $(HOME)/Library/Application\ Support/Sublime\ Merge/Packages/User $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User $(HOME)/.config/youtube-dl/config
 
-# Beets config
+# beets config
 $(HOME)/.config/beets/config.yaml:
 	ln -s $(PWD)/beets/config.yaml $@
 
