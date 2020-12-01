@@ -55,24 +55,6 @@ beets-save:
 	@git push
 	@echo "💾 beets config is saved"
 
-
-.PHONY: quodlibet-install
-## Install QuodLibet config
-quodlibet-install:
-	@cp quodlibet/album_pattern ~/.quodlibet/album_pattern
-	@cp quodlibet/config ~/.quodlibet/config
-	@echo "🎉 QuodLibet config is installed"
-
-.PHONY: quodlibet-save
-## Save QuodLibet config
-quodlibet-save:
-	@cp ~/.quodlibet/album_pattern quodlibet/album_pattern
-	@cp ~/.quodlibet/config quodlibet/config
-	@git add quodlibet/
-	@git commit -m "🔧 Update QuodLibet config"
-	@git push
-	@echo "💾 QuodLibet config is saved"
-
 SUBLIME_MERGE := $$HOME/Library/Application\ Support/Sublime\ Merge/Packages/User
 
 .PHONY: sublime-merge-install
