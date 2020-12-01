@@ -32,12 +32,15 @@ VPATH = $(shell dirname $(files_to_symlink))
 
 ## Create symbolic links for files/folders with a .symlink suffix
 .PHONY: links
-links: $(symlink_paths)
+links: $(symlink_paths) .configs
 
 # Create all symlink
 # Documentation: https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html#Automatic-Variables
 $(HOME)/.%: %.symlink
 	ln -s $(abspath $<) $@
+
+.PHONY: .configs
+.configs: $(HOME)/.config/beets/config.yaml $(HOME)/.config/beets/library.db $(HOME)/Library/Application\ Support/Sublime\ Merge/Packages/User $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User $(HOME)/.config/youtube-dl/config
 
 # Beets config
 $(HOME)/.config/beets/config.yaml:
