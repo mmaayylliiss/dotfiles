@@ -30,6 +30,7 @@ symlink_paths := $(addprefix $(HOME)/., $(symlinks))
 # Documentation: https://www.gnu.org/software/make/manual/html_node/General-Search.html
 VPATH = $(shell dirname $(files_to_symlink))
 
+## Create symbolic links for files/folders with a .symlink suffix
 .PHONY: links
 links: $(symlink_paths)
 
