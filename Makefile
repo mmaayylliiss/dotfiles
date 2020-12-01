@@ -20,7 +20,7 @@ setup:
 	@open /usr/local/Caskroom/little-snitch4/4.6/LittleSnitch-4.6.dmg
 
 # Find all the files/folders ending with .symlink
-files-to-symlink := $(shell find . -name '*.symlink')
+files-to-symlink := $(shell find . -name "*.symlink")
 # Extract just the name.symlink from the previous list
 symlinks := $(patsubst %.symlink, %, $(shell basename -a $(files-to-symlink)))
 # Generate the complete list of symlink targets we need
@@ -28,7 +28,7 @@ symlink-paths := $(addprefix $(HOME)/., $(symlinks))
 
 # VPATH tells Make to search this list of folders when using the % pattern
 # Documentation: https://www.gnu.org/software/make/manual/html_node/General-Search.html
-VPATH = $(shell find . -type d -not -path '*/\.*')
+VPATH = $(shell find . -type d -not -path "*/\.*")
 
 ## Create symbolic links for files/folders with a .symlink suffix
 .PHONY: links
