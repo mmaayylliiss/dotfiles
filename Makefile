@@ -55,20 +55,6 @@ beets-save:
 	@git push
 	@echo "💾 beets config is saved"
 
-.PHONY: git-install
-## Install Git config
-git-install:
-	@cp git/gitconfig ~/.gitconfig
-	@echo "🎉 Git config is installed"
-
-.PHONY: git-save
-## Save Git config
-git-save:
-	@cp ~/.gitconfig git/gitconfig
-	@git add git/
-	@git commit -m "🔧 Update Git config"
-	@git push
-	@echo "💾 Git config is saved"
 
 .PHONY: quodlibet-install
 ## Install QuodLibet config
