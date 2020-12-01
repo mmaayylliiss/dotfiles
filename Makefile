@@ -104,25 +104,6 @@ youtube-dl-save:
 	@git push
 	@echo "💾 youtube-dl config is saved"
 
-.PHONY: zsh-install
-## Install Zsh config
-zsh-install:
-	@cp zsh/.p10k.zsh ~/.p10k.zsh
-	@cp zsh/.zsh_plugins.txt ~/.zsh_plugins.txt
-	@cp zsh/.zshrc ~/.zshrc
-	@echo "🎉 Zsh config is installed"
-
-.PHONY: zsh-save
-## Save Zsh config
-zsh-save:
-	@cp ~/.p10k.zsh zsh/.p10k.zsh
-	@cp ~/.zsh_plugins.txt zsh/.zsh_plugins.txt
-	@cp ~/.zshrc zsh/.zshrc
-	@git add zsh/
-	@git commit -m "🔧 Update Zsh config"
-	@git push
-	@echo "💾 Zsh config is saved"
-
 bin/pretty-make:
 	@curl -Ls https://raw.githubusercontent.com/awea/pretty-make/master/scripts/install.sh | bash -s
 
