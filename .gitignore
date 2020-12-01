@@ -1,8 +1,20 @@
+# ---
 # Binaries
 bin
 
+# ---
 # Config not to save
 #
+# QuodLibet
+quodlibet.symlink/accels
+quodlibet.symlink/control
+quodlibet.symlink/current
+quodlibet.symlink/feeds
+quodlibet.symlink/queries
+quodlibet.symlink/lists
+quodlibet.symlink/queue
+quodlibet.symlink/songs
+
 # Sublime Merge and Sublime Text
 *.cache
 *.last-run
@@ -10,5 +22,6 @@ bin
 *.user-ca-bundle
 sublime-text/Color\ Highlighter
 
+# ---
 # macOS stuff
 .DS_Store
