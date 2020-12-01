@@ -1,12 +1,12 @@
 # macOS stuff
 .DS_Store
 
-# Sublime Text / Sublime Merge files
-sublime-text/Color\ Highlighter
+# Sublime Text & Sublime Merge config not to save
 *.cache
 *.last-run
 *.merged-ca-bundle
 *.user-ca-bundle
+sublime-text/Color\ Highlighter
 
 # Misc.
 bin
