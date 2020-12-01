@@ -45,22 +45,9 @@ $(HOME)/.config/beets/config.yaml:
 $(HOME)/.config/beets/library.db:
 	ln -s $(PWD)/beets/library.db $@
 
-SUBLIME_MERGE := $$HOME/Library/Application\ Support/Sublime\ Merge/Packages/User
-
-.PHONY: sublime-merge-install
-## Install Sublime Merge config
-sublime-merge-install:
-	@cp sublime-merge/* $(SUBLIME_MERGE)/
-	@echo "🎉 Sublime Merge config is installed"
-
-.PHONY: sublime-merge-save
-## Save Sublime Merge config
-sublime-merge-save:
-	@cp $(SUBLIME_MERGE)/*.sublime-settings sublime-merge/
-	@git add sublime-merge/
-	@git commit -m "🔧 Update Sublime Merge config"
-	@git push
-	@echo "💾 Sublime Merge config is saved"
+# Sublime Merge config
+$(HOME)/Library/Application\ Support/Sublime\ Merge/Packages/User:
+	ln -s $(PWD)/sublime-merge $@
 
 SUBLIME_TEXT := $$HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
