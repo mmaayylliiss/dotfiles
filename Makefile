@@ -38,22 +38,12 @@ links: $(symlink_paths)
 $(HOME)/.%: %.symlink
 	ln -s $(abspath $<) $@
 
-.PHONY: beets-install
-## Install beets config
-beets-install:
-	@cp beets/config.yaml ~/.config/beets/config.yaml
-	@cp beets/library.db ~/.config/beets/library.db
-	@echo "🎉 beets config is installed"
+# Beets config
+$(HOME)/.config/beets/config.yaml:
+	ln -s $(PWD)/beets/config.yaml $@
 
-.PHONY: beets-save
-## Save beets config
-beets-save:
-	@cp ~/.config/beets/config.yaml beets/config.yaml
-	@cp ~/.config/beets/library.db beets/library.db
-	@git add beets/
-	@git commit -m "🔧 Update beets config"
-	@git push
-	@echo "💾 beets config is saved"
+$(HOME)/.config/beets/library.db:
+	ln -s $(PWD)/beets/library.db $@
 
 SUBLIME_MERGE := $$HOME/Library/Application\ Support/Sublime\ Merge/Packages/User
 
