@@ -19,20 +19,24 @@ setup:
 	@open /Applications/CraftManager.app
 	@open /usr/local/Caskroom/little-snitch4/4.6/LittleSnitch-4.6.dmg
 
-.PHONY: asdf-install
-## Install asdf config
-asdf-install:
-	@cp asdf/.tool-versions ~/.tool-versions
-	@echo "🎉 asdf config is installed"
+# Find all the files/folders ending with .symlink
+files_to_symlink := $(shell find . -name '*.symlink')
+# Extract just the name.symlink from the previous list
+symlinks := $(patsubst %.symlink, %, $(shell basename -a $(files_to_symlink)))
+# Generate the complete list of symlink target we need
+symlink_paths := $(addprefix $(HOME)/., $(symlinks))
 
-.PHONY: asdf-save
-## Save asdf config
-asdf-save:
-	@cp ~/.tool-versions asdf/.tool-versions
-	@git add asdf/
-	@git commit -m "🔧 Update asdf config"
-	@git push
-	@echo "💾 asdf config is saved"
+# VPATH tells Make to search this list of folders when using the % pattern
+# Documentation: https://www.gnu.org/software/make/manual/html_node/General-Search.html
+VPATH = $(shell dirname $(files_to_symlink))
+
+.PHONY: links
+links: $(symlink_paths)
+
+# Create all symlink
+# Documentation: https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html#Automatic-Variables
+$(HOME)/.%: %.symlink
+	ln -s $(abspath $<) $@
 
 .PHONY: beets-install
 ## Install beets config
