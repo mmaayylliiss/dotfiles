@@ -40,25 +40,34 @@ $(HOME)/.%: %.symlink
 	ln -s $(abspath $<) $@
 
 .PHONY: .configs
-.configs: $(HOME)/.config/beets/config.yaml $(HOME)/.config/beets/library.db $(HOME)/Library/Application\ Support/Sublime\ Merge/Packages/User $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User $(HOME)/.config/youtube-dl/config
+.configs: $(beets_config) $(beets_library) $(sublime_merge_user) $(sublime_text_user) $(youtube-dl_config)
 
 # beets config
-$(HOME)/.config/beets/config.yaml:
+beets_config := $(HOME)/.config/beets/config.yaml
+beets_library := $(HOME)/.config/beets/library.db
+
+$(beets_config):
 	ln -s $(PWD)/beets/config.yaml $@
 
-$(HOME)/.config/beets/library.db:
+$(beets_library):
 	ln -s $(PWD)/beets/library.db $@
 
 # Sublime Merge config
-$(HOME)/Library/Application\ Support/Sublime\ Merge/Packages/User:
+sublime_merge_user := $(HOME)/Library/Application\ Support/Sublime\ Merge/Packages/User
+
+$(sublime_merge_user):
 	ln -s $(PWD)/sublime-merge $@
 
 # Sublime Text config
-$(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User:
+sublime_text_user := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+
+$(sublime_text_user):
 	ln -s $(PWD)/sublime-text $@
 
 # youtube-dl config
-$(HOME)/.config/youtube-dl/config:
+youtube-dl_config := $(HOME)/.config/youtube-dl/config
+
+$(youtube-dl_config):
 	ln -s $(PWD)/youtube-dl/config $@
 
 bin/pretty-make:
