@@ -1,5 +1,11 @@
 # macOS stuff
 .DS_Store
 
+# Sublime Text / Sublime Merge files
+sublime-text-3/Package\ Control.cache
+*.last-run
+*.merged-ca-bundle
+*.user-ca-bundle
+
 # Misc.
 bin
