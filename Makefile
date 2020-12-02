@@ -56,13 +56,13 @@ $(beets-library):
 sublime-merge-user := $(HOME)/Library/Application\ Support/Sublime\ Merge/Packages/User
 
 $(sublime-merge-user):
-	ln -fs $(PWD)/sublime-merge $@
+	ln -fs '$(PWD)/sublime-merge' '$@'
 
 # Sublime Text config
 sublime-text-user := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
 $(sublime-text-user):
-	ln -fs $(PWD)/sublime-text $@
+	ln -fs '$(PWD)/sublime-text' '$@'
 
 # youtube-dl config
 youtube-dl-config := $(HOME)/.config/youtube-dl/config
