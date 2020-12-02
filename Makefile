@@ -55,14 +55,18 @@ $(beets-library):
 # Sublime Merge config
 sublime-merge-user := $(HOME)/Library/Application\ Support/Sublime\ Merge/Packages/User
 
+.PHONY: $(sublime-merge-user)
 $(sublime-merge-user):
-	ln -fs '$(PWD)/sublime-merge' '$@'
+	rm -rf "$@"
+	ln -fs "$(PWD)/sublime-merge" "$@"
 
 # Sublime Text config
 sublime-text-user := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
+.PHONY: $(sublime-text-user)
 $(sublime-text-user):
-	ln -fs '$(PWD)/sublime-text' '$@'
+	rm -rf "$@"
+	ln -fs "$(PWD)/sublime-text" "$@"
 
 # youtube-dl config
 youtube-dl-config := $(HOME)/.config/youtube-dl/config
