@@ -1,8 +1,9 @@
 {
 	"extensions":
 	[
-		".zshrc",
+    ".tool-versions",
 		"config",
+		"symlink",
 		"txt"
 	]
 }
