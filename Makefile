@@ -60,19 +60,19 @@ $(beets-library):
 # `User` directory then creating symbolic link
 # See https://stackoverflow.com/q/9838384
 # —Maylis
-sublime-merge-user-path := $(HOME)/Library/Application\ Support/Sublime\ Merge/Packages/User
+sublime-merge-user := $(HOME)/Library/Application\ Support/Sublime\ Merge/Packages/User
 
 .PHONY: sublime-merge-user
 sublime-merge-user:
-	rm -rf $(sublime-merge-user-path)
-	ln -fs $(PWD)/sublime-merge $(sublime-merge-user-path)
+	rm -rf $(sublime-merge-user)
+	ln -fs $(PWD)/sublime-merge $(sublime-merge-user)
 
-sublime-text-user-path := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+sublime-text-user := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
 .PHONY: sublime-text-user
 sublime-text-user:
-	rm -rf $(sublime-text-user-path)
-	ln -fs $(PWD)/sublime-text $(sublime-text-user-path)
+	rm -rf $(sublime-text-user)
+	ln -fs $(PWD)/sublime-text $(sublime-text-user)
 
 # youtube-dl config
 youtube-dl-config := $(HOME)/.config/youtube-dl/config
