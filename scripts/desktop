@@ -1,0 +1,10 @@
+#!/bin/zsh
+
+# Create trash folder on Desktop
+mkdir $HOME/Desktop/🗑
+
+# Create symbolic links on Desktop
+ln -s /Volumes/Storage/Dropbox $HOME/Desktop/Dropbox
+ln -s /Volumes/Storage/Dropbox/work/prospecting $HOME/Desktop/prospecting
+ln -s /Volumes/Storage/Dropbox/work/todo $HOME/Desktop/todo
+ln -s /Volumes/Storage/Dropbox/work/utilities $HOME/Desktop/utilities
