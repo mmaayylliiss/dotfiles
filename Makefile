@@ -57,16 +57,16 @@ sublime-merge-user-path := $(HOME)/Library/Application\ Support/Sublime\ Merge/P
 
 .PHONY: sublime-merge-user
 sublime-merge-user:
-	rm -rf "$(sublime-merge-user-path)"
-	ln -fs "$(PWD)/sublime-merge" "$(sublime-merge-user-path)"
+	rm -rf $(sublime-merge-user-path)
+	ln -fs $(PWD)/sublime-merge $(sublime-merge-user-path)
 
 # Sublime Text config
 sublime-text-user-path := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
 .PHONY: sublime-text-user
 sublime-text-user:
-	rm -rf "$(sublime-text-user-path)"
-	ln -fs "$(PWD)/sublime-text" "$(sublime-text-user-path)"
+	rm -rf $(sublime-text-user-path)
+	ln -fs $(PWD)/sublime-text $(sublime-text-user-path)
 
 # youtube-dl config
 youtube-dl-config := $(HOME)/.config/youtube-dl/config
