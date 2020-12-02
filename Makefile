@@ -52,7 +52,14 @@ $(beets-config):
 $(beets-library):
 	ln -fs $(PWD)/beets/library.db $@
 
-# Sublime Merge config
+# Sublime Merge and Sublime Text config
+#
+# 20201202
+# We cannot use a recipe with spaces in its name, it just does not work
+# Here is an attempt to fix that: using .PHONY target, manually removing
+# `User` directory then creating symbolic link
+# See https://stackoverflow.com/q/9838384
+# —Maylis
 sublime-merge-user-path := $(HOME)/Library/Application\ Support/Sublime\ Merge/Packages/User
 
 .PHONY: sublime-merge-user
@@ -60,7 +67,6 @@ sublime-merge-user:
 	rm -rf $(sublime-merge-user-path)
 	ln -fs $(PWD)/sublime-merge $(sublime-merge-user-path)
 
-# Sublime Text config
 sublime-text-user-path := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
 .PHONY: sublime-text-user
