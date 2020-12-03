@@ -8,6 +8,10 @@
 # instead of the default sh
 SHELL := /usr/bin/env bash
 
+# VPATH tells Make to search this list of folders when using the % pattern
+# Documentation: https://www.gnu.org/software/make/manual/html_node/General-Search.html
+VPATH = $(shell find . -type d -not -path "*/\.*")
+
 .PHONY: setup
 ## Install software
 setup:
@@ -19,32 +23,10 @@ setup:
 	@open /Applications/CraftManager.app
 	@open /usr/local/Caskroom/little-snitch4/4.6/LittleSnitch-4.6.dmg
 
-# Find all the files/folders ending with .symlink
-files-to-symlink := $(shell find . -name "*.symlink")
-# Extract just the name.symlink from the previous list
-symlinks := $(patsubst %.symlink, %, $(shell basename -a $(files-to-symlink)))
-# Generate the complete list of symlink targets we need
-symlink-paths := $(addprefix $(HOME)/., $(symlinks))
-
-# VPATH tells Make to search this list of folders when using the % pattern
-# Documentation: https://www.gnu.org/software/make/manual/html_node/General-Search.html
-VPATH = $(shell find . -type d -not -path "*/\.*")
-
-## Create symbolic links for dotfiles
-.PHONY: links
-links: $(symlink-paths) .configs
-
 # Create all symbolic links for .symlink files/folders
 # Documentation: https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html#Automatic-Variables
 $(HOME)/.%: %.symlink
 	ln -fs $(abspath $<) $@
-
-# We manually create symlinks in .config and Application\ Support because it would
-# have been messy to use the .symlink extension. If we had use the .symlink extension,
-# we should have matched the same directory structure in this repository...
-# - @awea 20201203
-.PHONY: .configs
-.configs: $(beets-config) $(beets-library) sublime-merge-user sublime-text-user $(youtube-dl-config)
 
 # beets config
 beets-config := $(HOME)/.config/beets/config.yaml
@@ -83,6 +65,24 @@ youtube-dl-config := $(HOME)/.config/youtube-dl/config
 
 $(youtube-dl-config):
 	ln -fs $(PWD)/youtube-dl/config $@
+
+# We manually create symlinks in .config and Application\ Support because it would
+# have been messy to use the .symlink extension. If we had use the .symlink extension,
+# we should have matched the same directory structure in this repository...
+# - @awea 20201203
+.PHONY: .configs
+.configs: $(beets-config) $(beets-library) sublime-merge-user sublime-text-user $(youtube-dl-config)
+
+# Find all the files/folders ending with .symlink
+files-to-symlink := $(shell find . -name "*.symlink")
+# Extract just the name.symlink from the previous list
+symlinks := $(patsubst %.symlink, %, $(shell basename -a $(files-to-symlink)))
+# Generate the complete list of symlink targets we need
+symlink-paths := $(addprefix $(HOME)/., $(symlinks))
+
+## Create symbolic links for dotfiles
+.PHONY: links
+links: $(symlink-paths) .configs
 
 bin/pretty-make:
 	@curl -Ls https://raw.githubusercontent.com/awea/pretty-make/master/scripts/install.sh | bash -s
