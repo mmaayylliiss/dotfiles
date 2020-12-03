@@ -30,11 +30,11 @@ symlink-paths := $(addprefix $(HOME)/., $(symlinks))
 # Documentation: https://www.gnu.org/software/make/manual/html_node/General-Search.html
 VPATH = $(shell find . -type d -not -path "*/\.*")
 
-## Create symbolic links for files/folders with a .symlink suffix
+## Create symbolic links for dotfiles
 .PHONY: links
 links: $(symlink-paths) .configs
 
-# Create all symlinks
+# Create all symbolic links for .symlink files/folders
 # Documentation: https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html#Automatic-Variables
 $(HOME)/.%: %.symlink
 	ln -fs $(abspath $<) $@
