@@ -30,6 +30,9 @@ alias gb="git branch"
 alias gba="git branch --all --verbose"
 alias gbc="git checkout -b"
 
+# Commit (c)
+alias gco="git checkout"
+
 # Fetch (f)
 alias gfa="git fetch --all"
 alias gfc="git clone"
