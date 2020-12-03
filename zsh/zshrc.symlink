@@ -58,6 +58,10 @@ function killp {
 }
 
 # ---
+# `ls` https://man7.org/linux/man-pages/man1/ls.1.html
+alias ll="ls -l"
+
+# ---
 # macOS
 alias showhiddenfiles="defaults write com.apple.finder AppleShowAllFiles YES"
 alias hidehiddenfiles="defaults write com.apple.finder AppleShowAllFiles NO"
@@ -67,10 +71,6 @@ alias hidehiddenfiles="defaults write com.apple.finder AppleShowAllFiles NO"
 #
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# ---
-# System
-alias ll="ls -l"
 
 # ---
 # Yarn
