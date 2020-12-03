@@ -84,6 +84,10 @@ symlink-paths := $(addprefix $(HOME)/., $(symlinks))
 .PHONY: links
 links: $(symlink-paths) .configs
 
+## Install software and create symbolic links
+.PHONY: setup
+setup: install links
+
 bin/pretty-make:
 	@curl -Ls https://raw.githubusercontent.com/awea/pretty-make/master/scripts/install.sh | bash -s
 
