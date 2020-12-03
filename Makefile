@@ -42,19 +42,19 @@ $(beets):
 # `User` directory then creating symbolic link
 # See https://stackoverflow.com/q/9838384
 # —Maylis
-sublime-merge-user := $(HOME)/Library/Application\ Support/Sublime\ Merge/Packages/User
+sublime-merge := $(HOME)/Library/Application\ Support/Sublime\ Merge/Packages/User
 
-.PHONY: sublime-merge-user
-sublime-merge-user:
-	rm -rf $(sublime-merge-user)
-	ln -fs $(PWD)/sublime-merge $(sublime-merge-user)
+.PHONY: sublime-merge
+sublime-merge:
+	rm -rf $(sublime-merge)
+	ln -fs $(PWD)/sublime-merge $(sublime-merge)
 
-sublime-text-user := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+sublime-text := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
-.PHONY: sublime-text-user
-sublime-text-user:
-	rm -rf $(sublime-text-user)
-	ln -fs $(PWD)/sublime-text $(sublime-text-user)
+.PHONY: sublime-text
+sublime-text:
+	rm -rf $(sublime-text)
+	ln -fs $(PWD)/sublime-text $(sublime-text)
 
 # youtube-dl config
 youtube-dl := $(HOME)/.config/youtube-dl
@@ -67,7 +67,7 @@ $(youtube-dl):
 # we should have matched the same directory structure in this repository...
 # - @awea 20201203
 .PHONY: .configs
-.configs: $(beets) sublime-merge-user sublime-text-user $(youtube-dl)
+.configs: $(beets) sublime-merge sublime-text $(youtube-dl)
 
 # Find all the files/folders ending with .symlink
 files-to-symlink := $(shell find . -name "*.symlink")
