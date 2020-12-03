@@ -12,9 +12,9 @@ SHELL := /usr/bin/env bash
 # Documentation: https://www.gnu.org/software/make/manual/html_node/General-Search.html
 VPATH = $(shell find . -type d -not -path "*/\.*")
 
-.PHONY: setup
+.PHONY: install
 ## Install software
-setup:
+install:
 	@brew bundle
 	# Run all setup scripts
 	@for f in scripts/*; do ./$f; done
