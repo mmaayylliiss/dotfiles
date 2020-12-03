@@ -29,14 +29,10 @@ $(HOME)/.%: %.symlink
 	ln -fs $(abspath $<) $@
 
 # beets config
-beets-config := $(HOME)/.config/beets/config.yaml
-beets-library := $(HOME)/.config/beets/library.db
+beets := $(HOME)/.config/beets
 
-$(beets-config):
-	ln -fs $(PWD)/beets/config.yaml $@
-
-$(beets-library):
-	ln -fs $(PWD)/beets/library.db $@
+$(beets):
+	ln -fs $(PWD)/beets $@
 
 # Sublime Merge and Sublime Text config
 #
@@ -61,17 +57,17 @@ sublime-text-user:
 	ln -fs $(PWD)/sublime-text $(sublime-text-user)
 
 # youtube-dl config
-youtube-dl-config := $(HOME)/.config/youtube-dl/config
+youtube-dl := $(HOME)/.config/youtube-dl
 
-$(youtube-dl-config):
-	ln -fs $(PWD)/youtube-dl/config $@
+$(youtube-dl):
+	ln -fs $(PWD)/youtube-dl $@
 
 # We manually create symlinks in .config and Application\ Support because it would
 # have been messy to use the .symlink extension. If we had use the .symlink extension,
 # we should have matched the same directory structure in this repository...
 # - @awea 20201203
 .PHONY: .configs
-.configs: $(beets-config) $(beets-library) sublime-merge-user sublime-text-user $(youtube-dl-config)
+.configs: $(beets) sublime-merge-user sublime-text-user $(youtube-dl)
 
 # Find all the files/folders ending with .symlink
 files-to-symlink := $(shell find . -name "*.symlink")

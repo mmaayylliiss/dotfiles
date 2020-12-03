@@ -5,6 +5,9 @@ bin
 # ---
 # Config not to save
 #
+# beets
+*.pickle
+
 # QuodLibet
 # Folders
 quodlibet.symlink/lists
