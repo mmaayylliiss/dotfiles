@@ -86,8 +86,6 @@ cask "quodlibet"
 cask "runway"
 # Sketch https://www.sketch.com
 cask "sketch"
-# Skype https://www.skype.com
-cask "skype"
 # Steam https://store.steampowered.com
 cask "steam"
 # Sublime Merge https://www.sublimemerge.com
