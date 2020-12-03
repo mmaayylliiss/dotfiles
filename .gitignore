@@ -6,12 +6,15 @@ bin
 # Config not to save
 #
 # QuodLibet
+# Folders
+quodlibet.symlink/lists
+quodlibet.symlink/playlists
+# Files
 quodlibet.symlink/accels
 quodlibet.symlink/control
 quodlibet.symlink/current
 quodlibet.symlink/feeds
 quodlibet.symlink/queries
-quodlibet.symlink/lists
 quodlibet.symlink/queue
 quodlibet.symlink/songs
 
