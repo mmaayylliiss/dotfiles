@@ -39,6 +39,10 @@ links: $(symlink-paths) .configs
 $(HOME)/.%: %.symlink
 	ln -fs $(abspath $<) $@
 
+# We manually create symlinks in .config and Application\ Support because it would
+# have been messy to use the .symlink extension. If we had use the .symlink extension,
+# we should have matched the same directory structure in this repository...
+# - @awea 20201203
 .PHONY: .configs
 .configs: $(beets-config) $(beets-library) sublime-merge-user sublime-text-user $(youtube-dl-config)
 
