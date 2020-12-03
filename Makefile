@@ -23,11 +23,19 @@ install:
 	@open /Applications/CraftManager.app
 	@open /usr/local/Caskroom/little-snitch4/4.6/LittleSnitch-4.6.dmg
 
-# Create all symbolic links for .symlink files/folders
+# Create symbolic links for .symlink files/folders
 # Documentation: https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html#Automatic-Variables
 $(HOME)/.%: %.symlink
 	ln -fs $(abspath $<) $@
 
+# 20201203
+# By default symlinks are created as dotfiles in $HOME (e.g.: $HOME/.zshrc)
+# For other cases (e.g.: $HOME/.config/*) there are two approaches:
+# 1. Dotfiles repository structure must match the system directory structure (messy)
+# 2. Create those symlinks manually (simpler)
+# We therefore chose the second option
+# —Maylis
+#
 # beets config
 beets := $(HOME)/.config/beets
 
@@ -62,10 +70,6 @@ youtube-dl := $(HOME)/.config/youtube-dl
 $(youtube-dl):
 	ln -fs $(PWD)/youtube-dl $@
 
-# We manually create symlinks in .config and Application\ Support because it would
-# have been messy to use the .symlink extension. If we had use the .symlink extension,
-# we should have matched the same directory structure in this repository...
-# - @awea 20201203
 .PHONY: .configs
 .configs: $(beets) sublime-merge sublime-text $(youtube-dl)
 
@@ -76,7 +80,7 @@ symlinks := $(patsubst %.symlink, %, $(shell basename -a $(files-to-symlink)))
 # Generate the complete list of symlink targets we need
 symlink-paths := $(addprefix $(HOME)/., $(symlinks))
 
-## Create symbolic links for dotfiles
+## Create symbolic links for all dotfiles
 .PHONY: links
 links: $(symlink-paths) .configs
 
