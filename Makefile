@@ -57,12 +57,27 @@ sublime-merge:
 	rm -rf $(sublime-merge)
 	ln -fs $(PWD)/sublime-merge $(sublime-merge)
 
-sublime-text := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+# 20201204
+# Sublime Text config is a bit tricky
+# because Package Control MUST be installed manually
+# —Maylis
+.PHONY: subl
+subl:
+	subl
+
+sublime-text-package-control := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
+
+$(sublime-text-package-control): subl
+	@$(shell bash -c "read -p '✋ Install Package Control in Sublime Text then hit enter to continue'")
+	@echo "👌 Alright, let's continue"
+	pkill "Sublime Text"
+
+sublime-text-user := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
 .PHONY: sublime-text
-sublime-text:
-	rm -rf $(sublime-text)
-	ln -fs $(PWD)/sublime-text $(sublime-text)
+sublime-text: $(sublime-text-package-control)
+	rm -rf $(sublime-text-user)
+	ln -fs $(PWD)/sublime-text $(sublime-text-user)
 
 # youtube-dl config
 youtube-dl := $(HOME)/.config/youtube-dl

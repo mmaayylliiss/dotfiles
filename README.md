@@ -10,7 +10,6 @@
 ## 📝 Table of contents
 - [**Commands**](#commands)
 - [**Software manual configuration**](#software-manual-configuration)
-  - [**Sublime Text**](#sublime-text)
   - [**iTerm**](#iterm)
   - [**Firefox**](#firefox)
   - [**Google Chrome**](#google-chrome)
@@ -32,11 +31,6 @@ make
 
 <a name="software-manual-configuration"></a>
 ## 🔧 Software manual configuration
-
-<a name="sublime-text"></a>
-![](documentation-images/sublime-text.gif)
-
-Install [**Package Control**](https://packagecontrol.io/installation)
 
 <a name="iterm"></a>
 ![](documentation-images/iterm.gif)
