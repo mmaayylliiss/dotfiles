@@ -1,11 +1,11 @@
 {
-  "auto_format_on_save": true,
-  "auto_format_on_save_excludes": [
-    "*.html",
-    "*.json",
-    "*.md",
-    "*.yml"
-  ],
-  "node_path": "$HOME/.asdf/shims/node",
-  "prettier_cli_path": "$HOME/.asdf/shims/prettier"
+	"additional_cli_args": {
+		"--config": "./.prettierrc"
+	},
+	"auto_format_on_save": true,
+	"auto_format_on_save_excludes": [
+		"*.html",
+		"*.md"
+	],
+	"node_path": "$HOME/.asdf/shims/node"
 }

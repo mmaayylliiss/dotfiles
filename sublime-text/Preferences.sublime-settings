@@ -34,6 +34,16 @@
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
+
+	// Disable Sublime Text's default bracket and tag matcher
+	// to avoid conflicts with BracketHighlighter package
+	"match_brackets": false,
+	"match_brackets_angle": false,
+	"match_brackets_braces": false,
+	"match_brackets_content": false,
+	"match_brackets_square": false,
+	"match_tags": false,
+
 	"tab_size": 2,
 	"theme": "ayu-mirage.sublime-theme",
 	"translate_tabs_to_spaces": true,

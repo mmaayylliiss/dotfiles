@@ -1,7 +1,7 @@
 {
 	"extensions":
 	[
-    ".tool-versions",
+		".tool-versions",
 		"config",
 		"symlink",
 		"txt"

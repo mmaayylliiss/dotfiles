@@ -12,17 +12,13 @@
 		"HTMLBeautify",
 		"Jinja2",
 		"JsPrettier",
-		"MarkdownLight",
+		"MarkdownEditing",
 		"Package Control",
-		"PHP CS Fixer",
 		"PHP-Twig",
 		"Pug",
 		"Sass",
 		"SideBarEnhancements",
 		"TOML",
 		"Vue Syntax Highlight"
-	],
-	"repositories":
-	[
 	]
 }
