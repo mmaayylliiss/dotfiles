@@ -135,10 +135,12 @@ symlink-paths := $(addprefix $(HOME)/., $(symlinks))
 ## Create symbolic links for all dotfiles
 .PHONY: links
 links: $(symlink-paths) .configs
+	@echo "🎉 Symbolic links are created for all dotfiles"
 
 ## Install software and create symbolic links
 .PHONY: setup
 setup: install links
+	@echo "🏁 You are all set"
 
 bin/pretty-make:
 	@curl -Ls https://raw.githubusercontent.com/awea/pretty-make/master/scripts/install.sh | bash -s
