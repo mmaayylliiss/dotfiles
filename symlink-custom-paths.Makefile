@@ -66,6 +66,11 @@ $(sublime-text-package-control):
 
 .PHONY: sublime-text
 sublime-text: $(sublime-text-package-control)
+	# We re-recreate symbolic links here to handle the case
+	# where package control is already installed when we launch
+	# this recipe - @awea 20201206
+	@rm -rf $(sublime-text-user)
+	ln -fs $(PWD)/sublime-text $(sublime-text-user)
 
 # youtube-dl config
 youtube-dl := $(HOME)/.config/youtube-dl
