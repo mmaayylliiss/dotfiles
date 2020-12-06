@@ -82,8 +82,6 @@ cask "openoffice"
 cask "poedit"
 # QuodLibet https://quodlibet.readthedocs.io
 cask "quodlibet"
-# Runway https://runwayml.com
-cask "runway"
 # Sketch https://www.sketch.com
 cask "sketch"
 # Steam https://store.steampowered.com
