@@ -56,10 +56,10 @@ else
 	sublime-text-package-control-installed := "false"
 endif
 
-sublime-text-user := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-
 $(sublime-text-package-control):
 	@bin/sublime-text-config
+
+sublime-text-user := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
 .PHONY: sublime-text
 sublime-text: $(sublime-text-package-control)
