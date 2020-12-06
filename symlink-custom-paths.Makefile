@@ -37,7 +37,7 @@ sublime-merge: sublime-merge-open sublime-merge-quit
 
 # Sublime Text config
 #
-# 20201205
+# 20201206
 # Sublime Text config is a bit tricky for some reasons:
 # - Package Control MUST be installed manually through Sublime Text
 # - Sublime Text operates some changes on `Preferences.sublime-settings`
@@ -45,9 +45,9 @@ sublime-merge: sublime-merge-open sublime-merge-quit
 # - Sublime Text is not designed to import config files properly,
 # so it will display a few errors in the process, just close them
 #
-# To handle this, the process has been split into many steps
+# To handle this, we created a dedicated `sublime-text-config` bash script
+# which runs only when Package Control is not installed yet
 # —Maylis
-
 sublime-text-package-control := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
 
 ifeq ($(wildcard $(sublime-text-package-control)),)
