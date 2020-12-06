@@ -34,6 +34,13 @@ installers:
 $(HOME)/.%: %.symlink
 	ln -fs $(abspath $<) $@
 
+# Find all the files/folders ending with .symlink
+files-to-symlink := $(shell find . -name "*.symlink")
+# Extract just the name.symlink from the previous list
+symlinks := $(patsubst %.symlink, %, $(shell basename -a $(files-to-symlink)))
+# Generate the complete list of symlink targets we need
+symlink-paths := $(addprefix $(HOME)/., $(symlinks))
+
 # 20201203
 # By default symlinks are created as dotfiles in $HOME (e.g.: $HOME/.zshrc)
 # For other cases (e.g.: $HOME/.config/*) there are two approaches:
@@ -130,13 +137,6 @@ $(youtube-dl):
 
 .PHONY: .configs
 .configs: $(beets) sublime-merge sublime-text $(youtube-dl)
-
-# Find all the files/folders ending with .symlink
-files-to-symlink := $(shell find . -name "*.symlink")
-# Extract just the name.symlink from the previous list
-symlinks := $(patsubst %.symlink, %, $(shell basename -a $(files-to-symlink)))
-# Generate the complete list of symlink targets we need
-symlink-paths := $(addprefix $(HOME)/., $(symlinks))
 
 ## Create symbolic links
 .PHONY: symlinks
