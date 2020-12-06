@@ -53,7 +53,7 @@ sublime-text-package-control := $(HOME)/Library/Application\ Support/Sublime\ Te
 sublime-text-user := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
 $(sublime-text-package-control):
-	@bin/sublime-text-config $(sublime-text-user)
+	@bin/sublime-text-config
 	$(eval sublime-text-config-used := 'true')
 
 .PHONY: sublime-text
