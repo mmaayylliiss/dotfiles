@@ -12,13 +12,19 @@ SHELL := /usr/bin/env bash
 # Documentation: https://www.gnu.org/software/make/manual/html_node/General-Search.html
 VPATH = $(shell find . -type d -not -path "*/\.*")
 
-.PHONY: install
-## Install software
-install:
+.PHONY: brew
+## Install tools and software with Homebrew
+brew:
 	@brew bundle
-	# Run all setup scripts
+
+.PHONY: scripts
+## Run various setup scripts
+scripts:
 	@for f in scripts/*; do ./$f; done
-	# Open installers/managers
+
+.PHONY: installers
+## Open installers/managers
+installers:
 	@open /usr/local/Caskroom/adobe-creative-cloud/latest/Creative\ Cloud\ Installer.app
 	@open /Applications/CraftManager.app
 	@open /usr/local/Caskroom/little-snitch4/4.6/LittleSnitch-4.6.dmg
@@ -132,14 +138,14 @@ symlinks := $(patsubst %.symlink, %, $(shell basename -a $(files-to-symlink)))
 # Generate the complete list of symlink targets we need
 symlink-paths := $(addprefix $(HOME)/., $(symlinks))
 
-## Create symbolic links for all dotfiles
-.PHONY: links
-links: $(symlink-paths) .configs
-	@echo "🎉 Symbolic links are created for all dotfiles"
+## Create symbolic links
+.PHONY: symlinks
+symlinks: $(symlink-paths) .configs
+	@echo "🎉 Symbolic links are created"
 
-## Install software and create symbolic links
+## Run a complete setup
 .PHONY: setup
-setup: install links
+setup: brew scripts installers symlinks
 	@echo "🏁 You are all set"
 
 bin/pretty-make:
