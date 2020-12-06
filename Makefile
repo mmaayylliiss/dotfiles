@@ -135,12 +135,12 @@ youtube-dl := $(HOME)/.config/youtube-dl
 $(youtube-dl):
 	ln -fs $(PWD)/youtube-dl $@
 
-.PHONY: .configs
-.configs: $(beets) sublime-merge sublime-text $(youtube-dl)
+.PHONY: symlink-custom-paths
+symlink-custom-paths: $(beets) sublime-merge sublime-text $(youtube-dl)
 
 ## Create symbolic links
 .PHONY: symlinks
-symlinks: $(symlink-paths) .configs
+symlinks: $(symlink-paths) symlink-custom-paths
 	@echo "🎉 Symbolic links are created"
 
 ## Run a complete setup
