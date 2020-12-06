@@ -5,7 +5,7 @@ read -p "✋ Install Package Control in Sublime Text then hit enter"
 pkill "Sublime Text"
 rm -rf $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 ln -fs $PWD/sublime-text $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-read -p "✋ Open Sublime Text manually then hit enter"
+subl
 read -p "⏳ Sublime Text is currently completing packages installation, hit enter when it is done"
 pkill "Sublime Text"
 smerge .
