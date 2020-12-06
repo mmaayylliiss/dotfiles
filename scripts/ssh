@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+# Copy SSH keys from backup
+rsync -a /Volumes/backup/ssh/ $HOME/.ssh/
