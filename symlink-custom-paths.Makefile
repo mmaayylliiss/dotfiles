@@ -63,7 +63,7 @@ $(sublime-text-package-control):
 
 .PHONY: sublime-text
 sublime-text: $(sublime-text-package-control)
-ifeq ($(sublime-text-config-used),'true')
+ifeq ($(sublime-text-package-control-installed),'true')
 	@rm -rf $(sublime-text-user)
 	ln -fs $(PWD)/sublime-text $(sublime-text-user)
 endif
