@@ -17,10 +17,6 @@ $(beets):
 sublime-merge-open:
 	@smerge
 
-.PHONY: sublime-merge-open-current
-sublime-merge-open-current:
-	@smerge .
-
 .PHONY: sublime-merge-quit
 sublime-merge-quit:
 	@pkill "sublime_merge"
@@ -51,40 +47,25 @@ sublime-merge: sublime-merge-open sublime-merge-quit
 #
 # To handle this, the process has been split into many steps
 # —Maylis
-.PHONY: sublime-text-open
-sublime-text-open:
-	@subl
-
-.PHONY: sublime-text-quit
-sublime-text-quit:
-	@pkill "Sublime Text"
 
 sublime-text-package-control := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
 
-$(sublime-text-package-control): sublime-text-open
-	@$(shell bash -c "read -p '✋ Install Package Control in Sublime Text then hit enter'")
-
 sublime-text-user := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
-.PHONY: sublime-text-symlinks
-sublime-text-symlinks: $(sublime-text-package-control) sublime-text-quit
+$(sublime-text-package-control):
+	@subl
+	@$(shell bash -c "read -p '✋ Install Package Control in Sublime Text then hit enter'")
+	@pkill "Sublime Text"
 	@rm -rf $(sublime-text-user)
 	ln -fs $(PWD)/sublime-text $(sublime-text-user)
-
-.PHONY: sublime-text-open-manually
-sublime-text-open-manually: sublime-text-symlinks
 	@$(shell bash -c "read -p '✋ Open Sublime Text manually then hit enter'")
-
-.PHONY: sublime-text-packages-installation
-sublime-text-packages-installation: sublime-text-open-manually
 	@$(shell bash -c "read -p '⏳ Sublime Text is currently completing packages installation, hit enter when it is done'")
-
-.PHONY: sublime-text-discard-changes
-sublime-text-discard-changes: sublime-text-packages-installation sublime-text-quit sublime-merge-open-current
+	@pkill "Sublime Text"
+	@smerge .
 	@$(shell bash -c "read -p '✋ Discard unwanted changes on Preferences.sublime-settings then hit enter'")
 
 .PHONY: sublime-text
-sublime-text: sublime-text-discard-changes
+sublime-text: $(sublime-text-package-control)
 
 # youtube-dl config
 youtube-dl := $(HOME)/.config/youtube-dl
