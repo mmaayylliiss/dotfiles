@@ -388,7 +388,7 @@
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Desktop/repositories/md/dotfiles/maylis-dotfiles/iterm</string>
+	<string>~/Desktop/dotfiles/iterm/preferences</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{720, 448}</string>
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
@@ -2427,7 +2427,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/maylisagniel/Desktop/repositories/md/dotfiles/maylis-dotfiles/iterm/preferences</string>
+	<string>/Users/maylisagniel/Desktop/dotfiles/iterm/preferences</string>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -2437,7 +2437,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-11-26T11:38:47Z</date>
+	<date>2020-12-06T11:39:09Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
