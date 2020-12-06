@@ -1,6 +1,6 @@
 # ---
 # Binaries
-bin
+bin/pretty-make
 
 # ---
 # Config not to save

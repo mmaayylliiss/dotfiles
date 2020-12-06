@@ -1,0 +1,12 @@
+#!/bin/bash
+
+subl
+read -p '✋ Install Package Control in Sublime Text then hit enter' continue
+pkill "Sublime Text"
+rm -rf $1
+ln -fs $PWD/sublime-text $1
+read -p '✋ Open Sublime Text manually then hit enter'
+read -p '⏳ Sublime Text is currently completing packages installation, hit enter when it is done'
+pkill "Sublime Text"
+smerge .
+read -p '✋ Discard unwanted changes on Preferences.sublime-settings then hit enter'

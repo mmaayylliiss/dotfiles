@@ -53,16 +53,7 @@ sublime-text-package-control := $(HOME)/Library/Application\ Support/Sublime\ Te
 sublime-text-user := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
 $(sublime-text-package-control):
-	@subl
-	@$(shell bash -c "read -p '✋ Install Package Control in Sublime Text then hit enter'")
-	@pkill "Sublime Text"
-	@rm -rf $(sublime-text-user)
-	ln -fs $(PWD)/sublime-text $(sublime-text-user)
-	@$(shell bash -c "read -p '✋ Open Sublime Text manually then hit enter'")
-	@$(shell bash -c "read -p '⏳ Sublime Text is currently completing packages installation, hit enter when it is done'")
-	@pkill "Sublime Text"
-	@smerge .
-	@$(shell bash -c "read -p '✋ Discard unwanted changes on Preferences.sublime-settings then hit enter'")
+	@bin/sublime-text-config $(sublime-text-user)
 
 .PHONY: sublime-text
 sublime-text: $(sublime-text-package-control)
