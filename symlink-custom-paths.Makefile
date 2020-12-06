@@ -58,7 +58,7 @@ $(sublime-text-package-control):
 
 .PHONY: sublime-text
 sublime-text: $(sublime-text-package-control)
-ifndef $sublime-text-config-used
+ifndef $(sublime-text-config-used)
 	@rm -rf $(sublime-text-user)
 	ln -fs $(PWD)/sublime-text $(sublime-text-user)
 endif
