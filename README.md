@@ -51,16 +51,14 @@ First type `p10k configure` and answer `Yes` when asked whether to install *Mesl
 <a name="firefox"></a>
 ![](documentation-images/firefox.gif)
 
-1. Disable HTTP Cache when toolbox is open
-2. Set Firefox as default browser
-3. Set Desktop as destination folder in *Downloads*
+1. Set Firefox as default browser
+2. Disable HTTP Cache when toolbox is open
 
 <a name="google-chrome"></a>
 ![](documentation-images/google-chrome.gif)
 
 1. Disable Chrome cache while DevTools is open
-2. Set Desktop as destination folder in *Downloads*
-3. Install the following extensions:
+2. Install the following extensions:
   - [**Neat URL**](https://chrome.google.com/webstore/detail/neat-url/jchobbjgibcahbheicfocecmhocglkco)
   - [**uBlock Origin**](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
   - [**Vue.js devtools**](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
