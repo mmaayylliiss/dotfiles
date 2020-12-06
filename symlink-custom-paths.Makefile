@@ -50,16 +50,20 @@ sublime-merge: sublime-merge-open sublime-merge-quit
 
 sublime-text-package-control := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
 
+ifeq ($(wildcard $(sublime-text-package-control)),)
+  sublime-text-package-control-installed := 'true'
+else
+	sublime-text-package-control-installed := 'false'
+endif
+
 sublime-text-user := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-sublime-text-config-used = 'false'
 
 $(sublime-text-package-control):
 	@bin/sublime-text-config
-	$(eval sublime-text-config-used = 'true')
 
 .PHONY: sublime-text
 sublime-text: $(sublime-text-package-control)
-ifeq ($(sublime-text-config-used),'false')
+ifeq ($(sublime-text-config-used),'true')
 	@rm -rf $(sublime-text-user)
 	ln -fs $(PWD)/sublime-text $(sublime-text-user)
 endif
