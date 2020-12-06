@@ -54,14 +54,14 @@ sublime-text-user := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packa
 
 $(sublime-text-package-control):
 	@bin/sublime-text-config $(sublime-text-user)
+	$(eval sublime-text-config-used := 'true')
 
 .PHONY: sublime-text
 sublime-text: $(sublime-text-package-control)
-	# We re-recreate symbolic links here to handle the case
-	# where package control is already installed when we launch
-	# this recipe - @awea 20201206
+ifndef $sublime-text-config-used
 	@rm -rf $(sublime-text-user)
 	ln -fs $(PWD)/sublime-text $(sublime-text-user)
+endif
 
 # youtube-dl config
 youtube-dl := $(HOME)/.config/youtube-dl
