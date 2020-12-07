@@ -13,31 +13,18 @@ $(beets):
 	ln -fs $(PWD)/beets $@
 
 # Sublime Merge config
-.PHONY: sublime-merge-open
-sublime-merge-open:
-	@smerge
-
-.PHONY: sublime-merge-quit
-sublime-merge-quit:
-	@pkill "sublime_merge"
-
-# 20201202
-# We cannot use a recipe with spaces in its name, it just does not work
-# Here is an attempt to fix that: using .PHONY target, manually removing
-# `User` directory then creating symbolic link
-# (same is done for Sublime Text)
-# See https://stackoverflow.com/q/9838384
+#
+# 20201207
+# The bash script only runs if there is not already a symbolic link
+# for Sublime Merge config
 # —Maylis
-sublime-merge := $(HOME)/Library/Application\ Support/Sublime\ Merge/Packages/User
-
 .PHONY: sublime-merge
-sublime-merge: sublime-merge-open sublime-merge-quit
-	@rm -rf $(sublime-merge)
-	ln -fs $(PWD)/sublime-merge $(sublime-merge)
+sublime-merge:
+	@bin/sublime-merge-config
 
 # Sublime Text config
 #
-# 20201206
+# 20201207
 # Sublime Text config is a bit tricky for some reasons:
 # - Package Control MUST be installed manually through Sublime Text
 # - Sublime Text operates some changes on `Preferences.sublime-settings`
