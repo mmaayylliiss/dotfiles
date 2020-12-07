@@ -48,25 +48,10 @@ sublime-merge: sublime-merge-open sublime-merge-quit
 # To handle this, we created a dedicated `sublime-text-config` bash script
 # which runs only when Package Control is not installed yet
 # —Maylis
-sublime-text-package-control := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
-
-ifeq ($(wildcard $(sublime-text-package-control)),)
-  sublime-text-package-control-installed := "true"
-else
-	sublime-text-package-control-installed := "false"
-endif
-
-$(sublime-text-package-control):
-	@bin/sublime-text-config
-
-sublime-text-user := $(HOME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
 .PHONY: sublime-text
-sublime-text: $(sublime-text-package-control)
-ifeq ($(sublime-text-package-control-installed),"true")
-	@rm -rf $(sublime-text-user)
-	ln -fs $(PWD)/sublime-text $(sublime-text-user)
-endif
+sublime-text:
+	@bin/sublime-text-config
 
 # youtube-dl config
 youtube-dl := $(HOME)/.config/youtube-dl

@@ -1,12 +1,17 @@
 #!/bin/bash
 
-subl
-read -p "✋ Install Package Control in Sublime Text then hit enter"
-pkill "Sublime Text"
-rm -rf $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-ln -fs $PWD/sublime-text $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-subl
-read -p "⏳ Sublime Text is currently completing packages installation, hit enter when it is done"
-pkill "Sublime Text"
-smerge .
-read -p "✋ Discard unwanted changes on Preferences.sublime-settings then hit enter"
+if test -f $HOME/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package; then
+  rm -rf $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+  ln -fs $PWD/sublime-text $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+else
+  subl
+  read -p "✋ Install Package Control in Sublime Text then hit enter"
+  pkill "Sublime Text"
+  rm -rf $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+  ln -fs $PWD/sublime-text $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+  subl
+  read -p "⏳ Sublime Text is currently completing packages installation, hit enter when it is done"
+  pkill "Sublime Text"
+  smerge .
+  read -p "✋ Discard unwanted changes on Preferences.sublime-settings then hit enter"
+fi
