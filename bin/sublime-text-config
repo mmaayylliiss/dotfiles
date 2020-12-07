@@ -1,16 +1,20 @@
 #!/bin/bash
 
+create_sublime_text_symlinks(){
+  if ! test -s $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User; then
+    rm -rf $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+    ln -fs $PWD/sublime-text $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+    echo "🔗 Symbolic link for Sublime Text is created"
+  fi
+}
+
 if test -f $HOME/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package; then
-  rm -rf $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-  ln -fs $PWD/sublime-text $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-  echo "🔗 Symbolic link for Sublime Text is created"
+  create_sublime_text_symlinks
 else
   subl
   read -p "✋ Install Package Control in Sublime Text then hit enter"
   pkill "Sublime Text"
-  rm -rf $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-  ln -fs $PWD/sublime-text $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-  echo "🔗 Symbolic link for Sublime Text is created"
+  create_sublime_text_symlinks
   subl
   read -p "⏳ Sublime Text is currently completing packages installation, hit enter when it is done"
   pkill "Sublime Text"
