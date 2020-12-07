@@ -46,7 +46,7 @@ include symlink-custom-paths.Makefile
 ## Create symbolic links
 .PHONY: symlinks
 symlinks: $(symlink-paths) symlink-custom-paths
-	@echo "🔗 Symbolic links are created"
+	@echo "🔗 Symbolic links are created or updated"
 
 ## Run a complete setup
 .PHONY: setup
