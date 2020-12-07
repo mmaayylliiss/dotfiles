@@ -46,9 +46,9 @@ sublime-merge: sublime-merge-open sublime-merge-quit
 # so it will display a few errors in the process, just close them
 #
 # To handle this, we created a dedicated `sublime-text-config` bash script
-# which runs only when Package Control is not installed yet
+# that runs differently depending on whether Package Control
+# is installed or not
 # —Maylis
-
 .PHONY: sublime-text
 sublime-text:
 	@bin/sublime-text-config
