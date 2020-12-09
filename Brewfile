@@ -31,8 +31,6 @@ brew "openssl"
 brew "pastel"
 # Readline https://tiswww.case.edu/php/chet/readline/rltop.html
 brew "readline"
-# ssh-copy-id https://formulae.brew.sh/formula/ssh-copy-id
-brew "ssh-copy-id"
 # tree http://mama.indstate.edu/users/ice/tree/
 brew "tree"
 # youtube-dl https://youtube-dl.org
