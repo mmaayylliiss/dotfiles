@@ -1,7 +1,7 @@
 # Specify audio format:
-# 'best', 'aac', 'flac', 'mp3', 'm4a', 'opus', 'vorbis', or 'wav';
-# 'best' by default
---audio-format 'm4a'
+# "best", "aac", "flac", "mp3", "m4a", "opus", "vorbis", or "wav";
+# "best" by default
+--audio-format "m4a"
 
 # Specify ffmpeg audio quality,
 # insert a value between 0 (better) and 9 (worse)
@@ -20,7 +20,7 @@
 --mark-watched
 
 # Save all downloads under `music-wip` directory
--o '/Volumes/Storage/Dropbox/music-wip/%(playlist_index)s %(title)s.%(ext)s'
+-o "/Volumes/Storage/Dropbox/music-wip/%(playlist_index)s %(title)s.%(ext)s"
 
 # Convert video files to audio-only files (requires ffmpeg)
 -x
