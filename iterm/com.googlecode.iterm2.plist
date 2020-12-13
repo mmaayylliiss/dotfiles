@@ -2427,7 +2427,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/maylisagniel/Desktop/dotfiles/iterm/preferences</string>
+	<string>/Users/maylisagniel/Desktop/dotfiles/iterm</string>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>

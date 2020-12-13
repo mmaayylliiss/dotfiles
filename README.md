@@ -10,7 +10,6 @@
 ## 📝 Table of contents
 - [**Commands**](#commands)
 - [**Software manual configuration**](#software-manual-configuration)
-  - [**iTerm**](#iterm)
   - [**Firefox**](#firefox)
   - [**Google Chrome**](#google-chrome)
   - [**Sketch**](#sketch)
@@ -31,22 +30,6 @@ make
 
 <a name="software-manual-configuration"></a>
 ## 🔧 Software manual configuration
-
-<a name="iterm"></a>
-![](documentation-images/iterm.gif)
-
-First type `p10k configure` and answer `Yes` when asked whether to install *Meslo Nerd Font*. No need to finish `p10k` config, just install the required font and quit. Then do a few manual config in *Preferences*:
-
-#### General > Preferences
-1. ☑️ Load preferences from a custom folder or URL
-2. Open `[path-to-my-dotfiles]/iterm/preferences`
-3. ☑️ Save changes to folder when iTerm2 quits
-
-#### Profiles
-1. Go to *Other Actions…* > *Import JSON Profiles…*
-2. Open `[path-to-my-dotfiles]/iterm/profiles/Default.json`
-3. Set new *Default* profile as default
-4. Delete old *Default* profile
 
 <a name="firefox"></a>
 ![](documentation-images/firefox.gif)

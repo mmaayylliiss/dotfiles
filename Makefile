@@ -12,6 +12,12 @@ SHELL := /usr/bin/env bash
 # Documentation: https://www.gnu.org/software/make/manual/html_node/General-Search.html
 VPATH = $(shell find . -type d -not -path "*/\.*")
 
+.PHONY: pre-setup
+## /!\ Run this before setup
+## Setup terminal emulator + Zsh
+pre-setup:
+	@bin/pre-setup
+
 .PHONY: brew
 ## Install tools and software with Homebrew
 brew:

@@ -60,8 +60,6 @@ cask "fontforge"
 cask "fontplop"
 # Google Chrome https://www.google.com/chrome/
 cask "google-chrome"
-# iTerm https://www.iterm2.com
-cask "iterm2"
 # Kap https://getkap.co
 cask "kap"
 # Keka https://www.keka.io
