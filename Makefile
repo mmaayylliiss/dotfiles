@@ -28,13 +28,6 @@ brew:
 scripts:
 	@for f in scripts/*; do ./$f; done
 
-.PHONY: installers
-## Open installers/managers
-installers:
-	@open /usr/local/Caskroom/adobe-creative-cloud/latest/Creative\ Cloud\ Installer.app
-	@open /Applications/CraftManager.app
-	@open /usr/local/Caskroom/little-snitch4/4.6/LittleSnitch-4.6.dmg
-
 # Create symbolic links for .symlink files/folders
 # Documentation: https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html#Automatic-Variables
 $(HOME)/.%: %.symlink
@@ -54,9 +47,16 @@ include symlink-custom-paths.Makefile
 symlinks: $(symlink-paths) symlink-custom-paths
 	@echo "🔗 Symbolic links are created or updated"
 
+.PHONY: installers
+## Open installers/managers
+installers:
+	@open /usr/local/Caskroom/adobe-creative-cloud/latest/Creative\ Cloud\ Installer.app
+	@open /Applications/CraftManager.app
+	@open /usr/local/Caskroom/little-snitch4/4.6/LittleSnitch-4.6.dmg
+
 ## Run a complete setup
 .PHONY: setup
-setup: brew scripts installers symlinks
+setup: brew scripts symlinks installers
 	@echo "🏁 You are all set"
 
 bin/pretty-make:
