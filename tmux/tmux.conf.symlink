@@ -1,0 +1,40 @@
+# 📝 tmux man
+# https://manpages.ubuntu.com/manpages/precise/man1/tmux.1.html
+
+# ---
+# SET
+#
+# Start windows and panes at 1, not 0
+set -g base-index 1
+setw -g pane-base-index 1
+
+# Longer display time for status messages
+# and other on-screen indicators
+set -g display-time 1500
+
+# Enable mouse support
+set -g mouse on
+
+# Renumber windows when a window is closed
+set -g renumber-windows on
+
+# ---
+# BIND
+#
+# Change the prefix key to C-a
+set -g prefix C-a
+unbind C-b
+bind C-a send-prefix
+
+# Reload configuration
+bind r source-file $HOME/.tmux.conf \; display-message "🔧 tmux config is reloaded"
+
+# Change the horizontal split-window key to h
+# and keep same directory on split-window
+unbind %
+bind h split-window -h -c "#{pane_current_path}"
+
+# Change the vertical split-window key to v
+# and keep same directory on split-window
+unbind '"'
+bind v split-window -v -c "#{pane_current_path}"

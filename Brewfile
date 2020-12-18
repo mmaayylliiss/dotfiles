@@ -31,6 +31,8 @@ brew "openssl"
 brew "pastel"
 # Readline https://tiswww.case.edu/php/chet/readline/rltop.html
 brew "readline"
+# tmux https://tmux.github.io
+brew "tmux"
 # tree http://mama.indstate.edu/users/ice/tree/
 brew "tree"
 # youtube-dl https://youtube-dl.org
