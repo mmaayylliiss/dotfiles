@@ -38,3 +38,26 @@ bind h split-window -h -c "#{pane_current_path}"
 # and keep same directory on split-window
 unbind '"'
 bind v split-window -v -c "#{pane_current_path}"
+
+# ---
+# PLUGINS
+#
+# Dracula theme https://draculatheme.com/tmux
+set -g @plugin "dracula/tmux"
+
+# Plugin properties
+#
+# Customize the status bar (Dracula theme)
+set -g @dracula-show-battery false
+set -g @dracula-show-location false
+set -g @dracula-show-fahrenheit false
+set -g @dracula-military-time true
+set -g @dracula-show-timezone false
+set -g @dracula-cpu-usage true
+set -g @dracula-ram-usage true
+set -g @dracula-gpu-usage true
+set -g @dracula-day-month true
+
+# Initialize tmux plugin manager
+# (keep this line at the very bottom of .tmux.conf)
+run "$HOME/.tmux/plugins/tpm/tpm"
