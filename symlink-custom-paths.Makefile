@@ -20,7 +20,7 @@ $(beets):
 # —Maylis
 .PHONY: sublime-merge
 sublime-merge:
-	@bin/sublime-merge-config
+	@scripts/symlinks/sublime-merge
 
 # Sublime Text config
 #
@@ -32,13 +32,13 @@ sublime-merge:
 # - Sublime Text is not designed to import config files properly,
 # so it will display a few errors in the process, just close them
 #
-# To handle this, we created a dedicated `sublime-text-config` bash script
+# To handle this, we created a dedicated `sublime-text` bash script
 # that runs differently depending on whether Package Control
 # is installed or not
 # —Maylis
 .PHONY: sublime-text
 sublime-text:
-	@bin/sublime-text-config
+	@scripts/symlinks/sublime-text
 
 # youtube-dl config
 youtube-dl := $(HOME)/.config/youtube-dl
