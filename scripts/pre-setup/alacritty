@@ -7,6 +7,9 @@ ln -fs $PWD/alacritty/alacritty.yml.symlink $HOME/.alacritty.yml
 ln -fs $PWD/alacritty/dracula.yml.symlink $HOME/.dracula.yml
 echo "🔗 Symbolic links for Alacritty are created"
 
+# Alacritty quits automatically on first opening
+open /Applications/Alacritty.app
+# So we open it again
 open /Applications/Alacritty.app
 read -p "⏳ Powerlevel10k is currently fetching gitstatusd, hit enter when it is done"
 pkill "alacritty"
