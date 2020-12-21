@@ -1,8 +1,6 @@
 # 🍺 Homebrew https://github.com/Homebrew/brew
 # 📝 Browse all formulae: https://formulae.brew.sh/formula/
 #
-# Antibody https://getantibody.github.io
-brew "antibody"
 # asdf https://asdf-vm.com
 brew "asdf"
 # Composer https://getcomposer.org

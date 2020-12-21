@@ -12,6 +12,9 @@ do
 done
 echo "🔧 Meslo Nerd Font is installed (required by Powerlevel10k)"
 
+# Antibody https://getantibody.github.io
+brew install antibody
+
 ln -fs $PWD/zsh/p10k.zsh.symlink $HOME/.p10k.zsh
 ln -fs $PWD/zsh/zsh_plugins.txt.symlink $HOME/.zsh_plugins.txt
 ln -fs $PWD/zsh/zshrc.symlink $HOME/.zshrc
