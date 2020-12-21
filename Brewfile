@@ -44,8 +44,6 @@ tap "homebrew/cask"
 
 # Adobe Creative Cloud https://www.adobe.com/creativecloud.html
 cask "adobe-creative-cloud"
-# CraftManager https://www.invisionapp.com/craft
-cask "craftmanager"
 # Docker https://www.docker.com/products/docker-desktop
 cask "docker"
 # Dropbox https://www.dropbox.com

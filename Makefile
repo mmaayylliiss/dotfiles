@@ -48,7 +48,6 @@ symlinks: $(symlink-paths) symlink-custom-paths
 ## Open installers/managers
 installers:
 	@open /usr/local/Caskroom/adobe-creative-cloud/latest/Creative\ Cloud\ Installer.app
-	@open /Applications/CraftManager.app
 	@open /usr/local/Caskroom/little-snitch4/4.6/LittleSnitch-4.6.dmg
 
 ## Run a complete setup
