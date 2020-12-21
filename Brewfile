@@ -50,8 +50,6 @@ cask "docker"
 cask "dropbox"
 # Firefox https://www.mozilla.org/firefox/
 cask "firefox"
-# FontForge https://fontforge.org
-cask "fontforge"
 # fontplop https://github.com/matthewgonzalez/fontplop
 cask "fontplop"
 # Google Chrome https://www.google.com/chrome/
