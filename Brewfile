@@ -70,8 +70,6 @@ cask "little-snitch4"
 cask "openoffice"
 # QuodLibet https://quodlibet.readthedocs.io
 cask "quodlibet"
-# Sketch https://www.sketch.com
-cask "sketch"
 # Steam https://store.steampowered.com
 cask "steam"
 # Sublime Merge https://www.sublimemerge.com
