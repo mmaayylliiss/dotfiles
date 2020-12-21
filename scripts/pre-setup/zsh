@@ -19,17 +19,3 @@ ln -fs $PWD/zsh/p10k.zsh.symlink $HOME/.p10k.zsh
 ln -fs $PWD/zsh/zsh_plugins.txt.symlink $HOME/.zsh_plugins.txt
 ln -fs $PWD/zsh/zshrc.symlink $HOME/.zshrc
 echo "🔗 Symbolic links for Zsh are created"
-
-# Alacritty https://github.com/alacritty/alacritty
-brew install --cask alacritty
-
-ln -fs $PWD/alacritty/alacritty.yml.symlink $HOME/.alacritty.yml
-ln -fs $PWD/alacritty/dracula.yml.symlink $HOME/.dracula.yml
-echo "🔗 Symbolic links for Alacritty are created"
-
-open /Applications/Alacritty.app
-read -p "⏳ Powerlevel10k is currently fetching gitstatusd, hit enter when it is done"
-pkill "alacritty"
-
-open /Applications/Alacritty.app
-echo "🎉 Alacritty is ready to use"

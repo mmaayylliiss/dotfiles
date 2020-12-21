@@ -13,7 +13,8 @@ VPATH = $(shell find . -type d -not -path "*/\.*")
 ## /!\ Run this before setup
 ## Setup Zsh + Alacritty
 pre-setup:
-	@bin/pre-setup
+	@scripts/pre-setup/zsh
+	@scripts/pre-setup/alacritty
 
 .PHONY: brew
 ## Install tools and software with Homebrew
