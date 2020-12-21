@@ -11,7 +11,7 @@ VPATH = $(shell find . -type d -not -path "*/\.*")
 
 .PHONY: pre-setup
 ## /!\ Run this before setup
-## Setup terminal emulator + Zsh
+## Setup Zsh + Alacritty
 pre-setup:
 	@bin/pre-setup
 

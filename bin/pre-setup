@@ -1,20 +1,5 @@
 #!/bin/bash
 
-brew install --cask iterm2
-
-ln -fs $PWD/zsh/zsh_plugins.txt.symlink $HOME/.zsh_plugins.txt
-ln -fs $PWD/zsh/zshrc.symlink $HOME/.zshrc
-echo "🔗 Symbolic links for Zsh are created"
-
-# Load preferences from a custom folder
-defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
-# Specify the preferences directory
-defaults write com.googlecode.iterm2 PrefsCustomFolder -string "$PWD/iterm"
-# Save changes to folder when iTerm quits
-defaults write com.googlecode.iterm2 NoSyncNeverRemindPrefsChangesLostForFile -bool true
-defaults write com.googlecode.iterm2 "NoSyncNeverRemindPrefsChangesLostForFile_selection" -int 0
-echo "🔧 iTerm is configured to synchronize preferences"
-
 font_url="https://github.com/romkatv/powerlevel10k-media/raw/master"
 font_local_dir="$HOME/Library/Fonts"
 font_name="MesloLGS NF"
@@ -28,11 +13,20 @@ done
 echo "🔧 Meslo Nerd Font is installed (required by Powerlevel10k)"
 
 ln -fs $PWD/zsh/p10k.zsh.symlink $HOME/.p10k.zsh
-echo "🔗 Symbolic link for Powerlevel10k is created"
+ln -fs $PWD/zsh/zsh_plugins.txt.symlink $HOME/.zsh_plugins.txt
+ln -fs $PWD/zsh/zshrc.symlink $HOME/.zshrc
+echo "🔗 Symbolic links for Zsh are created"
 
-open /Applications/iTerm.app
-read -p "⏳ Powerlevel10k is currently fetching gitstatusd (in iTerm), hit enter when it is done"
-pkill "iTerm"
+# Alacritty https://github.com/alacritty/alacritty
+brew install --cask alacritty
 
-open /Applications/iTerm.app
-echo "🎉 iTerm is ready to use"
+ln -fs $PWD/alacritty/alacritty.yml.symlink $HOME/.alacritty.yml
+ln -fs $PWD/alacritty/dracula.yml.symlink $HOME/.dracula.yml
+echo "🔗 Symbolic links for Alacritty are created"
+
+open /Applications/Alacritty.app
+read -p "⏳ Powerlevel10k is currently fetching gitstatusd, hit enter when it is done"
+pkill "alacritty"
+
+open /Applications/Alacritty.app
+echo "🎉 Alacritty is ready to use"
