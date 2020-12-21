@@ -48,8 +48,6 @@ cask "adobe-creative-cloud"
 cask "docker"
 # Dropbox https://www.dropbox.com
 cask "dropbox"
-# Figma https://www.figma.com
-cask "figma"
 # Firefox https://www.mozilla.org/firefox/
 cask "firefox"
 # FontForge https://fontforge.org
