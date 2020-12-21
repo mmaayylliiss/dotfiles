@@ -68,8 +68,6 @@ cask "keka"
 cask "little-snitch4"
 # OpenOffice https://www.openoffice.org
 cask "openoffice"
-# Poedit https://poedit.net
-cask "poedit"
 # QuodLibet https://quodlibet.readthedocs.io
 cask "quodlibet"
 # Sketch https://www.sketch.com
