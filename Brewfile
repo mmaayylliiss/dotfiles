@@ -58,8 +58,6 @@ cask "google-chrome"
 cask "kap"
 # Keka https://www.keka.io
 cask "keka"
-# LibreOffice https://www.libreoffice.org
-cask "libreoffice"
 # Little Snitch https://www.obdev.at/products/littlesnitch/
 #
 # 20201126
