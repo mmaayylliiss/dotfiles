@@ -23,7 +23,7 @@ brew:
 .PHONY: scripts
 ## Run various setup scripts
 scripts:
-	@for f in scripts/*; do ./$f; done
+	@for f in scripts/*; do ./$$f; done
 
 # Create symbolic links for .symlink files/folders
 # Documentation: https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html#Automatic-Variables
