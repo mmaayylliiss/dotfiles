@@ -3,6 +3,7 @@
 
 # Here we ensure that every command this Makefile run will run in a bash shell
 # instead of the default sh
+# See https://tech.davis-hansson.com/p/make
 SHELL := /usr/bin/env bash
 
 # VPATH tells Make to search this list of folders when using the % pattern
