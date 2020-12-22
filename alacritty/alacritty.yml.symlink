@@ -6,6 +6,7 @@
 # loaded earlier with those loaded later in the chain. The file itself will
 # always be loaded last.
 import:
+  # Dracula theme https://draculatheme.com/alacritty
   - /Users/maylisagniel/.dracula.yml
 
 # Any items in the `env` entry below will be added as
