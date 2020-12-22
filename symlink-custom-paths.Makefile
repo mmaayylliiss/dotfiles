@@ -15,7 +15,7 @@ $(beets):
 # Sublime Merge config
 #
 # 20201207
-# The bash script only runs if there is not already a symbolic link
+# The script only runs if there is not already a symbolic link
 # for Sublime Merge config
 # —Maylis
 .PHONY: sublime-merge
@@ -32,9 +32,8 @@ sublime-merge:
 # - Sublime Text is not designed to import config files properly,
 # so it will display a few errors in the process, just close them
 #
-# To handle this, we created a dedicated `sublime-text` bash script
-# that runs differently depending on whether Package Control
-# is installed or not
+# To handle this, we created a dedicated script that runs differently
+# depending on whether Package Control is installed or not
 # —Maylis
 .PHONY: sublime-text
 sublime-text:
