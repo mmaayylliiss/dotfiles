@@ -27,6 +27,8 @@ brew "mas"
 brew "openssl"
 # pastel https://github.com/sharkdp/pastel
 brew "pastel"
+# Python https://formulae.brew.sh/formula/python@3.9
+brew "python3"
 # Readline https://tiswww.case.edu/php/chet/readline/rltop.html
 brew "readline"
 # tmux https://tmux.github.io
