@@ -9,9 +9,6 @@ asdf plugin-add gohugo
 asdf plugin-add nodejs
 bash -c "${ASDF_DATA_DIR:=$HOME/.asdf}/plugins/nodejs/bin/import-release-team-keyring"
 
-# Python https://github.com/danhper/asdf-python
-asdf plugin-add python
-
 # Ruby https://github.com/asdf-vm/asdf-ruby
 asdf plugin-add ruby
 
