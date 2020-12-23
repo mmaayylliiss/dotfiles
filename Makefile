@@ -10,10 +10,13 @@ SHELL := /usr/bin/env bash
 # Documentation: https://www.gnu.org/software/make/manual/html_node/General-Search.html
 VPATH = $(shell find . -type d -not -path "*/\.*")
 
+/usr/local/bin/brew:
+	@scripts/pre-setup/homebrew
+
 .PHONY: pre-setup
 ## /!\ Run this before setup
 ## Setup Zsh + Alacritty
-pre-setup:
+pre-setup: /usr/local/bin/brew
 	@scripts/pre-setup/zsh
 	@scripts/pre-setup/alacritty
 
