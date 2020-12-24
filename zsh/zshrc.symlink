@@ -18,6 +18,24 @@ alias beetalbum="beet import /Volumes/Storage/Dropbox/music-wip"
 alias beetsingleton="beet import -s /Volumes/Storage/Dropbox/music-wip"
 
 # ---
+# exa, a modern replacement for ls
+# https://the.exa.website
+# 📝 Command-line options https://the.exa.website/docs/command-line-options
+#
+# 20201228
+# I choose to use the long view by default
+# See https://the.exa.website/features/long-view
+# —Maylis
+alias ls="exa -aFGhl --color='always' --group-directories-first --icons --ignore-glob='.DS_Store' --time-style=long-iso"
+
+# List symbolic links only
+alias lssymlinks="ls | grep '>'"
+
+# exa has also a tree view
+# See https://the.exa.website/features/tree-view
+alias tree="exa -aT --git-ignore --group-directories-first --ignore-glob='.DS_Store|.git'"
+
+# ---
 # Git
 # Aliases copied from Prezto (only the ones I need),
 # see: https://github.com/sorin-ionescu/prezto/blob/master/modules/git/alias.zsh#L30
@@ -56,10 +74,6 @@ alias gt="git tag"
 function killp {
   kill -9 $( lsof -i:$1 -t )
 }
-
-# ---
-# `ls` https://man7.org/linux/man-pages/man1/ls.1.html
-alias lao="ls -ao"
 
 # ---
 # macOS

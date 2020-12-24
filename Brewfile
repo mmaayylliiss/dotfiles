@@ -9,6 +9,8 @@ brew "composer"
 brew "coreutils"
 # Docker Compose https://docs.docker.com/compose/
 brew "docker-compose"
+# exa https://the.exa.website
+brew "exa"
 # ffmpeg https://ffmpeg.org
 brew "ffmpeg"
 # Git LFS https://github.com/git-lfs/git-lfs
@@ -33,8 +35,6 @@ brew "python3"
 brew "readline"
 # tmux https://tmux.github.io
 brew "tmux"
-# tree http://mama.indstate.edu/users/ice/tree/
-brew "tree"
 # youtube-dl https://youtube-dl.org
 brew "youtube-dl"
 
