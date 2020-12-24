@@ -91,5 +91,7 @@ cask "font-jetbrains-mono"
 mas "HP Easy Scan", id: 967004861
 # Numbers https://apps.apple.com/us/app/numbers/id409203825
 mas "Numbers", id: 409203825
+# Pages https://apps.apple.com/us/app/pages/id409201541
+mas "Pages", id: 409201541
 # Pocket https://apps.apple.com/us/app/numbers/id568494494
 mas "Pocket", id: 568494494
