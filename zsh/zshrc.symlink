@@ -81,6 +81,11 @@ alias showhiddenfiles="defaults write com.apple.finder AppleShowAllFiles YES"
 alias hidehiddenfiles="defaults write com.apple.finder AppleShowAllFiles NO"
 
 # ---
+# pip https://pip.pypa.io
+alias pipinstall="pip install -r python/requirements.txt"
+alias pipupgrade="cd $HOME/Desktop/dotfiles && pipinstall --upgrade"
+
+# ---
 # Powerlevel10k https://github.com/romkatv/powerlevel10k
 source $HOME/.p10k.zsh
 
