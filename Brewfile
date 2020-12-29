@@ -30,6 +30,7 @@ brew "openssl"
 # pastel https://github.com/sharkdp/pastel
 brew "pastel"
 # Python https://formulae.brew.sh/formula/python@3.9
+# More informations: https://docs.brew.sh/Homebrew-and-Python
 brew "python3"
 # Readline https://tiswww.case.edu/php/chet/readline/rltop.html
 brew "readline"
