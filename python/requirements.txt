@@ -4,6 +4,12 @@
 # beets https://beets.readthedocs.io
 beets
 
+# Dependencies for beets plugins
+#
+# Chromaprint and Acoustid for Python https://github.com/beetbox/pyacoustid
+# (Chromaprint/Acoustid dependency)
+pyacoustid
+
 # Requests https://requests.readthedocs.io
-# FetchArt (beets plugin) uses Requests to fetch album art from the Web
+# (FetchArt dependency)
 requests

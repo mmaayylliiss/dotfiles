@@ -17,11 +17,17 @@ paths:
 
 # Plugins
 #
+# Chromaprint/Acoustid https://beets.readthedocs.io/en/stable/plugins/chroma.html
 # EmbedArt https://beets.readthedocs.io/en/stable/plugins/embedart.html
 # FetchArt https://beets.readthedocs.io/en/stable/plugins/fetchart.html
 # FromFilename https://beets.readthedocs.io/en/stable/plugins/fromfilename.html
 # Inline https://beets.readthedocs.io/en/stable/plugins/inline.html
-plugins: embedart fetchart fromfilename inline
+plugins: chroma embedart fetchart fromfilename inline
+
+# Chromaprint/Acoustid config
+chroma:
+  # Enable fingerprint-based autotagging
+  auto: no
 
 # EmbedArt config
 embedart:

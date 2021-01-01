@@ -3,6 +3,8 @@
 #
 # asdf https://asdf-vm.com
 brew "asdf"
+# Chromaprint https://acoustid.org/chromaprint
+brew "chromaprint"
 # Composer https://getcomposer.org
 brew "composer"
 # Coreutils https://www.gnu.org/software/coreutils/
