@@ -13,6 +13,7 @@ bin
 quodlibet.symlink/lists
 quodlibet.symlink/playlists
 # Files
+*.tmp
 quodlibet.symlink/accels
 quodlibet.symlink/control
 quodlibet.symlink/current
