@@ -1,4 +1,4 @@
 #!/bin/zsh
 
 # Install Copier-Créer application (by copying it)
-cp -r /Volumes/Storage/Dropbox/md/COPIER-CREER/application/copier-creer-desktop.app /Applications/copier-creer-desktop.app
+cp -r /Volumes/Storage/Dropbox/work/applications/copier-creer-desktop.app /Applications/copier-creer-desktop.app
