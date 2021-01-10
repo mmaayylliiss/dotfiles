@@ -64,3 +64,9 @@ theme switcher_theme = HighContrastInverse
 [rename]
 windows = true
 
+[albumart]
+prefer_embedded = true
+
+[display]
+duration_format = text-full
+
