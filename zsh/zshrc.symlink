@@ -13,6 +13,10 @@ source /usr/local/opt/asdf/asdf.sh
 # Run beets in album mode (default)
 alias beetalbum="beet import /Volumes/Storage/Dropbox/music-wip"
 
+# Run beets to create homemade compilations
+# (This will keep them in Compilations/ folder)
+alias beetcompilation="beetalbum --set comp=1"
+
 # Run beets in singleton mode, tagging individual tracks
 # instead of whole albums at a time
 alias beetsingleton="beet import -s /Volumes/Storage/Dropbox/music-wip"
