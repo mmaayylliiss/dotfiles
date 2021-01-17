@@ -30,7 +30,13 @@ alias beetsingleton="beet import -s /Volumes/Storage/Dropbox/music-wip"
 # I choose to use the long view by default
 # See https://the.exa.website/features/long-view
 # —Maylis
-alias ls="exa -aFGhl --color='always' --group-directories-first --icons --ignore-glob='.DS_Store' --time-style=long-iso"
+#
+# .DS_Store files are shown
+alias lsdsstoreincluded="exa -aFGhl --color='always' --group-directories-first --icons --time-style=long-iso"
+
+# Default ls
+# .DS_Store files are hidden
+alias ls="lsdsstoreincluded --ignore-glob='.DS_Store'"
 
 # List symbolic links only
 alias lssymlinks="ls | grep '>'"
