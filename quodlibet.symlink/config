@@ -6,7 +6,7 @@ scan = /Volumes/Storage/Dropbox/music
 
 [memory]
 browser = AlbumList
-chooser_dir = /Users/maylisagniel
+chooser_dir = $HOME
 column_expands = title,1,artist,1,album,1
 	
 column_widths = title,-1,artist,-1,album,-1
