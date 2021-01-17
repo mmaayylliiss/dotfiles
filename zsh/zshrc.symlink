@@ -109,6 +109,13 @@ source $HOME/.p10k.zsh
 POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
 
 # ---
+# Remove useless stuff
+#
+# Recursively remove .DS_Store
+# From https://jonbellah.com/articles/recursively-remove-ds-store/
+alias rmdsstore="find . -name '.DS_Store' -type f -delete"
+
+# ---
 # Yarn
 #
 # Fix Yarn issue with binaries
