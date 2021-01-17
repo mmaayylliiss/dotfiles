@@ -88,12 +88,12 @@ alias hidehiddenfiles="defaults write com.apple.finder AppleShowAllFiles NO"
 # pip https://pip.pypa.io
 #
 # Install Python packages
-alias pipinstall="pip install -r python/requirements.txt"
+alias pipinstall="pip install -r $HOME/Desktop/dotfiles/python/requirements.txt"
 
 # Upgrade Python packages
 # See “Updating Python Packages on Windows or Linux”
 # in https://www.activestate.com/resources/quick-reads/how-to-update-all-python-packages/
-alias pipupgrade="cd $HOME/Desktop/dotfiles && pipinstall --upgrade"
+alias pipupgrade="pipinstall --upgrade"
 
 # ---
 # Powerlevel10k https://github.com/romkatv/powerlevel10k
