@@ -1,7 +1,7 @@
 # ---
 # Antibody https://getantibody.github.io
 source <(antibody init)
-antibody bundle < ~/.zsh_plugins.txt
+antibody bundle < $HOME/.zsh_plugins.txt
 
 # ---
 # asdf https://asdf-vm.com
@@ -144,7 +144,7 @@ zle -N bracketed-paste bracketed-paste-url-magic
 # Check cache once a day
 # Source: https://gist.github.com/ctechols/ca1035271ad134841284#gistcomment-2308206
 autoload -Uz compinit
-for dump in ~/.zcompdump(N.mh+24); do
+for dump in $HOME/.zcompdump(N.mh+24); do
   compinit
 done
 compinit -C
