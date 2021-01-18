@@ -1,3 +1,10 @@
 #!/bin/zsh
 
+# 20210118
+# To use Zsh aliases defined in .zshrc it is required to load them first
+# by sourcing that file
+# Via https://github.com/mmaayylliiss/dotfiles/issues/14#issuecomment-762115813
+# —Maylis
+source $HOME/.zshrc
+
 pipinstall
