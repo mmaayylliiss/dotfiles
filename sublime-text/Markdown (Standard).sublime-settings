@@ -1,0 +1,18 @@
+{
+  "caret_extra_bottom": 2,
+  "caret_extra_top": 2,
+  "caret_style": "phase",
+  "draw_centered": false,
+  "extensions":
+  [
+    ".ideas",
+    ".todo",
+    "md",
+    "mdown"
+  ],
+  "line_numbers": true,
+  "line_padding_bottom": 1,
+  "line_padding_top": 1,
+  "tab_size": 2,
+  "wrap_width": 70
+}
