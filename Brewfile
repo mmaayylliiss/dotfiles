@@ -79,6 +79,8 @@ cask "steam"
 cask "sublime-merge"
 # Sublime Text https://www.sublimetext.com
 cask "sublime-text"
+# Transmission https://transmissionbt.com
+cask "transmission"
 # VLC https://www.videolan.org/vlc/
 cask "vlc"
 
